@@ -136,47 +136,12 @@ st.markdown("""
         --agri-white: #ffffff;
     }
     body, .main, .stApp { background-color: var(--agri-soft-red); }
-    st.markdown("""
-<style>
-    :root {
-        --agri-red: #7A0019;
-        --agri-soft-red: #FFF2F2;
-        --agri-dark: #2b2b2b;
-        --agri-white: #ffffff;
-    }
-
-    body, .main, .stApp { 
-        background-color: var(--agri-soft-red); 
-    }
-
-    /* === PHÓNG TO BANNER GẤP ĐÔI === */
     .agri-header {
-        width: 200%;              /* rộng gấp đôi */
-        transform: scale(1.2);    /* phóng toàn bộ kích thước */
+        width: 100%;
         background: linear-gradient(90deg, #7A0019 0%, #9a2740 100%);
-        padding: 25px 40px;       /* tăng chiều cao (gấp ~2.5 lần) */
-        color: var(--agri-white);
-        border-radius: 16px;
-        margin-bottom: 24px;
-        margin-left: -50%;        /* canh giữa lại sau khi phóng rộng */
-        text-align: center;
+        padding: 10px 16px; color: var(--agri-white);
+        border-radius: 10px; margin-bottom: 12px;
     }
-
-    .agri-title { 
-        font-size: 34px; 
-        font-weight: 800; 
-        margin: 0; 
-        line-height: 1.3; 
-    }
-
-    .agri-subtitle { 
-        font-size: 16px; 
-        margin-top: 6px; 
-        opacity: 0.95; 
-    }
-</style>
-""", unsafe_allow_html=True)
-
     .agri-title { font-size: 20px; font-weight: 700; margin: 0; line-height: 1.2; }
     .agri-subtitle { font-size: 13px; margin: 0; opacity: 0.9; }
 </style>
