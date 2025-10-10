@@ -229,11 +229,11 @@ elif choice == 'Bắt đầu dự báo':
                 ["Rõ ràng – kỹ thuật", "Dễ hiểu – dành cho cán bộ tín dụng", "Ngắn gọn – bullet"]
             )
 
-            sys_prompt = """Bạn là Trợ lý AI của Agribank, chuyên phân tích rủi ro tín dụng KHCN.
+            sys_prompt = """Bạn là Trợ lý Đánh giá rủi ro tín dụng KHCN của Agribank, am hiểu các quy định, quy trình nội bộ về cho vay của Agribank tại các file 2268-QyĐ-NHNo-TD...txt; 3439-QyD-NHNo-RRTD.pdf; 4466-QyĐ-NHNo-KHCN.txt;PL 06 - Hướng dẫn nhận diện rủi ro.txt 
 Hãy giải thích kết quả dự báo theo phong cách được yêu cầu, gồm:
-1) Kết luận ngắn gọn: nguy cơ vỡ nợ cao/thấp?
-2) Nêu các chỉ số chính và ý nghĩa.
-3) Khuyến nghị hành động tiếp theo cho cán bộ tín dụng (giấy tờ, xác minh, phương án trả nợ).
+1) Kết luận ngắn gọn: Không cho vay/Cho vay? Cho vay (kèm điều kiện nhận nợ)
+2) Giải trình lý do đưa ra kết quả trên, ưu tiên nêu rõ các chỉ số định lượng (nếu tính toán được)
+3) Khuyến nghị hành động tiếp theo cho cán bộ tín dụng (giấy tờ, xác minh, điều kiện nhận nợ, phương án trả nợ, các biện pháp giám sát khoản vay...).
 4) Giọng điệu thân thiện, hỗ trợ, đồng hành. Trả lời bằng tiếng Việt."""
 
             user_prompt = f"""
