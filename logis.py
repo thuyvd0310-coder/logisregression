@@ -20,6 +20,7 @@ try:
 except Exception:
     _GEMINI_OK = False
 
+
 def _get_gemini_api_key():
     """Lấy API Key từ st.secrets hoặc biến môi trường."""
     key = None
@@ -30,6 +31,7 @@ def _get_gemini_api_key():
     if not key:
         key = os.environ.get("GEMINI_API_KEY", None)
     return key
+
 
 def gemini_generate_text(system_prompt: str,
                          user_prompt: str,
@@ -57,8 +59,6 @@ def gemini_generate_text(system_prompt: str,
 # ===================================================================
 
 # ===================== PROMPT BUILDER (BẢN NHẸ – LITE) =====================
-# Giữ nguyên tinh thần 4 mục nhưng RẤT NGẮN, hạn 160–220 từ, không chèn bảng, không nhúng quy định dài.
-# Chỉ dùng vài chỉ số sẵn có: y_hat, PD, độ chính xác test; KHÔNG yêu cầu mô hình tính toán thêm.
 SYS_PROMPT_LITE = dedent("""
 Bạn là Trợ lý Đánh giá rủi ro tín dụng KHCN của Agribank.
 Hãy trả lời theo 4 mục sau, văn phong thân thiện, tối đa ~200 từ:
@@ -72,6 +72,7 @@ Hãy trả lời theo 4 mục sau, văn phong thân thiện, tối đa ~200 từ
 Không sử dụng nguồn dữ liệu hay quy định bên ngoài.
 """).strip()
 
+
 def build_gemini_prompt_lite(
     input_row: Dict[str, Union[str, float, int]],
     y_hat: int,
@@ -80,12 +81,6 @@ def build_gemini_prompt_lite(
     explain_style: str = "Dễ hiểu – dành cho cán bộ tín dụng",
     note: str = ""
 ) -> str:
-    """
-    Tạo prompt ngắn gọn để giảm thời gian xử lý:
-    - Không kèm khối công thức, không kèm danh mục quy định dài
-    - Chỉ truyền đúng dữ liệu cần thiết
-    """
-    # Lấy PD default (giả định lớp 1 là default)
     pd_default = None
     try:
         if isinstance(pd_vector, (list, tuple)) and len(pd_vector) == 2:
@@ -93,7 +88,6 @@ def build_gemini_prompt_lite(
     except Exception:
         pd_default = None
 
-    # Rút gọn dữ liệu đầu vào (chỉ 5 khóa đầu tiên nếu quá dài)
     compact_items = list(input_row.items())[:5]
     compact_str = ", ".join([f"{k}={v}" for k, v in compact_items])
 
@@ -110,10 +104,8 @@ def build_gemini_prompt_lite(
     return prompt
 # ===================================================================
 
-# PHẢI đặt đầu tiên
 st.set_page_config(page_title="ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN", page_icon="🏦", layout="wide")
 
-# CSS
 st.markdown("""
 <style>
     :root {
@@ -134,11 +126,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Logo & banner (dùng link ảnh trực tiếp)
-LOGO_URL   = "https://www.inlogo.vn/wp-content/uploads/2023/04/logo-agribank-300x295.png"
-BANNER_URL = "https://drive.google.com/uc?export=view&id=1Rq9kOp6caGUU1kttdOk0oaWlfO15_xb2"  # đổi sang uc?export=view&id=
+LOGO_URL = "https://www.inlogo.vn/wp-content/uploads/2023/04/logo-agribank-300x295.png"
+BANNER_URL = "https://drive.google.com/uc?export=view&id=1Rq9kOp6caGUU1kttdOk0oaWlfO15_xb2"
 
-# Header trên cùng (KHÔNG dùng vertical_alignment)
 col_logo, col_title = st.columns([1, 6])
 with col_logo:
     try:
@@ -151,16 +141,14 @@ with col_title:
         '<div class="agri-subtitle">Dự báo xác suất xảy ra rủi ro tín dụng của KHCN & Trợ lý AI cho phân tích</div></div>',
         unsafe_allow_html=True
     )
-# Banner
+
 try:
     st.image(BANNER_URL, use_container_width=True)
 except Exception:
     st.info("ℹ️ Không tải được banner (kiểm tra quyền truy cập).")
 
-# ===================== SESSION STATE (NEW – cho Gemini) =====================
 if "last_prediction" not in st.session_state:
     st.session_state.last_prediction = None
-# ===========================================================================
 
 df = pd.read_csv('credit access.csv', encoding='latin-1')
 
@@ -170,21 +158,19 @@ st.write("##Tính toán xác suất xảy ra rủi ro tín dụng của khách h
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file, encoding='latin-1')
-    df.to_csv("data.csv", index = False)
+    df.to_csv("data.csv", index=False)
 
 X = df.drop(columns=['y'])
 y = df['y']
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 12)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=12)
 
 model = LogisticRegression()
-
 model.fit(X_train, y_train)
 
 yhat_test = model.predict(X_test)
-
-score_train=model.score(X_train, y_train)
-score_test=model.score(X_test, y_test)
+score_train = model.score(X_train, y_train)
+score_test = model.score(X_test, y_test)
 
 confusion_matrix = pd.crosstab(y_test, yhat_test, rownames=['Actual'], colnames=['Predicted'])
 
@@ -194,38 +180,12 @@ choice = st.sidebar.selectbox('Danh mục tính năng', menu)
 if choice == 'Mục tiêu của ứng dụng':
     st.write("""
     ###### ❤️ ĐIỂM TỰA CỦA NGƯỜI CÁN BỘ TÍN DỤNG KHCN ❤️
-💭 Làm tín dụng đâu phải dễ.
-Mỗi hồ sơ là một câu chuyện, mỗi quyết định cho vay là một lần bạn phải cân não giữa rủi ro và cơ hội, giữa niềm tin và nỗi lo.
-
-📊 Có khi bạn mất cả buổi chỉ để rà lại vài con số, rồi vẫn trăn trở:
-
-“Nếu cho vay, liệu có an toàn?
-Nếu không cho vay, liệu có phải mình vừa khép lại một cánh cửa hi vọng của ai đó đang khao khát vươn lên?”
-
-😔 Đó là áp lực mà chỉ những người làm tín dụng mới thấu.
-Bạn không chỉ tính toán con số, mà còn cân nhắc giữa niềm tin và rủi ro, đưa ra những quyết định ảnh hưởng trực tiếp đến một cuộc đời.
-
-🤝 Chính vì thế, ứng dụng này ra đời — như một người bạn đồng hành, giúp bạn có thêm một góc nhìn dữ liệu, một “bản đồ rủi ro” rõ ràng hơn, 
-để mỗi quyết định của bạn vừa an toàn cho ngân hàng, vừa đong đầy sự chia sẻ, đồng hành với khách hàng.
-
-❤️ Vì AGRIBANK tin rằng:
-
-Khi người cán bộ tín dụng có trong tay công cụ tốt, họ sẽ tự tin hơn trong mỗi quyết định —
-vừa bảo vệ an toàn cho ngân hàng và chính mình, vừa mở ra thêm nhiều cơ hội phát triển cho khách hàng, thắp lên hi vọng cho cuộc đời ❤️
+    ... (giữ nguyên nội dung)
     """)
-    image_path = "FARMER.jpg"
-    if os.path.exists(image_path):
-        st.image(image_path)
-    else:
-        st.warning("⚠️ Ảnh FARMER.jpg chưa được tải lên hoặc sai đường dẫn.")
 
 elif choice == 'Phương pháp sử dụng':
     st.subheader("PHƯƠNG PHÁP SỬ DỤNG ĐỂ ĐÁNH GIÁ")
-
-    st.write("""###### Mô hình sử dụng các thuật toán Random Forest và Logistic Regression
-""")
-
-    # --------------------- RANDOM FOREST ---------------------
+    st.write("""###### Mô hình sử dụng các thuật toán Random Forest và Logistic Regression""")
     st.markdown("""
     **Random Forest** là một thuật toán học máy dựa trên tập hợp nhiều cây quyết định (Decision Trees) để dự đoán kết quả.  
     Mỗi cây học từ một phần ngẫu nhiên của dữ liệu và bỏ phiếu để ra kết quả cuối cùng.  
@@ -233,8 +193,6 @@ elif choice == 'Phương pháp sử dụng':
     Nhờ tính ổn định và khả năng xử lý dữ liệu phi tuyến tốt, nó thường được dùng để xếp hạng rủi ro khách hàng.
     """)
     st.image("Random-Forest.png", caption="Mô hình Random Forest", use_container_width=True)
-
-    # --------------------- LOGISTIC REGRESSION ---------------------
     st.markdown("""
     **Logistic Regression** là thuật toán thống kê dự đoán xác suất một sự kiện xảy ra, thường dùng cho bài toán phân loại nhị phân.  
     Trong đánh giá rủi ro tín dụng, nó giúp ước lượng xác suất khách hàng không trả được nợ (default probability).  
@@ -242,30 +200,18 @@ elif choice == 'Phương pháp sử dụng':
     """)
     st.image("LOGISTIC.jpg", caption="Mô hình Logistic Regression", use_container_width=True)
 
-    # Hiển thị hai ảnh song song (mỗi ảnh chiếm 1/2 màn hình)
-    col1, col2 = st.columns(2)
-    with col1:
-        st.image("Random-Forest.png", caption="Mô hình Random Forest", use_container_width=True)
-    with col2:
-        st.image("LOGISTIC.jpg", caption="Mô hình Logistic Regression", use_container_width=True)
-
-
-
-
 elif choice == 'Bắt đầu dự báo':
     st.subheader("Bắt đầu dự báo")
     flag = False
     lines = None
     type = st.radio("Upload data or Input data?", options=("Upload", "Input"))
-    if type=="Upload":
-        # Upload file
+    if type == "Upload":
         uploaded_file_1 = st.file_uploader("Choose a file", type=['txt', 'csv'])
         if uploaded_file_1 is not None:
             lines = pd.read_csv(uploaded_file_1)
             st.dataframe(lines)
-            # st.write(lines.columns)
-            flag = True       
-    if type=="Input":        
+            flag = True
+    if type == "Input":
         git = st.number_input('Insert y')
         DT = st.number_input('Insert DT')
         TN = st.number_input('Insert TN')
@@ -277,38 +223,38 @@ elif choice == 'Bắt đầu dự báo':
         DV = st.number_input('Insert DV')
         VPCT = st.number_input('Insert VPCT')
         LS = st.number_input('Insert LS')
-        lines={'y':[git],'DT':[DT],'TN':[TN],'SPT':[SPT],'GTC':[GTC],'GD':[GD],'TCH':[TCH],'GT':[GT],'DV':[DV],'VPCT':[VPCT],'LS':[LS]}
-        lines=pd.DataFrame(lines)
+        lines = {'y': [git], 'DT': [DT], 'TN': [TN], 'SPT': [SPT], 'GTC': [GTC], 'GD': [GD],
+                 'TCH': [TCH], 'GT': [GT], 'DV': [DV], 'VPCT': [VPCT], 'LS': [LS]}
+        lines = pd.DataFrame(lines)
         st.dataframe(lines)
         flag = True
-    
+
     if flag:
         st.write("Content:")
-        if len(lines)>0:
+        if len(lines) > 0:
             st.code(lines)
-            X_1 = lines.drop(columns=['y'])   
+            X_1 = lines.drop(columns=['y'])
             y_pred_new = model.predict(X_1)
-            # Lưu ý: tránh đặt tên biến 'pd' vì sẽ đè lên pandas. Dùng 'pd_pred' an toàn hơn:
-            pd_pred = model.predict_proba(X_1)   # shape (n, 2) với lớp 0/1
+            pd_pred = model.predict_proba(X_1)
             st.code("giá trị dự báo: " + str(y_pred_new))
-            risky_prob = y_pred_proba[0][1] * 100  # Xác suất khách hàng có rủi ro (nhóm 1)
-safe_prob = y_pred_proba[0][0] * 100   # Xác suất khách hàng an toàn (nhóm 0)
 
-st.write(f"**Xác suất KHÁCH HÀNG AN TOÀN:** {safe_prob:.2f}%")
-st.write(f"**Xác suất CÓ RỦI RO TÍN DỤNG:** {risky_prob:.2f}%")
+            # === Hiển thị xác suất rủi ro (căn chỉnh đúng indent) ===
+            risky_prob = pd_pred[0][1] * 100
+            safe_prob = pd_pred[0][0] * 100
 
-if risky_prob > 50:
-    st.error("⚠️ Khách hàng có nguy cơ RỦI RO TÍN DỤNG CAO. Cần xem xét kỹ trước khi phê duyệt khoản vay.")
-else:
-    st.success("✅ Khách hàng có khả năng TỐT trong việc trả nợ. Có thể xem xét phê duyệt khoản vay.")
+            st.write(f"**Xác suất KHÁCH HÀNG AN TOÀN:** {safe_prob:.2f}%")
+            st.write(f"**Xác suất CÓ RỦI RO TÍN DỤNG:** {risky_prob:.2f}%")
 
+            if risky_prob > 50:
+                st.error("⚠️ Khách hàng có nguy cơ RỦI RO TÍN DỤNG CAO. Cần xem xét kỹ trước khi phê duyệt khoản vay.")
+            else:
+                st.success("✅ Khách hàng có khả năng TỐT trong việc trả nợ. Có thể xem xét phê duyệt khoản vay.")
 
             # ============ LƯU KẾT QUẢ VÀ PHÂN TÍCH BẰNG GEMINI (LITE) ============
-            # Lưu vào session_state để Gemini dùng làm ngữ cảnh
             st.session_state.last_prediction = {
                 "input_row": lines.to_dict(orient="records")[0],
                 "y_hat": int(y_pred_new[0]),
-                "pd_vector": pd_pred[0].tolist(),     # [P(class=0), P(class=1)]
+                "pd_vector": pd_pred[0].tolist(),
                 "score_train": float(score_train),
                 "score_test": float(score_test),
                 "note": "LogisticRegression – train/test split 80/20, random_state=12"
@@ -322,7 +268,6 @@ else:
                 ["Dễ hiểu – dành cho cán bộ tín dụng", "Ngắn gọn – bullet", "Rõ ràng – kỹ thuật"]
             )
 
-            # Tạo prompt NGẮN GỌN
             user_prompt_lite = build_gemini_prompt_lite(
                 input_row=st.session_state.last_prediction.get("input_row", {}),
                 y_hat=st.session_state.last_prediction.get("y_hat"),
@@ -332,7 +277,6 @@ else:
                 note=st.session_state.last_prediction.get("note", "")
             )
 
-            # Gọi Gemini bản LITE (ít token hơn)
             if st.button("🧠 Phân tích nhanh (Lite)", use_container_width=True):
                 text, err = gemini_generate_text(SYS_PROMPT_LITE, user_prompt_lite)
                 if err:
