@@ -9,6 +9,51 @@ import streamlit as st
 from sklearn import metrics
 import os  # <-- cần cho os.path.exists
 
+# ===================== GEMINI INTEGRATION (NEW) =====================
+# Tham khảo cách tích hợp từ file đính kèm: dùng google-genai, đọc API key từ st.secrets / env
+try:
+    from google import genai
+    from google.genai.errors import APIError
+    _GEMINI_OK = True
+except Exception:
+    _GEMINI_OK = False
+
+def _get_gemini_api_key():
+    """Lấy API Key từ st.secrets hoặc biến môi trường."""
+    key = None
+    try:
+        key = st.secrets.get("GEMINI_API_KEY")
+    except Exception:
+        key = None
+    if not key:
+        key = os.environ.get("GEMINI_API_KEY", None)
+    return key
+
+def gemini_generate_text(system_prompt: str,
+                         user_prompt: str,
+                         model_name: str = "gemini-2.5-flash"):
+    """
+    Gọi Gemini tạo phân tích văn bản.
+    Trả về (text, error). Nếu lỗi, text=None và error là chuỗi thông báo.
+    """
+    if not _GEMINI_OK:
+        return None, "⚠️ Chưa cài 'google-genai'. Vui lòng chạy: pip install google-genai"
+
+    api_key = _get_gemini_api_key()
+    if not api_key:
+        return None, "⚠️ Không tìm thấy GEMINI_API_KEY. Hãy đặt vào st.secrets hoặc biến môi trường."
+
+    try:
+        client = genai.Client(api_key=api_key)
+        prompt = f"{system_prompt.strip()}\n\n---\n\n{user_prompt.strip()}"
+        resp = client.models.generate_content(model=model_name, contents=prompt)
+        return resp.text, None
+    except APIError as e:
+        return None, f"Lỗi gọi Gemini API: {e}"
+    except Exception as e:
+        return None, f"Đã xảy ra lỗi khi gọi Gemini: {e}"
+# ===================================================================
+
 # PHẢI đặt đầu tiên
 st.set_page_config(page_title="ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN", page_icon="🏦", layout="wide")
 
@@ -56,7 +101,10 @@ try:
 except Exception:
     st.info("ℹ️ Không tải được banner (kiểm tra quyền truy cập).")
 
-
+# ===================== SESSION STATE (NEW – cho Gemini) =====================
+if "last_prediction" not in st.session_state:
+    st.session_state.last_prediction = None
+# ===========================================================================
 
 df = pd.read_csv('credit access.csv', encoding='latin-1')
 
@@ -79,15 +127,10 @@ model.fit(X_train, y_train)
 
 yhat_test = model.predict(X_test)
 
-
 score_train=model.score(X_train, y_train)
 score_test=model.score(X_test, y_test)
 
-
 confusion_matrix = pd.crosstab(y_test, yhat_test, rownames=['Actual'], colnames=['Predicted'])
-
-
-
 
 menu = ["Mục tiêu của ứng dụng", "Phương pháp sử dụng", "Bắt đầu dự báo"]
 choice = st.sidebar.selectbox('Danh mục tính năng', menu)
@@ -125,11 +168,7 @@ elif choice == 'Phương pháp sử dụng':
     st.write("""###### Mô hình sử dụng các thuật toán Random Forest, LogisticRegression""")
     st.image("Random-Forest.jpg")
     st.image("LOGISTIC.jpg")
-    
-  
-    
 
-    
 elif choice == 'Bắt đầu dự báo':
     st.subheader("Bắt đầu dự báo")
     flag = False
@@ -166,9 +205,50 @@ elif choice == 'Bắt đầu dự báo':
             st.code(lines)
             X_1 = lines.drop(columns=['y'])   
             y_pred_new = model.predict(X_1)
-            pd=model.predict_proba(X_1)
+            # Lưu ý: tránh đặt tên biến 'pd' vì sẽ đè lên pandas. Dùng 'pd_pred' an toàn hơn:
+            pd_pred = model.predict_proba(X_1)   # shape (n, 2) với lớp 0/1
             st.code("giá trị dự báo: " + str(y_pred_new))
-            st.code("xác suất vỡ nợ của hộ là: " + str(pd))
+            st.code("xác suất vỡ nợ của hộ là: " + str(pd_pred))
 
+            # ============ LƯU KẾT QUẢ VÀ PHÂN TÍCH BẰNG GEMINI (NEW) ============
+            # Lưu vào session_state để Gemini dùng làm ngữ cảnh
+            st.session_state.last_prediction = {
+                "input_row": lines.to_dict(orient="records")[0],
+                "y_hat": int(y_pred_new[0]),
+                "pd_vector": pd_pred[0].tolist(),     # [P(class=0), P(class=1)]
+                "score_train": float(score_train),
+                "score_test": float(score_test),
+                "note": "LogisticRegression – train/test split 80/20, random_state=12"
+            }
 
+            st.markdown("---")
+            st.subheader("🤖 Phân tích kết quả dự báo bằng Gemini (AI)")
 
+            explain_style = st.selectbox(
+                "Chọn phong cách giải thích",
+                ["Rõ ràng – kỹ thuật", "Dễ hiểu – dành cho cán bộ tín dụng", "Ngắn gọn – bullet"]
+            )
+
+            sys_prompt = """Bạn là Trợ lý AI của Agribank, chuyên phân tích rủi ro tín dụng KHCN.
+Hãy giải thích kết quả dự báo theo phong cách được yêu cầu, gồm:
+1) Kết luận ngắn gọn: nguy cơ vỡ nợ cao/thấp?
+2) Nêu các chỉ số chính và ý nghĩa.
+3) Khuyến nghị hành động tiếp theo cho cán bộ tín dụng (giấy tờ, xác minh, phương án trả nợ).
+4) Giọng điệu thân thiện, hỗ trợ, đồng hành. Trả lời bằng tiếng Việt."""
+
+            user_prompt = f"""
+[PHONG CÁCH]: {explain_style}
+[ĐẦU VÀO KHÁCH HÀNG]: {st.session_state.last_prediction.get("input_row")}
+[DỰ BÁO NHÃN Y_HAT]: {st.session_state.last_prediction.get("y_hat")}
+[XÁC SUẤT PD] = [P(no default), P(default)] = {st.session_state.last_prediction.get("pd_vector")}
+[ĐỘ CHÍNH XÁC]: train={st.session_state.last_prediction.get("score_train")}, test={st.session_state.last_prediction.get("score_test")}
+[GHI CHÚ MÔ HÌNH]: {st.session_state.last_prediction.get("note")}
+"""
+
+            if st.button("🧠 Phân tích bằng Gemini", use_container_width=True):
+                text, err = gemini_generate_text(sys_prompt, user_prompt)
+                if err:
+                    st.error(err)
+                else:
+                    st.markdown(f"**Kết quả phân tích của Gemini:**\n\n{text}")
+            # ====================================================================
