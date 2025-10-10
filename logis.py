@@ -7,6 +7,55 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import streamlit as st
 from sklearn import metrics
+import os  # <-- cần cho os.path.exists
+
+# PHẢI đặt đầu tiên
+st.set_page_config(page_title="ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN", page_icon="🏦", layout="wide")
+
+# CSS
+st.markdown("""
+<style>
+    :root {
+        --agri-red: #7A0019;
+        --agri-soft-red: #FFF2F2;
+        --agri-dark: #2b2b2b;
+        --agri-white: #ffffff;
+    }
+    body, .main, .stApp { background-color: var(--agri-soft-red); }
+    .agri-header {
+        width: 100%;
+        background: linear-gradient(90deg, #7A0019 0%, #9a2740 100%);
+        padding: 10px 16px; color: var(--agri-white);
+        border-radius: 10px; margin-bottom: 12px;
+    }
+    .agri-title { font-size: 20px; font-weight: 700; margin: 0; line-height: 1.2; }
+    .agri-subtitle { font-size: 13px; margin: 0; opacity: 0.9; }
+</style>
+""", unsafe_allow_html=True)
+
+# Logo & banner (dùng link ảnh trực tiếp)
+LOGO_URL   = "https://www.inlogo.vn/wp-content/uploads/2023/04/logo-agribank-300x295.png"
+BANNER_URL = "https://drive.google.com/uc?export=view&id=1Rq9kOp6caGUU1kttdOk0oaWlfO15_xb2"  # đổi sang uc?export=view&id=
+
+# Header trên cùng (KHÔNG dùng vertical_alignment)
+col_logo, col_title = st.columns([1, 6])
+with col_logo:
+    try:
+        st.image(LOGO_URL, width=80)
+    except Exception:
+        st.warning("⚠️ Không tải được logo.")
+with col_title:
+    st.markdown(
+        '<div class="agri-header"><div class="agri-title">ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN</div>'
+        '<div class="agri-subtitle">Dự báo xác suất vỡ nợ & Trợ lý AI cho phân tích</div></div>',
+        unsafe_allow_html=True
+    )
+# Banner
+try:
+    st.image(BANNER_URL, use_container_width=True)
+except Exception:
+    st.info("ℹ️ Không tải được banner (kiểm tra quyền truy cập).")
+
 
 
 df = pd.read_csv('credit access.csv', encoding='latin-1')
@@ -122,79 +171,4 @@ elif choice == 'Bắt đầu dự báo':
             st.code("xác suất vỡ nợ của hộ là: " + str(pd))
 
 
-# ====== (NEW) GIAO DIỆN – MÀU SẮC, BANNER & LOGO =============================
-st.set_page_config(page_title="ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN", page_icon="🏦", layout="wide")
 
-# CSS: nền đỏ nhạt, vùng nội dung dịu mắt, font & các thành phần cơ bản
-st.markdown("""
-<style>
-    :root {
-        --agri-red: #7A0019;       /* Bordeaux Agribank */
-        --agri-soft-red: #FFF2F2;  /* Đỏ nhạt nền */
-        --agri-dark: #2b2b2b;
-        --agri-white: #ffffff;
-    }
-    body, .main, .stApp {
-        background-color: var(--agri-soft-red);
-    }
-    .agri-header {
-        width: 100%;
-        background: linear-gradient(90deg, #7A0019 0%, #9a2740 100%);
-        padding: 10px 16px;
-        color: var(--agri-white);
-        border-radius: 10px;
-        margin-bottom: 12px;
-    }
-    .agri-title {
-        font-size: 20px;
-        font-weight: 700;
-        margin: 0;
-        line-height: 1.2;
-    }
-    .agri-subtitle {
-        font-size: 13px;
-        margin: 0;
-        opacity: 0.9;
-    }
-    .agri-card {
-        background: #ffffff;
-        border-radius: 10px;
-        padding: 16px;
-        border: 1px solid #f0d6db;
-        box-shadow: 0 1px 6px rgba(122,0,25,0.07);
-    }
-    .agri-chip {
-        display: inline-block;
-        padding: 4px 10px;
-        background: #fde7ec;
-        color: #7A0019;
-        border: 1px solid #f5c3cf;
-        border-radius: 999px;
-        font-size: 12px;
-        margin-right: 8px;
-    }
-    .stRadio > label, .stSelectbox > label, .stFileUploader > label, .stTextInput > label, .stNumberInput > label {
-        color: #7A0019; 
-        font-weight: 600;
-    }
-</style>
-""", unsafe_allow_html=True)
-
-# Banner & logo (Google Drive link – nếu không tải được sẽ hiện cảnh báo)
-BANNER_URL = "https://drive.google.com/file/d/1Rq9kOp6caGUU1kttdOk0oaWlfO15_xb2/view?usp=sharing"
-LOGO_URL   = "https://www.inlogo.vn/wp-content/uploads/2023/04/logo-agribank-300x295.png"
-
-col_logo, col_title = st.columns([1, 6], vertical_alignment="center")
-with col_logo:
-    try:
-        st.image(LOGO_URL, caption=None, width=80)
-    except Exception:
-        st.warning("⚠️ Không tải được logo từ Google Drive. Vui lòng kiểm tra quyền chia sẻ.")
-with col_title:
-    st.markdown('<div class="agri-header"><div class="agri-title">ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN</div><div class="agri-subtitle">Dự báo xác suất vỡ nợ & Trợ lý AI Gemini cho phân tích & hỏi đáp</div></div>', unsafe_allow_html=True)
-
-# Banner hình
-try:
-    st.image(BANNER_URL, use_container_width=True)
-except Exception:
-    st.info("ℹ️ Không tải được banner từ Google Drive (kiểm tra quyền truy cập).")
