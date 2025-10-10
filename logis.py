@@ -129,7 +129,15 @@ def build_gemini_prompt_lite(
     return prompt
 # ===================================================================
 
-st.set_page_config(page_title="ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN", page_icon="🏦", layout="wide")
+st.set_page_config(page_title="ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN", page_icon="🏦", layout="wide") 
+st.markdown("""
+<style>
+[data-testid="stFileUploader"] {
+    display: none;
+}
+</style>
+""", unsafe_allow_html=True)
+
 
 st.markdown("""
 <style>
