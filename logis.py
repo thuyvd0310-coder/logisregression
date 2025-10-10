@@ -229,13 +229,19 @@ Mỗi cây học từ một phần ngẫu nhiên của dữ liệu và bỏ phi�
 Trong đánh giá rủi ro tín dụng, Random Forest giúp mô hình nhận diện các mẫu hành vi tín dụng phức tạp và giảm nguy cơ sai lệch khi dự đoán khả năng vỡ nợ của khách hàng.  
 Nhờ tính ổn định và khả năng xử lý dữ liệu phi tuyến tốt, nó thường được dùng để xếp hạng rủi ro khách hàng.
 """)
-    st.image("Random-Forest.png", caption="Mô hình Random Forest", use_column_width=True)
 
     st.write("""**Logistic Regression** là thuật toán thống kê dự đoán xác suất một sự kiện xảy ra, thường dùng cho bài toán phân loại nhị phân.  
 Trong đánh giá rủi ro tín dụng, nó giúp ước lượng xác suất khách hàng không trả được nợ (default probability).  
 Mô hình này dễ giải thích, cho phép cán bộ tín dụng hiểu rõ ảnh hưởng của từng yếu tố đến rủi ro tín dụng.
 """)
-    st.image("LOGISTIC.jpg", caption="Mô hình Logistic Regression", use_column_width=True)
+
+    # Hiển thị hai ảnh song song (mỗi ảnh chiếm 1/2 màn hình)
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image("Random-Forest.png", caption="Mô hình Random Forest", use_container_width=True)
+    with col2:
+        st.image("LOGISTIC.jpg", caption="Mô hình Logistic Regression", use_container_width=True)
+
 
 
 
