@@ -1,0 +1,998 @@
+```markdown
+- Tên văn bản: QUY ĐỊNH Cho vay đối với khách hàng trong hệ thống Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam
+- Số hiệu/Ký hiệu: 2268/QyĐ-NHNO-TD
+- Ngày ban hành: 19/09/2023
+- Phiên bản: 1.0
+- Nhóm nghiệp vụ: Tín dụng
+
+# MỤC LỤC
+- 1. [Chương I. QUY ĐỊNH CHUNG](#Chương-I-QUY-ĐỊNH-CHUNG)
+    - 1.1. [Điều 1. Phạm vi điều chỉnh](#Điều-1-Phạm-vi-điều-chỉnh)
+    - 1.2. [Điều 2. Đối tượng áp dụng](#Điều-2-Đối-tượng-áp-dụng)
+    - 1.3. [Điều 3. Giải thích từ ngữ, các từ viết tắt](#Điều-3-Giải-thích-từ-ngữ-các-từ-viết-tắt)
+    - 1.4. [Điều 4. Vay vốn chung của các cá nhân](#Điều-4-Vay-vốn-chung-của-các-cá-nhân)
+    - 1.5. [Điều 5. Nhận dạng, theo dõi, đánh giá và kiểm soát rủi ro tín dụng](#Điều-5-Nhận-dạng-theo-dõi-đánh-giá-và-kiểm-soát-rủi-ro-tín-dụng)
+- 2. [Chương II. MỘT SỐ NỘI DUNG VỀ HOẠT ĐỘNG CHO VAY](#Chương-II-MỘT-SỐ-NỘI-DUNG-VỀ-HOẠT-ĐỘNG-CHO-VAY)
+    - 2.1. [Mục 1. ĐỊA BÀN CHO VAY](#Mục-1-ĐỊA-BÀN-CHO-VAY)
+        - 2.1.1. [Điều 6. Địa bàn cho vay](#Điều-6-Địa-bàn-cho-vay)
+        - 2.1.2. [Điều 7. Địa bàn cho vay đặc thù](#Điều-7-Địa-bàn-cho-vay-đặc-thù)
+        - 2.1.3. [Điều 8. Cho vay ngoài địa bàn](#Điều-8-Cho-vay-ngoài-địa-bàn)
+    - 2.2. [Mục 2. ĐỒNG TIỀN CHO VAY, TRẢ NỢ; LÃI SUẤT CHO VAY, PHÍ LIÊN QUAN ĐẾN HOẠT ĐỘNG CHO VAY](#Mục-2-ĐỒNG-TIỀN-CHO-VAY-TRẢ-NỢ-LÃI-SUẤT-CHO-VAY-PHÍ-LIÊN-QUAN-ĐẾN-HOẠT-ĐỘNG-CHO-VAY)
+        - 2.2.1. [Điều 9. Đồng tiền cho vay, trả nợ](#Điều-9-Đồng-tiền-cho-vay-trả-nợ)
+        - 2.2.2. [Điều 10. Lãi suất cho vay, lãi quá hạn, lãi chậm trả](#Điều-10-Lãi-suất-cho-vay-lãi-quá-hạn-lãi-chậm-trả)
+        - 2.2.3. [Điều 11. Lãi suất cho vay tối đa theo quy định của NHNN](#Điều-11-Lãi-suất-cho-vay-tối-đa-theo-quy-định-của-NHNN)
+        - 2.2.4. [Điều 12. Phí liên quan đến hoạt động cho vay](#Điều-12-Phí-liên-quan-đến-hoạt-động-cho-vay)
+    - 2.3. [Mục 3. BỘ HỒ SƠ VAY VỐN](#Mục-3-BỘ-HỒ-SƠ-VAY-VỐN)
+        - 2.3.1. [Điều 13. Bộ hồ sơ vay vốn](#Điều-13-Bộ-hồ-sơ-vay-vốn)
+        - 2.3.2. [Điều 14. Quản lý Bộ hồ sơ vay vốn](#Điều-14-Quản-lý-Bộ-hồ-sơ-vay-vốn)
+        - 2.3.3. [Điều 15. Thỏa thuận cho vay](#Điều-15-Thỏa-thuận-cho-vay)
+- 3. [Chương III. PHƯƠNG THỨC CHO VAY VÀ MỘT SỐ ĐỐI TƯỢNG CHO VAY CỤ THỂ](#Chương-III-PHƯƠNG-THỨC-CHO-VAY-VÀ-MỘT-SỐ-ĐỐI-TƯỢNG-CHO-VAY-CỤ-THỂ)
+    - 3.1. [Mục 1. CHO VAY THEO HẠN MỨC](#Mục-1-CHO-VAY-THEO-HẠN-MỨC)
+        - 3.1.1. [Điều 16. Cho vay theo hạn mức](#Điều-16-Cho-vay-theo-hạn-mức)
+        - 3.1.2. [Điều 17. Căn cứ xác định hạn mức](#Điều-17-Căn-cứ-xác-định-hạn-mức)
+        - 3.1.3. [Điều 18. Thời gian duy trì hạn mức, thời hạn cho vay, kỳ hạn trả nợ](#Điều-18-Thời-gian-duy-trì-hạn-mức-thời-hạn-cho-vay-kỳ-hạn-trả-nợ)
+        - 3.1.4. [Điều 19. Giải ngân vốn vay, phát hành bảo lãnh, phát hành L/C, chiết khấu](#Điều-19-Giải-ngân-vốn-vay-phát-hành-bảo-lãnh-phát-hành-LC-chiết-khấu)
+        - 3.1.5. [Điều 20. Điều chỉnh hạn mức, gia hạn thời gian duy trì hạn mức](#Điều-20-Điều-chỉnh-hạn-mức-gia-hạn-thời-gian-duy-trì-hạn-mức)
+        - 3.1.6. [Điều 21. Ký kết hợp đồng hạn mức mới](#Điều-21-Ký-kết-hợp-đồng-hạn-mức-mới)
+    - 3.2. [Mục 2. CHO VAY THEO HẠN MỨC QUY MÔ NHỎ ĐỐI VỚI KHÁCH HÀNG CÁ NHÂN](#Mục-2-CHO-VAY-THEO-HẠN-MỨC-QUY-MÔ-NHỎ-ĐỐI-VỚI-KHÁCH-HÀNG-CÁ-NHÂN)
+        - 3.2.1. [Điều 22. Cho vay theo hạn mức quy mô nhỏ](#Điều-22-Cho-vay-theo-hạn-mức-quy-mô-nhỏ)
+        - 3.2.2. [Điều 23. Căn cứ xác định hạn mức cho vay](#Điều-23-Căn-cứ-xác-định-hạn-mức-cho-vay)
+        - 3.2.3. [Điều 24. Thời gian duy trì hạn mức, thời hạn cho vay, kỳ hạn trả nợ](#Điều-24-Thời-gian-duy-trì-hạn-mức-thời-hạn-cho-vay-kỳ-hạn-trả-nợ)
+        - 3.2.4. [Điều 25. Quản lý hạn mức cho vay](#Điều-25-Quản-lý-hạn-mức-cho-vay)
+        - 3.2.5. [Điều 26. Điều chỉnh hạn mức, gia hạn thời gian duy trì hạn mức cho vay và ký kết hạn mức cho vay mới](#Điều-26-Điều-chỉnh-hạn-mức-gia-hạn-thời-gian-duy-trì-hạn-mức-cho-vay-và-ký-kết-hạn-mức-cho-vay-mới)
+    - 3.3. [Mục 3. RÀ SOÁT, ĐÁNH GIÁ HẠN MỨC HÀNG NĂM](#Mục-3-RÀ-SOÁT-ĐÁNH-GIÁ-HẠN-MỨC-HÀNG-NĂM)
+        - 3.3.1. [Điều 27. Đối tượng áp dụng, tần suất và thời điểm đánh giá hạn mức](#Điều-27-Đối-tượng-áp-dụng-tần-suất-và-thời-điểm-đánh-giá-hạn-mức)
+        - 3.3.2. [Điều 28. Căn cứ rà soát, đánh giá hạn mức](#Điều-28-Căn-cứ-rà-soát-đánh-giá-hạn-mức)
+        - 3.3.3. [Điều 29. Điều kiện duy trì hạn mức](#Điều-29-Điều-kiện-duy-trì-hạn-mức)
+        - 3.3.4. [Điều 30. Quy trình rà soát, đánh giá hạn mức](#Điều-30-Quy-trình-rà-soát-đánh-giá-hạn-mức)
+    - 3.4. [Mục 4. CÁC PHƯƠNG THỨC CHO VAY KHÁC](#Mục-4-CÁC-PHƯƠNG-THỨC-CHO-VAY-KHÁC)
+        - 3.4.1. [Điều 31. Cho vay theo hạn mức dự phòng](#Điều-31-Cho-vay-theo-hạn-mức-dự-phòng)
+        - 3.4.2. [Điều 32. Cho vay quay vòng](#Điều-32-Cho-vay-quay-vòng)
+        - 3.4.3. [Điều 33. Cho vay tuần hoàn](#Điều-33-Cho-vay-tuần-hoàn)
+    - 3.5. [Mục 5. MỘT SỐ ĐỐI TƯỢNG CHO VAY CỤ THỂ](#Mục-5-MỘT-SỐ-ĐỐI-TƯỢNG-CHO-VAY-CỤ-THỂ)
+        - 3.5.1. [Điều 34. Cho vay bù đắp tài chính](#Điều-34-Cho-vay-bù-đắp-tài-chính)
+        - 3.5.2. [Điều 35. Cho vay trả nợ trước hạn tổ chức tín dụng khác](#Điều-35-Cho-vay-trả-nợ-trước-hạn-tổ-chức-tín-dụng-khác)
+        - 3.5.3. [Điều 36. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ](#Điều-36-Cho-vay-để-thanh-toán-tiền-nhằm-bảo-đảm-thực-hiện-nghĩa-vụ)
+        - 3.5.4. [Điều 37. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ thanh toán hợp đồng mua, nhận chuyển nhượng tài sản](#Điều-37-Cho-vay-để-thanh-toán-tiền-nhằm-bảo-đảm-thực-hiện-nghĩa-vụ-thanh-toán-hợp-đồng-mua-nhận-chuyển-nhượng-tài-sản)
+- 4. [Chương IV. QUY TRÌNH CHO VAY](#Chương-IV-QUY-TRÌNH-CHO-VAY)
+    - 4.1. [Mục 1. XÉT DUYỆT CHO VAY TẠI AGRIBANK NƠI CHO VAY](#Mục-1-XÉT-DUYỆT-CHO-VAY-TẠI-AGRIBANK-NƠI-CHO-VAY)
+        - 4.1.1. [Điều 38. Tiếp nhận, thu thập, đánh giá hồ sơ, thông tin về nhu cầu vay vốn của khách hàng](#Điều-38-Tiếp-nhận-thu-thập-đánh-giá-hồ-sơ-thông-tin-về-nhu-cầu-vay-vốn-của-khách-hàng)
+        - 4.1.2. [Điều 39. Thẩm định cho vay](#Điều-39-Thẩm-định-cho-vay)
+        - 4.1.3. [Điều 40. Thẩm định lại, thông qua Hội đồng tín dụng tại Agribank nơi cho vay](#Điều-40-Thẩm-định-lại-thông-qua-Hội-đồng-tín-dụng-tại-Agribank-nơi-cho-vay)
+        - 4.1.4. [Điều 41. Quyết định cho vay](#Điều-41-Quyết-định-cho-vay)
+    - 4.2. [Mục 2. XÉT DUYỆT CHO VAY VƯỢT THẨM QUYỀN TẠI CHI NHÁNH LOẠI I](#Mục-2-XÉT-DUYỆT-CHO-VAY-VƯỢT-THẨM-QUYỀN-TẠI-CHI-NHÁNH-LOẠI-I)
+        - 4.2.1. [Điều 42. Tiếp nhận hồ sơ](#Điều-42-Tiếp-nhận-hồ-sơ)
+        - 4.2.2. [Điều 43. Thẩm định lại hồ sơ](#Điều-43-Thẩm-định-lại-hồ-sơ)
+        - 4.2.3. [Điều 44. Kiểm soát hồ sơ thẩm định lại khoản vay, thông qua Hội đồng tín dụng](#Điều-44-Kiểm-soát-hồ-sơ-thẩm-định-lại-khoản-vay-thông-qua-Hội-đồng-tín-dụng)
+        - 4.2.4. [Điều 45. Phê duyệt khoản vay](#Điều-45-Phê-duyệt-khoản-vay)
+    - 4.3. [Mục 3. XÉT DUYỆT CHO VAY VƯỢT THẨM QUYỀN TẠI TRỤ SỞ CHÍNH](#Mục-3-XÉT-DUYỆT-CHO-VAY-VƯỢT-THẨM-QUYỀN-TẠI-TRỤ-SỞ-CHÍNH)
+        - 4.3.1. [Điều 46. Nơi trình phê duyệt](#Điều-46-Nơi-trình-phê-duyệt)
+        - 4.3.2. [Điều 47. Tiếp nhận hồ sơ](#Điều-47-Tiếp-nhận-hồ-sơ)
+        - 4.3.3. [Điều 48. Thẩm định lại hồ sơ](#Điều-48-Thẩm-định-lại-hồ-sơ)
+        - 4.3.4. [Điều 49. Kiểm soát hồ sơ thẩm định lại khoản vay, thông qua Hội đồng tín dụng](#Điều-49-Kiểm-soát-hồ-sơ-thẩm-định-lại-khoản-vay-thông-qua-Hội-đồng-tín-dụng)
+        - 4.3.5. [Điều 50. Phê duyệt khoản vay](#Điều-50-Phê-duyệt-khoản-vay)
+    - 4.4. [Mục 4. THAY ĐỔI NỘI DUNG QUYẾT ĐỊNH, PHÊ DUYỆT CHO VAY, CUNG CẤP HỒ SƠ CHO ĐƠN VỊ KIỂM TRA](#Mục-4-THAY-ĐỔI-NỘI-DUNG-QUYẾT-ĐỊNH-PHÊ-DUYỆT-CHO-VAY-CUNG-CẤP-HỒ-SƠ-CHO-ĐƠN-VỊ-KIỂM-TRA)
+        - 4.4.1. [Điều 51. Thay đổi nội dung phê duyệt, quyết định cho vay](#Điều-51-Thay-đổi-nội-dung-phê-duyệt-quyết-định-cho-vay)
+        - 4.4.2. [Điều 52. Thông báo phê duyệt cấp tín dụng gửi cho đơn vị kiểm tra](#Điều-52-Thông-báo-phê-duyệt-cấp-tín-dụng-gửi-cho-đơn-vị-kiểm-tra)
+    - 4.5. [Mục 5. KÝ KẾT HỢP ĐỒNG TÍN DỤNG, HỢP ĐỒNG BẢO ĐẢM, GIẢI NGÂN VỐN VAY, QUẢN LÝ KHOẢN VAY](#Mục-5-KÝ-KẾT-HỢP-ĐỒNG-TÍN-DỤNG-HỢP-ĐỒNG-BẢO-ĐẢM-GIẢI-NGÂN-VỐN-VAY-QUẢN-LÝ-KHOẢN-VAY)
+        - 4.5.1. [Điều 53. Soạn thảo, ký kết HĐTD, HĐBĐ](#Điều-53-Soạn-thảo-ký-kết-HĐTD-HĐBĐ)
+        - 4.5.2. [Điều 54. Khai báo, phê duyệt thông tin trên hệ thống IPCAS](#Điều-54-Khai-báo-phê-duyệt-thông-tin-trên-hệ-thống-IPCAS)
+        - 4.5.3. [Điều 55. Kiểm tra hồ sơ giải ngân, báo cáo đề xuất giải ngân](#Điều-55-Kiểm-tra-hồ-sơ-giải-ngân-báo-cáo-đề-xuất-giải-ngân)
+        - 4.5.4. [Điều 56. Giải ngân vốn đối ứng đối với trung, dài hạn thực hiện dự án đầu tư phục vụ hoạt động kinh doanh](#Điều-56-Giải-ngân-vốn-đối-ứng-đối-với-trung-dài-hạn-thực-hiện-dự-án-đầu-tư-phục-vụ-hoạt-động-kinh-doanh)
+        - 4.5.5. [Điều 57. Kiểm soát, phê duyệt báo cáo đề xuất giải ngân](#Điều-57-Kiểm-soát-phê-duyệt-báo-cáo-đề-xuất-giải-ngân)
+        - 4.5.6. [Điều 58. Bàn giao hồ sơ giải ngân; hạch toán thế chấp/cầm cố tài sản bảo đảm, giải ngân vốn vay](#Điều-58-Bàn-giao-hồ-sơ-giải-ngân-hạch-toán-thế-chấpcầm-cố-tài-sản-bảo-đảm-giải-ngân-vốn-vay)
+        - 4.5.7. [Điều 59. Phân kỳ hạn trả nợ](#Điều-59-Phân-kỳ-hạn-trả-nợ)
+        - 4.5.8. [Điều 60. Theo dõi, đôn đốc, thu nợ cho vay](#Điều-60-Theo-dõi-đôn-đốc-thu-nợ-cho-vay)
+        - 4.5.9. [Điều 61. Cơ cấu lại thời hạn trả nợ](#Điều-61-Cơ-cấu-lại-thời-hạn-trả-nợ)
+        - 4.5.10. [Điều 62. Tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn, chuyển nợ quá hạn](#Điều-62-Tạm-ngừng-cho-vay-chấm-dứt-cho-vay-thu-hồi-nợ-trước-hạn-chuyển-nợ-quá-hạn)
+    - 4.6. [Mục 6. KIỂM TRA, GIÁM SÁT NỢ VAY](#Mục-6-KIỂM-TRA-GIÁM-SÁT-NỢ-VAY)
+        - 4.6.1. [Điều 63. Kiểm tra tại Agribank nơi cho vay](#Điều-63-Kiểm-tra-tại-Agribank-nơi-cho-vay)
+        - 4.6.2. [Điều 64. Giám sát tại Agribank nơi cho vay](#Điều-64-Giám-sát-tại-Agribank-nơi-cho-vay)
+        - 4.6.3. [Điều 65. Kiểm tra tại Agribank nơi phê duyệt vượt thẩm quyền](#Điều-65-Kiểm-tra-tại-Agribank-nơi-phê-duyệt-vượt-thẩm-quyền)
+        - 4.6.4. [Điều 66. Giám sát tại Agribank nơi phê duyệt vượt thẩm quyền](#Điều-66-Giám-sát-tại-Agribank-nơi-phê-duyệt-vượt-thẩm-quyền)
+        - 4.6.5. [Điều 67. Công tác báo cáo](#Điều-67-Công-tác-báo-cáo)
+        - 4.6.6. [Điều 68. Các phụ lục, mẫu biểu](#Điều-68-Các-phụ-lục-mẫu-biểu)
+- 5. [Chương V. TỔ CHỨC THỰC HIỆN](#Chương-V-TỔ-CHỨC-THỰC-HIỆN)
+    - 5.1. [Điều 69. Tổ chức thực hiện](#Điều-69-Tổ-chức-thực-hiện)
+    - 5.2. [Điều 70. Điều khoản thi hành](#Điều-70-Điều-khoản-thi-hành)
+
+# <a id="QUY-ĐỊNH-Cho-vay-đối-với-khách-hàng-trong-hệ-thống-Ngân-hàng-Nông-nghiệp-và-Phát-triển-nông-thôn-Việt-Nam"></a>QUY ĐỊNH
+**Cho vay đối với khách hàng trong hệ thống**
+**Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam**
+
+# <a id="Chương-I-QUY-ĐỊNH-CHUNG"></a>Chương I. QUY ĐỊNH CHUNG
+### <a id="Điều-1-Phạm-vi-điều-chỉnh"></a>Điều 1. Phạm vi điều chỉnh
+Quy định này quy định trình tự, thủ tục và một số nội dung tại Quy chế số 656/QC-HĐTV-TD ngày 31/8/2023 của Hội đồng thành viên về cho vay đối với khách hàng trong hệ thống Agribank.
+
+### <a id="Điều-2-Đối-tượng-áp-dụng"></a>Điều 2. Đối tượng áp dụng
+1. Các đơn vị, cá nhân có liên quan thuộc Agribank.
+2. Khách hàng vay vốn tại Agribank bao gồm:
+   a) Khách hàng là pháp nhân:
+   (i) Doanh nghiệp hoạt động theo quy định của Luật Doanh nghiệp: Công ty trách nhiệm hữu hạn, Công ty cổ phần, Công ty hợp danh;
+   (ii) Hợp tác xã, liên hiệp hợp tác xã theo quy định của Luật Hợp tác xã;
+   (iii) Các tổ chức khác là pháp nhân theo quy định của Bộ luật Dân sự.
+   b) Khách hàng là cá nhân:
+   (i) Cá nhân, các cá nhân;
+   (ii) Chủ doanh nghiệp tư nhân;
+   (iii) Các thành viên hộ kinh doanh có đăng ký kinh doanh, tổ hợp tác và tổ chức khác không có tư cách pháp nhân.
+3. Bên bảo đảm tài sản, bảo lãnh cho khách hàng vay vốn tại Agribank.
+4. Quy định này không áp dụng đối với Chi nhánh Agribank ở nước ngoài, khách hàng là tổ chức tín dụng.
+
+### <a id="Điều-3-Giải-thích-từ-ngữ-các-từ-viết-tắt"></a>Điều 3. Giải thích từ ngữ, các từ viết tắt
+Trong Quy định này, các từ ngữ, các từ viết tắt được hiểu như sau:
+1. Các từ viết tắt được hiểu như sau:
+   a) DNTN là Doanh nghiệp tư nhân;
+   b) ĐKKD là đăng ký kinh doanh/đăng ký thành lập doanh nghiệp/đăng ký hoạt động (bao gồm cả doanh nghiệp, Hộ kinh doanh có đăng ký kinh doanh);
+   c) HTXH là Hệ thống xếp hạng tín dụng nội bộ của Agribank;
+   d) HĐTD là Hợp đồng tín dụng/Sổ vay vốn;
+   đ) HĐBĐ là Hợp đồng bảo đảm;
+   e) L/C là Thư tín dụng;
+   g) TSBĐ là Tài sản bảo đảm;
+   h) GDV là Giao dịch viên trực tiếp thực hiện giao dịch thuộc Phòng kế toán và ngân quỹ/Phòng giao dịch;
+   i) Giám đốc Trung tâm phê duyệt là Giám đốc Trung tâm phê duyệt tín dụng khu vực;
+   k) Trưởng ban Thẩm định là Trưởng ban Thẩm định và phê duyệt tín dụng;
+   l) PGD là Phòng giao dịch trực thuộc Chi nhánh loại I, loại II.
+2. Cấp tỉnh là đơn vị hành chính tỉnh và thành phố trực thuộc Trung ương.
+3. Cấp huyện là đơn vị hành chính huyện, quận, thị xã và thành phố trực thuộc cấp tỉnh.
+4. Cấp xã là đơn vị hành chính xã, phường, thị trấn.
+5. Đô thị là địa bàn hành chính thị trấn, phường.
+6. Thành phố trực thuộc Trung ương là đơn vị hành chính cấp tỉnh, hiện tại gồm thành phố Hà Nội, thành phố Hồ Chí Minh, thành phố Đà Nẵng, thành phố Hải Phòng và thành phố Cần Thơ.
+7. Nơi thường trú là nơi công dân sinh sống ổn định, lâu dài và đã được đăng ký thường trú.
+8. Nơi tạm trú là nơi công dân sinh sống trong một khoảng thời gian nhất định ngoài nơi thường trú và đã được đăng ký tạm trú.
+9. Nơi cư trú bao gồm nơi thường trú và nơi tạm trú.
+10. Địa chỉ kinh doanh là địa chỉ trụ sở chính, địa chỉ Chi nhánh, địa điểm kinh doanh, địa điểm thực hiện dự án theo Giấy chứng nhận đăng ký kinh doanh, Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đăng ký hoạt động, Giấy chứng nhận đăng ký đầu tư, Giấy chấp thuận chủ trương đầu tư, Giấy chứng nhận đăng ký địa điểm kinh doanh, Giấy chứng nhận đăng ký hộ kinh doanh được cơ quan nhà nước có thẩm quyền cấp.
+11. Khoản nợ là số tiền mà Agribank giải ngân từng lần theo thỏa thuận đối với khách hàng vay vốn.
+12. Kiểm soát viên là người được giao nhiệm vụ kiểm soát, phê duyệt giao dịch giải ngân. Kiểm soát viên là Lãnh đạo Phòng/Tổ kế toán ngân quỹ hoặc người được phân công thực hiện nhiệm vụ tại Agribank nơi cho vay.
+13. Ký tắt là việc người dự thảo nội dung văn bản, người kiểm soát nội dung văn bản ký trên từng trang văn bản. Chữ ký tắt mang ý nghĩa kiểm soát nội dung từng trang văn bản.
+14. Nợ có vấn đề là các khoản nợ của khách hàng được phân loại vào nhóm nợ từ nhóm 2 trở lên, khoản nợ cơ cấu lại thời hạn trả nợ, miễn, giảm lãi, phí được giữ nguyên nhóm nợ, khoản nợ đã được xử lý rủi ro bằng nguồn dự phòng của Agribank, khoản nợ đã bán cho VAMC thanh toán bằng trái phiếu đặc biệt (nếu có).
+15. Người có quan hệ hôn nhân, huyết thống, nuôi dưỡng bao gồm: bố, mẹ (bố, mẹ đẻ; bố, mẹ vợ; bố, mẹ chồng; bố, mẹ nuôi); vợ, chồng; con (con đẻ, con nuôi, con dâu, con rể); anh, chị, em (anh, chị, em ruột; anh, chị, em nuôi).
+16. Phương án sử dụng vốn là tập hợp các thông tin về việc sử dụng vốn của khách hàng, trong đó phải có các thông tin:
+    a) Tổng nguồn vốn cần sử dụng, chi tiết các loại nguồn vốn trong tổng nguồn vốn cần sử dụng (trong đó có nguồn vốn cần vay tại tổ chức tín dụng); mục đích sử dụng vốn; thời gian sử dụng vốn;
+    b) Nguồn trả nợ của khách hàng;
+    c) Phương án, dự án thực hiện hoạt động kinh doanh hoặc phương án, dự án phục vụ nhu cầu đời sống để mua nhà ở; xây dựng, cải tạo nhà ở; nhận chuyển nhượng quyền sử dụng đất để xây nhà ở.
+17. Rủi ro tín dụng là khả năng xảy ra tổn thất đối với nợ của Agribank do khách hàng không có khả năng trả được một phần hoặc toàn bộ nợ của mình theo thỏa thuận với Agribank.
+18. Các từ ngữ khác không nêu tại Điều này được hiểu theo quy định tại Điều lệ tổ chức và hoạt động của Agribank, Quy chế số 656/QC-HĐTV-TD và các văn bản pháp luật, của Agribank có liên quan.
+
+### <a id="Điều-4-Vay-vốn-chung-của-các-cá-nhân"></a>Điều 4. Vay vốn chung của các cá nhân
+1. Chủ thể vay vốn trong trường hợp vay để thanh toán các chi phí cho mục đích phục vụ nhu cầu đời sống của các cá nhân có quan hệ hôn nhân, huyết thống, nuôi dưỡng là những người trả nợ trong phương án sử dụng vốn.
+2. Chủ thể vay vốn trong trường hợp nhiều cá nhân vay vốn chung ngoài khoản 1 Điều này là các cá nhân đó.
+3. Khi các cá nhân vay vốn chung, chủ thể vay vốn giao kết Thỏa thuận cho vay theo một trong các cách thức sau:
+   a) Cùng ký kết HĐTD và thống nhất cử một cá nhân là đại diện tham gia giao dịch với Agribank như nhận tiền vay, báo cáo sử dụng tiền vay, trả nợ, phối hợp xử lý TSBĐ và các thỏa thuận khác trong HĐTD (việc thống nhất này phải được ghi rõ trong HĐTD);
+   b) Ủy quyền bằng văn bản cho một cá nhân là đại diện tham gia giao dịch với Agribank. Văn bản ủy quyền (Giấy ủy quyền/Hợp đồng ủy quyền) phải được chứng nhận tại cơ quan, tổ chức có chức năng công chứng hoặc chứng thực tại cơ quan, tổ chức có thẩm quyền theo quy định của pháp luật.
+
+### <a id="Điều-5-Nhận-dạng-theo-dõi-đánh-giá-và-kiểm-soát-rủi-ro-tín-dụng"></a>Điều 5. Nhận dạng, theo dõi, đánh giá và kiểm soát rủi ro tín dụng
+1. Trong quá trình thẩm định, thẩm định lại, giải ngân và quản lý khoản vay, các bộ phận, cá nhân có liên quan thực hiện nhận dạng, theo dõi, đánh giá và kiểm soát rủi ro theo hướng dẫn tại Phụ lục số 06/NDRRTD-CN, 07/NDRRTD-PN kèm theo Quy định này.
+2. Agribank nơi cho vay và nơi phê duyệt vượt thẩm quyền phải thực hiện việc quản lý các hạn mức rủi ro tín dụng theo quy định của Tổng Giám đốc từng thời kỳ.
+
+# <a id="Chương-II-MỘT-SỐ-NỘI-DUNG-VỀ-HOẠT-ĐỘNG-CHO-VAY"></a>Chương II. MỘT SỐ NỘI DUNG VỀ HOẠT ĐỘNG CHO VAY
+## <a id="Mục-1-ĐỊA-BÀN-CHO-VAY"></a>Mục 1. ĐỊA BÀN CHO VAY
+### <a id="Điều-6-Địa-bàn-cho-vay"></a>Điều 6. Địa bàn cho vay
+1. Trường hợp có một Chi nhánh loại I đóng tại địa bàn hành chính tỉnh hoặc có nhiều Chi nhánh loại I cùng đóng tại địa bàn hành chính thành phố trực thuộc Trung ương: Chi nhánh loại I được cho vay khách hàng pháp nhân, DNTN có địa chỉ kinh doanh và khách hàng cá nhân có nơi cư trú hoặc địa chỉ kinh doanh tại địa bàn hành chính tỉnh, thành phố trực thuộc Trung ương đó.
+2. Trường hợp có nhiều Chi nhánh loại I cùng đóng tại địa bàn hành chính tỉnh, Chi nhánh loại I được cho vay:
+   a) Khách hàng pháp nhân, DNTN có địa chỉ kinh doanh tại địa bàn hành chính tỉnh đó;
+   b) Khách hàng cá nhân có nơi cư trú hoặc địa chỉ kinh doanh tại địa bàn cấp huyện mà Chi nhánh loại I đó quản lý, điều hành.
+3. Giám đốc Chi nhánh loại I được phân công, chấp thuận chủ trương cho vay ngoài địa bàn cho Chi nhánh loại II, PGD trong phạm vi địa bàn mà Chi nhánh loại I đó quản lý, điều hành.
+
+### <a id="Điều-7-Địa-bàn-cho-vay-đặc-thù"></a>Điều 7. Địa bàn cho vay đặc thù
+Ngoài địa bàn cho vay theo Điều 6 Quy định này, Chi nhánh loại I, loại II, PGD được cho vay trong các trường hợp sau:
+1. Trên cơ sở địa bàn cho vay tại Điều 6 Quy định này, Chi nhánh loại I, loại II, PGD được cho vay khách hàng pháp nhân, DNTN có địa chỉ kinh doanh tại địa bàn cấp huyện giáp ranh; khách hàng cá nhân có nơi cư trú hoặc địa chỉ kinh doanh tại địa bàn cấp xã giáp ranh.
+2. Khách hàng cá nhân:
+   a) Có nguồn trả nợ từ lương và mở tài khoản nhận lương tại Agribank nơi cho vay;
+   b) Mua bất động sản thuộc dự án đầu tư do Chi nhánh cho vay;
+   c) Mua bất động sản thuộc địa bàn cho vay của Agribank nơi cho vay;
+   d) Tài sản thế chấp của khoản vay là bất động sản (có Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất) thuộc địa bàn cho vay của Agribank nơi cho vay.
+3. Khách hàng vay vốn có bảo đảm 100% (cả gốc và lãi phát sinh) bằng số dư tiền ký quỹ, tiền gửi có kỳ hạn, tiền gửi không kỳ hạn, tiền gửi tiết kiệm, kỳ phiếu, các loại tiền gửi khác tại Agribank và giấy tờ có giá do Agribank phát hành trong suốt thời gian còn dư nợ tại Agribank nơi cho vay.
+4. Trường hợp Chi nhánh loại I, loại II, PGD có trụ sở tại khu công nghiệp, khu chế xuất, cụm công nghiệp nằm trên nhiều địa bàn cấp huyện: Chi nhánh loại I, loại II, PGD được cho vay khách hàng pháp nhân, DNTN có địa chỉ kinh doanh tại khu công nghiệp, khu chế xuất, cụm công nghiệp đó.
+5. Khách hàng đang có quan hệ vay vốn tại Agribank nơi cho vay hoặc đã vay nhưng thời gian gián đoạn không quá 12 tháng tính đến thời điểm đề nghị cho vay (trừ trường hợp khách hàng vay vốn theo khoản 3 Điều này).
+6. Trường hợp đã cho vay ngoài địa bàn, Agribank nơi cho vay được thực hiện các hình thức cấp tín dụng khác như bảo lãnh, cam kết phát hành dưới hình thức L/C,... theo quy định nội bộ của Agribank và pháp luật có liên quan.
+
+### <a id="Điều-8-Cho-vay-ngoài-địa-bàn"></a>Điều 8. Cho vay ngoài địa bàn
+1. Các trường hợp ngoài Điều 6, Điều 7 Quy định này, Chi nhánh loại I trình Tổng Giám đốc chấp thuận chủ trương cho vay ngoài địa bàn (qua Ban Thẩm định).
+2. Cho vay ngoài địa bàn trong trường hợp nhiều Chi nhánh cùng cho vay một khách hàng (bao gồm cả các Chi nhánh loại II, PGD cùng thuộc một Chi nhánh loại I) phải tuân thủ quy định về thẩm quyền cấp tín dụng và quy định về nhiều Chi nhánh cấp tín dụng đối với một khách hàng của Agribank.
+3. Hướng dẫn xác định địa bàn cho vay, trình tự thủ tục trình chủ trương cho vay ngoài địa bàn thực hiện theo Phụ lục số 01/ĐBCV-QĐ ban hành kèm theo Quy định này.
+
+## <a id="Mục-2-ĐỒNG-TIỀN-CHO-VAY-TRẢ-NỢ-LÃI-SUẤT-CHO-VAY-PHÍ-LIÊN-QUAN-ĐẾN-HOẠT-ĐỘNG-CHO-VAY"></a>Mục 2. ĐỒNG TIỀN CHO VAY, TRẢ NỢ; LÃI SUẤT CHO VAY, PHÍ LIÊN QUAN ĐẾN HOẠT ĐỘNG CHO VAY
+### <a id="Điều-9-Đồng-tiền-cho-vay-trả-nợ"></a>Điều 9. Đồng tiền cho vay, trả nợ
+1. Đồng tiền trả nợ là đồng tiền cho vay của khoản vay. Trường hợp trả nợ bằng đồng tiền khác đồng tiền cho vay thực hiện theo quy định tại khoản 2 Điều này.
+2. Đối với trả nợ bằng đồng tiền khác với đồng tiền cho vay:
+   a) Trường hợp thỏa thuận trả nợ bằng đồng tiền khác tại thời điểm trả nợ, khách hàng và Agribank nơi cho vay thực hiện mua bán ngoại tệ theo quy định hiện hành của Agribank;
+   b) Trường hợp thỏa thuận trả nợ bằng đồng tiền khác tại thời điểm ký kết hợp đồng tín dụng, sửa đổi, bổ sung hợp đồng tín dụng, Agribank nơi cho vay trình Tổng Giám đốc (qua Ban Khách hàng doanh nghiệp).
+
+### <a id="Điều-10-Lãi-suất-cho-vay-lãi-quá-hạn-lãi-chậm-trả"></a>Điều 10. Lãi suất cho vay, lãi quá hạn, lãi chậm trả
+1. Căn cứ cung cầu vốn thị trường, mức độ tín nhiệm của khách hàng, quy định của chính phủ, NHNN, Tổng Giám đốc quy định lãi suất cho vay từng thời kỳ.
+2. Lãi quá hạn: trường hợp khoản vay bị chuyển nợ quá hạn, khách hàng phải trả lãi trên dư nợ gốc bị quá hạn tương ứng với thời gian chậm trả, lãi suất áp dụng do Agribank nơi cho vay thỏa thuận với khách hàng nhưng không vượt quá 150% lãi suất cho vay trong hạn tại thời điểm chuyển nợ quá hạn.
+3. Lãi chậm trả là khoản tiền lãi phát sinh khách hàng phải trả cho Agribank khi lãi tiền vay đến hạn mà khách hàng không trả hoặc trả không đầy đủ. Số tiền lãi chậm trả được tính trên số tiền lãi trong hạn (không bao gồm lãi quá hạn theo quy định tại khoản 2 Điều này) theo phân kỳ trả nợ tương ứng với thời gian chậm trả của khách hàng được quy định tại HĐTD. Lãi suất chậm trả do Agribank nơi cho vay và khách hàng thỏa thuận nhưng không vượt quá 10%/năm.
+   Lãi chậm trả = (Số tiền lãi trong hạn phải trả nhưng chưa trả được theo phân kỳ trả nợ) x Lãi suất chậm trả (% năm) x số ngày chậm trả/365.
+4. Trường hợp áp dụng lãi suất cho vay có điều chỉnh, các bên phải thỏa thuận các yếu tố làm căn cứ để xác định lãi suất điều chỉnh: mức lãi cơ sở, biên độ; thời gian điều chỉnh. Trường hợp các yếu tố xác định lãi suất điều chỉnh dẫn đến có nhiều mức lãi suất cho vay khác nhau thì Agribank nơi cho vay áp dụng mức lãi suất cho vay thấp nhất.
+5. Khi đến hạn thanh toán mà khách hàng không trả hoặc trả không đầy đủ nợ gốc và/hoặc lãi tiền vay theo thỏa thuận, lãi tiền vay phải trả như sau:
+   a) Lãi trên nợ gốc theo lãi suất cho vay đã thỏa thuận tương ứng với thời hạn vay mà đến hạn chưa trả;
+   b) Trường hợp khách hàng không trả đúng hạn tiền lãi theo kỳ hạn thì phải trả lãi chậm trả theo mức lãi suất do Agribank nơi cho vay và khách hàng thỏa thuận trên HĐTD;
+   c) Trường hợp khoản vay bị chuyển nợ quá hạn thì khách hàng phải trả lãi trên dư nợ gốc bị quá hạn tương ứng với thời gian chậm trả, lãi suất áp dụng theo thỏa thuận ghi trong HĐTD.
+6. Phương pháp tính lãi đối với khoản vay thực hiện theo quy định hiện hành của Tổng Giám đốc.
+7. Agribank nơi cho vay thỏa thuận với khách hàng về lãi suất cho vay, lãi quá hạn, lãi chậm trả theo quy định tại khoản 1, 2, 3 Điều này, phương pháp tính lãi và ghi vào HĐTD.
+
+### <a id="Điều-11-Lãi-suất-cho-vay-tối-đa-theo-quy-định-của-NHNN"></a>Điều 11. Lãi suất cho vay tối đa theo quy định của NHNN
+1. Trường hợp khách hàng đáp ứng đủ các tiêu chí đánh giá có tình hình tài chính minh bạch, lành mạnh, Agribank nơi cho vay và khách hàng thỏa thuận về lãi suất cho vay ngắn hạn bằng đồng Việt Nam nhưng không vượt quá mức lãi suất cho vay tối đa do Thống đốc NHNN quy định đối với nhu cầu vốn cho các lĩnh vực sau:
+   a) Phục vụ lĩnh vực phát triển nông nghiệp, nông thôn theo quy định của Chính phủ về chính sách tín dụng phục vụ phát triển nông nghiệp, nông thôn;
+   b) Thực hiện phương án kinh doanh hàng xuất khẩu theo quy định của Luật Thương mại và các văn bản hướng dẫn Luật Thương mại;
+   c) Phục vụ kinh doanh của doanh nghiệp nhỏ và vừa theo quy định của Luật Hỗ trợ doanh nghiệp nhỏ và vừa và quy định của Chính phủ về hỗ trợ doanh nghiệp nhỏ và vừa;
+   d) Phát triển ngành công nghiệp hỗ trợ theo quy định của Chính phủ về phát triển công nghiệp hỗ trợ;
+   đ) Phục vụ kinh doanh của doanh nghiệp ứng dụng công nghệ cao thuộc Danh mục công nghệ cao ưu tiên đầu tư phát triển được Thủ tướng Chính phủ phê duyệt, doanh nghiệp công nghệ cao theo quy định của Luật Công nghệ cao và các văn bản hướng dẫn Luật Công nghệ cao.
+2. Tiêu chí đánh giá khách hàng có tình hình tài chính minh bạch, lành mạnh quy định tại Phụ lục số 02/TCMB-QĐ ban hành kèm theo Quy định này.
+3. Trường hợp khách hàng không đáp ứng đủ một trong các tiêu chí đánh giá có tình hình tài chính minh bạch, lành mạnh Agribank nơi cho vay và khách hàng có thể thỏa thuận về lãi suất cho vay theo Điều 10 Quy định này.
+
+### <a id="Điều-12-Phí-liên-quan-đến-hoạt-động-cho-vay"></a>Điều 12. Phí liên quan đến hoạt động cho vay
+1. Phí trả nợ trước hạn là khoản phí khách hàng phải trả cho Agribank khi khách hàng trả nợ gốc tại một thời điểm sớm hơn so với kỳ hạn trả nợ, thời hạn cho vay được ghi trên HĐTD/Giấy nhận nợ:
+   Phí trả nợ trước hạn = Số tiền trả nợ trước hạn x Tỷ lệ phí (%)
+2. Phí trả cho hạn mức tín dụng dự phòng là khoản phí khách hàng phải trả cho Agribank khi được Agribank cấp hạn mức tín dụng dự phòng theo thỏa thuận. Phí được Agribank thu khi ký kết Hợp đồng cho vay theo hạn mức tín dụng dự phòng với khách hàng (bao gồm cả trường hợp khách hàng không sử dụng hạn mức tín dụng dự phòng đã được cấp):
+   Phí hạn mức tín dụng dự phòng = Hạn mức dự phòng x Tỷ lệ phí (%)
+3. Phí thu xếp cho vay hợp vốn là khoản phí khách hàng phải trả cho Agribank khi Agribank cho vay hợp vốn:
+   a) Trường hợp Agribank là thành viên đầu mối: phí thu xếp cho vay hợp vốn được thu một lần vào ngày ký HĐTD/ngày giải ngân đầu tiên:
+   Phí thu xếp cho vay hợp vốn = Tổng số tiền thu xếp của tất cả các TCTD x Tỷ lệ phí (%)
+   b) Trường hợp Agribank là thành viên hợp vốn: phí thu xếp cho vay hợp vốn được thu theo thỏa thuận tại hợp đồng cấp tín dụng hợp vốn giữa các thành viên tham gia hợp vốn.
+4. Phí cam kết rút vốn là khoản phí khách hàng phải trả cho Agribank khi khách hàng không thực hiện rút vốn hoặc rút không đủ so với cam kết tại thời điểm giải ngân lần đầu theo thỏa thuận:
+   Phí cam kết rút vốn = (Số tiền cam kết rút vốn lần đầu - Số tiền đã rút) x Tỷ lệ phí (%)
+5. Các loại phí khác liên quan đến hoạt động cho vay được quy định tại văn bản quy phạm pháp luật liên quan và hướng dẫn của Tổng Giám đốc trong từng thời kỳ.
+6. Tổng Giám đốc ban hành biểu phí từng thời kỳ. Căn cứ biểu phí của Tổng Giám đốc, Agribank nơi cho vay và khách hàng thỏa thuận áp dụng các loại phí và quy định nội dung cụ thể tại HĐTD.
+
+## <a id="Mục-3-BỘ-HỒ-SƠ-VAY-VỐN"></a>Mục 3. BỘ HỒ SƠ VAY VỐN
+### <a id="Điều-13-Bộ-hồ-sơ-vay-vốn"></a>Điều 13. Bộ hồ sơ vay vốn
+1. Bộ hồ sơ vay vốn bao gồm hồ sơ do khách hàng, bên bảo đảm lập và cung cấp; hồ sơ do Agribank lập; hồ sơ do khách hàng, bên bảo đảm và Agribank nơi cho vay cùng lập.
+2. Bộ hồ sơ vay vốn phân theo các khâu thuộc quy trình cho vay:
+   a) Hồ sơ trong giai đoạn xét duyệt cho vay;
+   b) Hồ sơ trong giai đoạn giải ngân vốn vay;
+   c) Hồ sơ trong giai đoạn thu nợ, quản lý nợ, xử lý nợ cho vay.
+3. Tùy theo đối tượng khách hàng, loại cho vay, phương thức cho vay, bộ hồ sơ vay vốn theo khoản 1, khoản 2 Điều này như sau:
+   a) Hồ sơ pháp lý khách hàng pháp nhân:
+   (i) Quyết định thành lập của cơ quan nhà nước có thẩm quyền (nếu có);
+   (ii) Giấy chứng nhận ĐKKD;
+   (iii) Giấy chứng nhận đăng ký đầu tư/Giấy chấp thuận chủ trương đầu tư (đối với tổ chức kinh tế thuộc diện phải có theo quy định của pháp luật);
+   (iv) Điều lệ pháp nhân hoặc văn bản pháp lý của cơ quan nhà nước có thẩm quyền quy định về chức năng, nhiệm vụ của pháp nhân;
+   (v) Văn bản về việc bổ nhiệm người đại diện theo pháp luật, Chủ tịch hội đồng quản trị/hội đồng thành viên theo quy định của điều lệ tổ chức hoặc quyết định của cơ quan nhà nước có thẩm quyền;
+   (vi) Giấy phép/chứng chỉ hành nghề/Giấy chứng nhận đủ điều kiện sản xuất/cơ sở đủ điều kiện (ngành nghề theo quy định phải có);
+   (vii) Quyết định giao vốn (Doanh nghiệp nhà nước)/Giấy chứng nhận góp vốn/Biên bản góp vốn kèm chứng từ chứng minh phần vốn góp (nếu có);
+   (viii) Văn bản uỷ quyền của người đại diện theo pháp luật (nếu có), trong đó phải có nội dung ủy quyền về số tiền vay, mục đích sử dụng vốn vay, thời hạn vay vốn, TSBĐ (trường hợp cho vay có bảo đảm bằng tài sản);
+   (ix) Giấy tờ khác (nếu có).
+   b) Hồ sơ pháp lý khách hàng cá nhân:
+   (i) Chứng minh nhân dân/Căn cước công dân/Hộ chiếu;
+   (ii) Tài liệu chứng minh và/hoặc căn cứ về nơi cư trú (trừ trường hợp khách hàng có nơi ở hiện tại phù hợp với nơi thường trú trên Chứng minh thư/Căn cước công dân);
+   (iii) Văn bản ủy quyền của cá nhân trong trường hợp vay vốn chung (nếu có);
+   (iv) Giấy chứng nhận đăng ký hộ kinh doanh (trường hợp phải đăng ký);
+   (v) Giấy chứng nhận đăng ký doanh nghiệp (đối với DNTN);
+   (vi) Các giấy tờ khác (nếu có).
+   c) Hồ sơ kinh tế:
+   (i) Khách hàng pháp nhân, DNTN phải lập báo cáo tài chính: Báo cáo tài chính nộp cho cơ quan nhà nước có thẩm quyền và/hoặc Báo cáo tài chính đã kiểm toán 02 năm gần nhất và trong thời gian vay vốn (việc lập báo cáo tài chính, thời gian lập và nộp báo cáo tài chính theo quy định của pháp luật); Báo cáo tình hình tài chính đến ngày cuối quý gần nhất tại thời điểm vay vốn (bao gồm cả khách hàng mới thành lập chưa đủ thời gian phải lập Báo cáo tài chính năm);
+   (ii) Khách hàng vay phục vụ nhu cầu đời sống, tài liệu chứng minh nguồn trả nợ như: Giấy xác nhận thu nhập/Bảng lương/Sổ phụ tài khoản tiền gửi thanh toán (đối với trả lương qua tài khoản)...; Báo cáo tình hình thu nhập trong thời gian vay vốn;
+   (iii) Các giấy tờ khác (nếu có).
+   d) Hồ sơ cho vay:
+   (i) Phương án sử dụng vốn kèm các tài liệu có liên quan đến phương án kinh doanh, dự án đầu tư (quyết định đầu tư, ý kiến về thiết kế cơ sở, các tài liệu liên quan đến quản lý rủi ro môi trường theo quy định của pháp luật,...); phương án, dự án phục vụ nhu cầu đời sống;
+   (ii) Tài liệu do Trung tâm thông tin tín dụng quốc gia Việt Nam (CIC) cung cấp tại thời điểm thẩm định, quyết định cho vay, rà soát, đánh giá hạn mức hàng năm tối thiểu phải có thông tin chi tiết quan hệ tín dụng của khách hàng (trừ trường hợp không phải thu nhập thông tin CIC);
+   (iii) Các hợp đồng mua bán hàng hóa, cung ứng dịch vụ; các tài liệu, chứng từ liên quan đến sử dụng vốn vay (xuất trình khi giải ngân tiền vay);
+   (iv) Báo cáo đề xuất cho vay, Báo cáo thẩm định, Báo cáo thẩm định lại (nếu có), Báo cáo đề xuất giải ngân/Báo cáo đề xuất giải ngân kiêm giấy nhận nợ;
+   (v) Biên bản họp/Bảng tổng hợp ý kiến Hội đồng tín dụng (trường hợp qua Hội đồng tín dụng);
+   (vi) Tờ trình về việc phê duyệt cho vay vượt thẩm quyền;
+   (vii) Các loại văn bản: phê duyệt cho vay, từ chối cho vay, thông báo nợ đến hạn, quá hạn...
+   (viii) HĐTD;
+   (ix) Giấy nhận nợ (trường hợp phải lập giấy nhận nợ);
+   (x) HĐBĐ và các giấy tờ có liên quan đến thủ tục về bảo đảm tiền vay; các giấy tờ liên quan đến TSBĐ theo quy định (Giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu tài sản, Hợp đồng bảo hiểm tài sản, Báo cáo tiến độ hình thành tài sản trong trường hợp nhận thế chấp bằng tài sản hình thành trong tương lai...);
+   (xi) Báo cáo việc sử dụng vốn vay và chứng minh vốn vay được sử dụng đúng mục đích của khách hàng;
+   (xii) Bản kê khai người có liên quan của khách hàng (chỉ áp dụng khi trong phương án sử dụng vốn vay của khách hàng không có kê khai về người có liên quan);
+   (xiii) Biên bản kiểm tra sử dụng vốn vay, Biên bản kiểm tra tình hình hoạt động kinh doanh, Biên bản kiểm tra TSBĐ (trường hợp vay có bảo đảm);
+   (xiv) Giấy đề nghị cơ cấu lại thời hạn trả nợ kiêm phương án trả nợ; Báo cáo đánh giá, đề xuất cơ cấu lại thời hạn trả nợ (nếu có);
+   (xv) Các tài liệu khác (nếu có).
+
+### <a id="Điều-14-Quản-lý-Bộ-hồ-sơ-vay-vốn"></a>Điều 14. Quản lý Bộ hồ sơ vay vốn
+1. Tại nơi phê duyệt vượt thẩm quyền: Người thẩm định lại tập hợp, bàn giao toàn bộ hồ sơ vay vốn được phê duyệt vượt thẩm quyền cho đơn vị quản lý và lưu giữ hồ sơ theo quy định.
+2. Tại Agribank nơi cho vay:
+   a) Sau khi khoản vay được phê duyệt/quyết định cho vay, Người thẩm định bàn giao bộ hồ sơ vay vốn cho Người quản lý nợ;
+   b) Người quản lý nợ bàn giao hồ sơ cho GDV:
+   (i) Bản gốc Báo cáo đề xuất cho vay, Báo cáo thẩm định (nếu có), Phương án sử dụng vốn/Phương án sử dụng vốn kiêm báo cáo đề xuất cho vay;
+   (ii) Bản chính thông báo phê duyệt cho vay (nếu có);
+   (iii) Bản gốc HĐTD và Hợp đồng sửa đổi, bổ sung HĐTD (nếu có);
+   (iv) Bản gốc HĐBĐ, Biên bản xác định giá trị TSBĐ, Đơn yêu cầu đăng ký biện pháp bảo đảm và Hợp đồng sửa đổi, bổ sung HĐBĐ (nếu có);
+   (v) Bản gốc/Bản chính giấy tờ chứng minh về quyền sở hữu, quyền sử dụng TSBĐ (nếu có);
+   (vi) Bản gốc Báo cáo đề xuất giải ngân đối với cho vay pháp nhân và chủ DNTN; Bản gốc Báo cáo đề xuất giải ngân kiêm giấy nhận nợ đối với cho vay cá nhân giải ngân từ 02 lần trở lên;
+   (vii) Bản gốc Giấy nhận nợ đối với cho vay pháp nhân và chủ DNTN;
+   (viii) Bản chính/bản sao chứng từ chứng minh mục đích sử dụng vốn.
+   Trong quá trình quản lý khoản vay, Người quản lý nợ có trách nhiệm tiếp tục bổ sung các tài liệu phát sinh sau khi cho vay vào bộ hồ sơ vay vốn và tiến hành bàn giao cho GDV (nếu có).
+   c) Người quản lý nợ quản lý các tài liệu ngoài các hồ sơ, tài liệu bàn giao cho GDV.
+3. Bàn giao hồ sơ vay vốn giữa các cá nhân/bộ phận phải lập Phiếu giao nhận hồ sơ.
+
+### <a id="Điều-15-Thỏa-thuận-cho-vay"></a>Điều 15. Thỏa thuận cho vay
+1. Thỏa thuận cho vay được lập thành văn bản dưới hình thức HĐTD trong đó tối thiểu có các nội dung sau:
+   a) Ngày, tháng, năm ký HĐTD;
+   b) Tên, địa chỉ, mã số doanh nghiệp của Agribank nơi cho vay; tên, địa chỉ, số chứng minh nhân dân/căn cước công dân/hộ chiếu hoặc mã số doanh nghiệp của khách hàng;
+   c) Số tiền cho vay; hạn mức cho vay đối với trường hợp cho vay theo hạn mức và/hoặc hạn mức thấu chi đối với trường hợp cho vay theo hạn mức thấu chi trên tài khoản thanh toán; hạn mức cho vay dự phòng đối với trường hợp cho vay theo hạn mức cho vay dự phòng;
+   d) Mục đích sử dụng vốn vay;
+   đ) Đồng tiền cho vay, đồng tiền trả nợ;
+   e) Phương thức cho vay;
+   g) Thời hạn cho vay, kỳ hạn trả nợ; thời gian duy trì hạn mức đối với trường hợp cho vay theo hạn mức và/hoặc thời gian duy trì hạn mức thấu chi đối với trường hợp cho vay theo hạn mức thấu chi trên tài khoản thanh toán; thời hạn hiệu lực của hạn mức cho vay dự phòng đối với trường hợp cho vay theo hạn mức dự phòng;
+   h) Lãi suất cho vay theo thỏa thuận và mức lãi suất quy đổi theo tỷ lệ %/năm tính theo số dư nợ cho vay thực tế và thời gian duy trì số dư nợ cho vay thực tế đó; nguyên tắc và các yếu tố xác định lãi suất, thời điểm xác định lãi suất cho vay đối với trường hợp áp dụng lãi suất cho vay có điều chỉnh; phí và lãi suất áp dụng đối với trả nợ trước hạn; lãi suất áp dụng đối với dư nợ gốc bị quá hạn; lãi suất áp dụng đối với lãi chậm trả; loại phí, thời điểm trả phí liên quan đến khoản vay và mức phí áp dụng;
+   i) Bảo đảm tiền vay (nếu có);
+   k) Điều kiện giải ngân, việc sử dụng phương tiện thanh toán để giải ngân;
+   l) Việc trả nợ gốc, lãi tiền vay và thứ tự thu hồi nợ gốc, lãi tiền vay; trả nợ trước hạn;
+   m) Cơ cấu lại thời hạn trả nợ; chuyển nợ quá hạn đối với số dư nợ gốc mà khách hàng không trả được nợ đúng hạn theo thỏa thuận và không được Agribank chấp thuận cơ cấu lại thời hạn trả nợ; hình thức và nội dung thông báo chuyển nợ quá hạn;
+   n) Trách nhiệm của khách hàng trong việc thực hiện các cam kết với Agribank; cung cấp các tài liệu liên quan đến khoản vay để Agribank thẩm định và quyết định cho vay; kiểm tra, giám sát việc sử dụng vốn vay và trả nợ của khách hàng;
+   o) Các trường hợp chấm dứt cho vay, thu nợ trước hạn, chuyển nợ quá hạn đối với số dư nợ gốc mà khách hàng không trả được nợ trước hạn khi Agribank chấm dứt cho vay, thu hồi nợ trước hạn; hình thức và nội dung thông báo chấm dứt cho vay, thu hồi nợ trước hạn;
+   p) Xử lý nợ vay, phạt vi phạm và bồi thường thiệt hại;
+   q) Quyền và trách nhiệm của các bên;
+   r) Hiệu lực của HĐTD;
+   s) Các nội dung thỏa thuận khác.
+2. Số hiệu HĐTD được dẫn chiếu tại HĐBĐ (nếu có) phải cùng số hiệu HĐTD giao cho khách hàng và số hiệu HĐTD lưu giữ tại Agribank nơi cho vay.
+3. Ngoài các nội dung theo khoản 1 Điều này, Agribank nơi cho vay có thể thỏa thuận với khách hàng các nội dung khác đảm bảo quyền lợi của Agribank và không trái với quy định của pháp luật.
+4. Trong từng trường hợp cụ thể, Tổng Giám đốc quyết định sử dụng HĐTD theo mẫu hoặc điều kiện giao dịch chung trong ký kết HĐTD như sau:
+   a) Niêm yết công khai hợp đồng theo mẫu, điều kiện giao dịch chung về cho vay tại trụ sở và đăng tải trên trang thông tin điện tử của Agribank;
+   b) Cung cấp đầy đủ thông tin về hợp đồng theo mẫu, điều kiện giao dịch chung cho khách hàng biết trước khi ký kết Thỏa thuận cho vay và có xác nhận của khách hàng về việc đã được Agribank nơi cho vay cung cấp đầy đủ thông tin.
+5. Sổ vay vốn: Sổ vay vốn được lập để sử dụng nhiều lần vay, trả nợ giữa khách hàng và Agribank. Sổ vay vốn áp dụng đối với khách hàng cá nhân vay vốn theo hạn mức quy mô nhỏ, cho vay không có bảo đảm bằng tài sản theo chính sách của Chính phủ. Việc áp dụng hay không áp dụng sổ vay vốn do Giám đốc Agribank nơi cho vay quyết định.
+
+# <a id="Chương-III-PHƯƠNG-THỨC-CHO-VAY-VÀ-MỘT-SỐ-ĐỐI-TƯỢNG-CHO-VAY-CỤ-THỂ"></a>Chương III. PHƯƠNG THỨC CHO VAY VÀ MỘT SỐ ĐỐI TƯỢNG CHO VAY CỤ THỂ
+## <a id="Mục-1-CHO-VAY-THEO-HẠN-MỨC"></a>Mục 1. CHO VAY THEO HẠN MỨC
+### <a id="Điều-16-Cho-vay-theo-hạn-mức"></a>Điều 16. Cho vay theo hạn mức
+1. Cho vay theo hạn mức là việc Agribank nơi cho vay xác định và thỏa thuận với khách hàng hạn mức cho vay tối đa duy trì trong một khoảng thời gian nhất định.
+2. Hạn mức cấp tín dụng bao gồm hạn mức cho vay ngắn hạn (hạn mức vay vốn) và hạn mức cấp tín dụng khác (bảo lãnh, cam kết phát hành dưới hình thức L/C, chiết khấu và các hình thức cấp tín dụng theo quy định của pháp luật). Hạn mức cấp tín dụng có thể được cấp bằng đồng Việt Nam (VND) và/hoặc ngoại tệ.
+3. Trường hợp cho vay theo hạn mức đồng thời với việc cấp hạn mức đối với các nghiệp vụ cấp tín dụng khác, Agribank nơi cho vay thực hiện thẩm định, xét duyệt, quản lý... khoản cấp tín dụng theo các quy định hiện hành của Agribank về các nghiệp vụ cấp tín dụng khác.
+4. Trong thời gian duy trì hạn mức và hạn mức đã thỏa thuận, khách hàng được phép giải ngân vốn cho vay, phát hành bảo lãnh, cam kết phát hành dưới hình thức L/C, khi đáp ứng đầy đủ điều kiện giải ngân, mở L/C, phát hành bảo lãnh.
+
+### <a id="Điều-17-Căn-cứ-xác-định-hạn-mức"></a>Điều 17. Căn cứ xác định hạn mức
+1. Nhu cầu sử dụng vốn, bảo lãnh, mở L/C và các hình thức cấp tín dụng khác; vốn đối ứng của khách hàng.
+2. Khả năng tài chính của khách hàng.
+3. Giá trị TSBĐ (trường hợp cấp tín dụng có bảo đảm bằng tài sản).
+4. Các giới hạn tín dụng và khả năng nguồn vốn của Agribank.
+
+### <a id="Điều-18-Thời-gian-duy-trì-hạn-mức-thời-hạn-cho-vay-kỳ-hạn-trả-nợ"></a>Điều 18. Thời gian duy trì hạn mức, thời hạn cho vay, kỳ hạn trả nợ
+1. Đối với các khách hàng xếp hạng từ A1 đến A8 theo HTXH tại thời điểm ngày cuối quý gần nhất tính đến thời điểm thẩm định, Agribank nơi cho vay được xem xét thời gian duy trì hạn mức tối đa 36 tháng. Các trường hợp còn lại (trừ khách hàng cá nhân vay theo hạn mức quy mô nhỏ), thời gian duy trì hạn mức tối đa 12 tháng.
+2. Trường hợp thời gian duy trì hạn mức trên 12 tháng, khách hàng không được gia hạn khi hết thời hạn duy trì hạn mức. Một năm ít nhất một lần, Agribank nơi cho vay đánh giá, xác định mức cấp tín dụng tối đa, thời gian duy trì hạn mức và quyết định tiếp tục duy trì hạn mức (bao gồm cả các khoản vay đã được phê duyệt vượt thẩm quyền).
+3. Thời hạn cho vay, kỳ hạn trả nợ, thời hạn hiệu lực của cam kết bảo lãnh, thời hạn hiệu lực L/C xác định theo từng lần giải ngân trên giấy nhận nợ, cam kết bảo lãnh, hồ sơ phát hành L/C và có thể vượt quá thời gian duy trì hạn mức.
+
+### <a id="Điều-19-Giải-ngân-vốn-vay-phát-hành-bảo-lãnh-phát-hành-LC-chiết-khấu"></a>Điều 19. Giải ngân vốn vay, phát hành bảo lãnh, phát hành L/C, chiết khấu
+1. Giải ngân vốn vay: mỗi lần giải ngân vốn vay, Agribank nơi cho vay phải rà soát, đánh giá nhu cầu vay vốn, hồ sơ giải ngân đáp ứng các điều kiện theo quy định hiện hành.
+2. Phát hành bảo lãnh, phát hành L/C, chiết khấu: mỗi lần khách hàng có nhu cầu phát hành bảo lãnh, mở L/C, chiết khấu, Agribank nơi cho vay đánh giá, thẩm định và quyết định cấp bảo lãnh, phát hành L/C, chiết khấu; thực hiện các thủ tục cần thiết khác theo quy định hiện hành về bảo lãnh ngân hàng, phát hành L/C, chiết khấu. Trong phạm vi và thời gian duy trì hạn mức, Agribank nơi cho vay thực hiện phát hành bảo lãnh ngân hàng, phát hành L/C, chiết khấu.
+3. Trường hợp thời gian duy trì hạn mức đã hết, khách hàng không được cấp lại hạn mức hoặc được cấp hạn mức thấp hơn, L/C đến hạn thanh toán được bảo đảm nguồn vốn thanh toán bằng vốn vay trong hạn mức đã cấp, Agribank nơi cho vay được xem xét giải ngân cho vay để thanh toán L/C theo quy định hiện hành.
+
+### <a id="Điều-20-Điều-chỉnh-hạn-mức-gia-hạn-thời-gian-duy-trì-hạn-mức"></a>Điều 20. Điều chỉnh hạn mức, gia hạn thời gian duy trì hạn mức
+1. Điều chỉnh hạn mức:
+   a) Trong thời gian duy trì hạn mức, khách hàng có nhu cầu điều chỉnh hạn mức thì lập giấy đề nghị gửi Agribank nơi cho vay;
+   b) Agribank nơi cho vay xem xét, thẩm định và quyết định điều chỉnh hạn mức theo quy định hiện hành.
+2. Gia hạn thời gian duy trì hạn mức:
+   a) Trên cơ sở Giấy đề nghị gia hạn thời gian duy trì hạn mức, Agribank nơi cho vay xem xét gia hạn thời gian duy trì hạn mức trong trường hợp quy mô hoạt động sản xuất kinh doanh của khách hàng không thay đổi, phương án sử dụng vốn kỳ kế hoạch không có nhiều biến động hoặc vì lý do khách quan hợp lý để xem xét cấp hạn mức mới như đang chờ báo cáo tài chính được kiểm toán, chờ phê duyệt kế hoạch sản xuất kinh doanh của cấp có thẩm quyền,...;
+   b) Điều kiện gia hạn thời gian duy trì hạn mức: khách hàng đáp ứng đủ các điều kiện cấp tín dụng theo quy định hiện hành; sử dụng vốn vay đúng mục đích; thực hiện đúng và đầy đủ các cam kết tại HĐTD trước đó và các điều kiện cấp tín dụng theo Thông báo phê duyệt của cấp có thẩm quyền (nếu có); khách hàng không bị giảm xếp hạng tín dụng nội bộ theo quy định của Agribank so với thời điểm xác định hạn mức cho vay hiện hành;
+   c) Cấp phê duyệt/quyết định cấp hạn mức có thẩm quyền gia hạn thời gian duy trì hạn mức tối đa 12 tháng. Thẩm quyền phê duyệt/quyết định gia hạn thời gian duy trì hạn mức được xác định theo thẩm quyền cấp tín dụng tại thời điểm xem xét gia hạn;
+   d) Trường hợp việc gia hạn thời gian duy trì hạn mức phải thông qua Hội đồng tín dụng, thực hiện theo quy định về tổ chức và hoạt động của Hội đồng tín dụng trong hệ thống Agribank;
+   đ) Việc gia hạn thời gian duy trì hạn mức cho vay được thực hiện trước hoặc trong thời gian 30 ngày làm việc kể từ ngày hết thời hạn duy trì của hạn mức cho vay.
+3. Trường hợp đồng ý điều chỉnh hạn mức, gia hạn thời gian duy trì hạn mức, Agribank nơi cho vay cùng khách hàng lập Hợp đồng sửa đổi, bổ sung HĐTD.
+
+### <a id="Điều-21-Ký-kết-hợp-đồng-hạn-mức-mới"></a>Điều 21. Ký kết hợp đồng hạn mức mới
+1. Nếu có nhu cầu tiếp tục vay theo hạn mức mới, khách hàng gửi Agribank nơi cho vay phương án sử dụng vốn kỳ tiếp theo kèm các tài liệu liên quan.
+2. Căn cứ vào nhu cầu vốn của khách hàng, Agribank nơi cho vay tiến hành thẩm định để xác định hạn mức và thời gian duy trì hạn mức mới.
+3. Sau khi xác định hạn mức và thời gian duy trì hạn mức, Agribank nơi cho vay và khách hàng phải ký kết HĐTD mới. Toàn bộ dư nợ, số dư bảo lãnh, cam kết phát hành dưới hình thức L/C và số dư của các hình thức cấp tín dụng khác của HĐTD theo hạn mức cũ được chuyển sang theo dõi tại HĐTD theo hạn mức mới.
+
+## <a id="Mục-2-CHO-VAY-THEO-HẠN-MỨC-QUY-MÔ-NHỎ-ĐỐI-VỚI-KHÁCH-HÀNG-CÁ-NHÂN"></a>Mục 2. CHO VAY THEO HẠN MỨC QUY MÔ NHỎ ĐỐI VỚI KHÁCH HÀNG CÁ NHÂN
+### <a id="Điều-22-Cho-vay-theo-hạn-mức-quy-mô-nhỏ"></a>Điều 22. Cho vay theo hạn mức quy mô nhỏ
+Cho vay theo hạn mức quy mô nhỏ đối với khách hàng cá nhân là việc Agribank nơi cho vay thỏa thuận cho khách hàng vay một hạn mức dư nợ tối đa được duy trì trong một thời hạn nhất định.
+1. Đối tượng áp dụng: khách hàng cá nhân, các cá nhân có nhu cầu vay vốn phục vụ hoạt động sản xuất kinh doanh, nhu cầu đời sống; loại cho vay bao gồm ngắn hạn và/hoặc trung hạn.
+2. Hạn mức cho vay:
+   a) Agribank nơi cho vay căn cứ vào nhu cầu vay vốn, khả năng trả nợ của khách hàng để quyết định hạn mức cho vay nhưng tối đa không vượt quá 500 triệu đồng đối với một khách hàng;
+   b) Trong cho vay theo hạn mức quy mô nhỏ có thể bao gồm cho vay từng lần, cho vay theo hạn mức thấu chi trên tài khoản thanh toán, phát hành thẻ tín dụng. Việc xác định hạn mức, thủ tục cho vay theo hạn mức thấu chi, phát hành thẻ tín dụng theo quy định hiện hành của Agribank.
+
+### <a id="Điều-23-Căn-cứ-xác-định-hạn-mức-cho-vay"></a>Điều 23. Căn cứ xác định hạn mức cho vay
+1. Quy mô, điều kiện sản xuất, kinh doanh: diện tích đất và/hoặc mặt nước sản xuất, chuồng trại chăn nuôi, số lượng lao động,....
+2. Nhu cầu chi phí trong năm: chi phí phục vụ hoạt động kinh doanh (căn cứ định mức kinh tế - kỹ thuật đối với loại cây trồng, vật nuôi, ngành nghề hoạt động kinh doanh), chi phí phục vụ đời sống.
+3. Khả năng về vốn đối ứng của khách hàng.
+4. Khả năng trả nợ của khách hàng (thu nhập từ hoạt động kinh doanh và các nguồn thu nhập khác).
+5. Tài sản bảo đảm (nếu có).
+
+### <a id="Điều-24-Thời-gian-duy-trì-hạn-mức-thời-hạn-cho-vay-kỳ-hạn-trả-nợ"></a>Điều 24. Thời gian duy trì hạn mức, thời hạn cho vay, kỳ hạn trả nợ
+1. Agribank xem xét xác định và thỏa thuận với khách hàng thời gian duy trì hạn mức tối đa 36 tháng.
+2. Thời hạn cho vay, kỳ hạn trả nợ xác định theo từng lần giải ngân trên Báo cáo đề xuất giải ngân kiêm giấy nhận nợ và có thể vượt quá thời gian duy trì hạn mức.
+3. Một năm ít nhất một lần, Agribank nơi cho vay đánh giá, xác định hạn mức cho vay tối đa và thời gian duy trì hạn mức này. Trường hợp có thay đổi hạn mức cho vay, Agribank nơi cho vay cùng khách hàng ký Hợp đồng sửa đổi, bổ sung HĐTD.
+
+### <a id="Điều-25-Quản-lý-hạn-mức-cho-vay"></a>Điều 25. Quản lý hạn mức cho vay
+1. Trong thời gian duy trì hạn mức cho vay đã được ký kết, khách hàng có thể được giải ngân một hay nhiều lần phù hợp với mục đích sử dụng vốn.
+2. Trước khi giải ngân cho vay đối với khách hàng, Agribank nơi cho vay phải tiến hành đánh giá và lập Báo cáo đề xuất giải ngân kiêm giấy nhận nợ kèm theo các chứng từ phù hợp với mục đích sử dụng vốn.
+3. Agribank nơi cho vay phải quản lý hạn mức cho vay, đảm bảo dư nợ của khách hàng vay tại mọi thời điểm không được vượt quá hạn mức cho vay đã được ký kết.
+4. Khách hàng đang có dư nợ cho vay theo hạn mức quy mô nhỏ, nếu có nhu cầu vay vốn để thực hiện phương án sử dụng vốn khác, Agribank nơi cho vay có thể xem xét cho vay từng lần trong trường hợp:
+   a) Nguồn thu để trả nợ chưa được tính vào trong phương án sử dụng vốn theo hạn mức quy mô nhỏ;
+   b) Đáp ứng yêu cầu về bảo đảm tiền vay và các điều kiện cho vay đối với khách hàng theo quy định hiện hành của Agribank.
+
+### <a id="Điều-26-Điều-chỉnh-hạn-mức-gia-hạn-thời-gian-duy-trì-hạn-mức-cho-vay-và-ký-kết-hạn-mức-cho-vay-mới"></a>Điều 26. Điều chỉnh hạn mức, gia hạn thời gian duy trì hạn mức cho vay và ký kết hạn mức cho vay mới
+1. Điều chỉnh hạn mức, gia hạn thời gian duy trì hạn mức cho vay:
+   a) Khách hàng có nhu cầu điều chỉnh hạn mức cho vay/gia hạn thời gian duy trì hạn mức cho vay, lập giấy đề nghị điều chỉnh hạn mức cho vay/gia hạn thời gian duy trì hạn mức cho vay gửi Agribank nơi cho vay;
+   b) Trên cơ sở đề nghị của khách hàng, Agribank nơi cho vay thực hiện thẩm định và xem xét chấp thuận điều chỉnh hạn mức cho vay/gia hạn thời gian duy trì hạn mức nếu khách hàng đáp ứng các điều kiện theo quy định hiện hành.
+2. Khi hết thời gian duy trì hạn mức cho vay, khách hàng có thể được gia hạn nếu thực hiện đúng nội dung đã thỏa thuận trong HĐTD và nhu cầu vốn kỳ tiếp theo không thay đổi. Việc gia hạn thời gian duy trì hạn mức cho vay như sau:
+   a) Chỉ thực hiện gia hạn hạn mức một lần và tối đa không quá 12 tháng;
+   b) Thực hiện gia hạn hạn mức trước hoặc trong thời gian 10 ngày làm việc tính đến ngày hết thời hạn duy trì của hạn mức cho vay.
+3. Agribank nơi cho vay cùng khách hàng ký hợp đồng sửa đổi, bổ sung hợp đồng tín dụng trong trường hợp:
+   a) Điều chỉnh hạn mức theo điểm a khoản 1 Điều này;
+   b) Trên cơ sở đánh giá hạn mức cho vay hằng năm, trường hợp có thay đổi hạn mức cho vay Agribank nơi cho vay cùng khách hàng ký bổ sung HĐTD.
+4. Ký kết hợp đồng hạn mức cho vay mới: nếu có nhu cầu tiếp tục vay theo hạn mức mới, khách hàng gửi Agribank nơi cho vay phương án sử dụng vốn kỳ tiếp theo kèm các tài liệu liên quan. Agribank nơi cho vay tiến hành thẩm định để xác định hạn mức cho vay và thời hạn của hạn mức cho vay mới. Số dư nợ của HĐTD theo hạn mức cũ được chuyển sang HĐTD theo hạn mức mới.
+
+## <a id="Mục-3-RÀ-SOÁT-ĐÁNH-GIÁ-HẠN-MỨC-HÀNG-NĂM"></a>Mục 3. RÀ SOÁT, ĐÁNH GIÁ HẠN MỨC HÀNG NĂM
+### <a id="Điều-27-Đối-tượng-áp-dụng-tần-suất-và-thời-điểm-đánh-giá-hạn-mức"></a>Điều 27. Đối tượng áp dụng, tần suất và thời điểm đánh giá hạn mức
+1. Đối tượng áp dụng: cho vay theo hạn mức (bao gồm cả cho vay hạn mức quy mô nhỏ) có thời gian duy trì trên 12 tháng.
+2. Tần suất đánh giá: tối thiểu 01 lần trong vòng 12 tháng kể từ khi quyết định cấp hạn mức hoặc kể từ lần đánh giá liền kề trước đó.
+3. Thời điểm đánh giá:
+   a) Đối với khách hàng cá nhân: thời điểm đánh giá theo khoản 2 Điều này;
+   b) Đối với khách hàng pháp nhân: sau khi có báo cáo tài chính năm, kế hoạch kinh doanh năm được phê duyệt;
+   c) Đối với khách hàng là chủ DNTN: sau khi có báo cáo tài chính năm.
+
+### <a id="Điều-28-Căn-cứ-rà-soát-đánh-giá-hạn-mức"></a>Điều 28. Căn cứ rà soát, đánh giá hạn mức
+1. Việc chấp hành các thỏa thuận, cam kết tại Hợp đồng hạn mức giữa Agribank và khách hàng.
+2. Kết quả kinh doanh, tình hình tài chính của khách hàng năm trước liền kề.
+3. Phương án sử dụng vốn và nhu cầu vốn của khách hàng.
+
+### <a id="Điều-29-Điều-kiện-duy-trì-hạn-mức"></a>Điều 29. Điều kiện duy trì hạn mức
+1. Khách hàng đáp ứng các nội dung sau sẽ được tiếp tục duy trì thời gian hạn mức và giữ nguyên hạn mức:
+   a) Khách hàng xếp hạng từ A1 đến A8 theo HTXH tại thời điểm ngày cuối quý gần nhất tính đến thời điểm rà soát, đánh giá hạn mức (trừ khách hàng vay vốn theo hạn mức quy mô nhỏ);
+   b) Thực hiện đầy đủ các nội dung đã thỏa thuận tại HĐTD;
+   c) Nhu cầu vay vốn của khách hàng tại Agribank không giảm so với thời điểm phê duyệt. Nhu cầu vay vốn của khách hàng tại Agribank căn cứ vào chi phí sản xuất kinh doanh năm của năm tiếp theo, vốn chủ sở hữu, nguồn vốn vay của các TCTD khác, nguồn vốn khác.
+2. Khách hàng đáp ứng điểm a, b khoản 1 Điều này nhưng nhu cầu vay vốn của khách hàng tại Agribank tại điểm c khoản 1 Điều này giảm sẽ được tiếp tục duy trì thời hạn hạn mức tối đa 12 tháng và điều chỉnh giảm mức dư nợ cho vay tối đa tương ứng.
+
+### <a id="Điều-30-Quy-trình-rà-soát-đánh-giá-hạn-mức"></a>Điều 30. Quy trình rà soát, đánh giá hạn mức
+1. Người quản lý nợ: căn cứ Điều 27, 28, 29 Quy định này thực hiện rà soát, đánh giá, lập Báo cáo đánh giá xác định hạn mức theo quy định và đề xuất tiếp tục/không tiếp tục duy trì thời hạn của hạn mức; mức cấp tín dụng tối đa và trình Người kiểm soát khoản vay.
+2. Người kiểm soát khoản vay: trên cơ sở đánh giá của Người quản lý nợ trên Báo cáo đánh giá xác định hạn mức, Người kiểm soát khoản vay đánh giá các nội dung tại Điều 27, 28, 29 Quy định này, ký tắt các trang báo cáo và đề xuất tiếp tục/không tiếp tục duy trì thời hạn của hạn mức, mức cấp tín dụng tối đa và trình Người quyết định cho vay.
+3. Người quyết định cho vay: trên cơ sở đánh giá của Người quản lý nợ, Người kiểm soát khoản vay tại báo cáo đánh giá hạn mức, Người quyết định cho vay xem xét quyết định tiếp tục/không tiếp tục duy trì thời hạn của hạn mức, mức cấp tín dụng tối đa. Trường hợp không duy trì thời hạn của hạn mức: thông báo bằng văn bản cho khách hàng.
+Trong quá trình rà soát, đánh giá hạn mức, Người kiểm soát khoản vay có thể yêu cầu đơn vị kiểm tra, giám sát khoản vay cung cấp kết quả kiểm tra, giám sát.
+
+## <a id="Mục-4-CÁC-PHƯƠNG-THỨC-CHO-VAY-KHÁC"></a>Mục 4. CÁC PHƯƠNG THỨC CHO VAY KHÁC
+### <a id="Điều-31-Cho-vay-theo-hạn-mức-dự-phòng"></a>Điều 31. Cho vay theo hạn mức dự phòng
+1. Nội dung và đối tượng áp dụng
+   a) Cho vay theo hạn mức dự phòng là việc Agribank cam kết đảm bảo sẵn sàng cho khách hàng vay vốn trong phạm vi hạn mức cho vay dự phòng đã thỏa thuận ngoài mức tín dụng được ký giữa Agribank và khách hàng;
+   b) Thời hạn hiệu lực của hạn mức cho vay dự phòng tối đa 12 tháng;
+   c) Trường hợp cho vay phục vụ hoạt động kinh doanh, có thể kết hợp phương thức cho vay theo hạn mức dự phòng với phương thức cho vay từng lần và các phương thức cho vay khác nêu tại Quy định này;
+   d) Cho vay theo hạn mức dự phòng áp dụng đối với khách hàng pháp nhân và chủ DNTN vay vốn phục vụ hoạt động kinh doanh của DNTN.
+2. Thẩm định, xét duyệt cho vay và sử dụng hạn mức dự phòng
+   a) Agribank nơi cho vay thực hiện thẩm định, quyết định cấp hạn mức dự phòng khi khách hàng cung cấp đầy đủ hồ sơ vay vốn và đáp ứng đầy đủ các điều kiện cho vay theo quy định hiện hành:
+   (i) Trường hợp khoản vay vượt thẩm quyền, Agribank nơi cho vay trình phê duyệt vượt thẩm quyền theo quy định;
+   (ii) Trường hợp kết hợp phương thức cho vay theo hạn mức dự phòng với các phương thức khác, thực hiện thẩm định/thẩm định lại, quyết định cho vay theo hạn mức dự phòng cùng các phương thức khác trên cùng một báo cáo đề xuất cho vay, báo cáo thẩm định, báo cáo thẩm định lại (nếu có) và phải ghi rõ mức cho vay theo hạn mức dự phòng.
+   b) Trường hợp đồng ý cho vay, Agribank nơi cho vay và khách hàng ký kết Hợp đồng hạn mức dự phòng.
+   c) Khi sử dụng hạn mức dự phòng, Agribank nơi cho vay và khách hàng ký kết HĐTD mới theo phương thức cho vay phù hợp với phương án sử dụng vốn, đồng thời Hợp đồng hạn mức dự phòng hết hiệu lực.
+3. Hạn mức cho vay dự phòng được hạch toán ngoại bảng, tính phí theo quy định hiện hành.
+
+### <a id="Điều-32-Cho-vay-quay-vòng"></a>Điều 32. Cho vay quay vòng
+1. Agribank nơi cho vay và khách hàng thỏa thuận áp dụng cho vay đối với nhu cầu vốn có chu kỳ hoạt động kinh doanh không quá 01 tháng, khách hàng được sử dụng dư nợ gốc của chu kỳ hoạt động kinh doanh trước cho chu kỳ kinh doanh tiếp theo nhưng thời hạn cho vay không vượt quá 03 tháng.
+2. Cho vay quay vòng được sử dụng đối với phương thức cho vay ngắn hạn từng lần, cho vay theo hạn mức.
+3. Agribank nơi cho vay xác định chu kỳ hoạt động kinh doanh và thời hạn cho vay để thỏa thuận với khách hàng. Kết thúc chu kỳ hoạt động kinh doanh, khách hàng phải trả lãi cho Agribank.
+4. Agribank nơi cho vay kiểm soát việc khách hàng sử dụng doanh thu của chu kỳ hoạt động kinh doanh trước cho chu kỳ hoạt động kinh doanh tiếp theo.
+
+### <a id="Điều-33-Cho-vay-tuần-hoàn"></a>Điều 33. Cho vay tuần hoàn
+1. Agribank nơi cho vay và khách hàng thỏa thuận áp dụng cho vay ngắn hạn tuần hoàn (rollover) đối với khách hàng. Agribank cho vay tuần hoàn khi khoản vay đáp ứng đầy đủ các điều kiện và nội dung sau:
+   a) Đến thời hạn trả nợ, khách hàng có quyền trả nợ hoặc kéo dài thời hạn trả nợ thêm một khoảng thời gian nhất định đối với một phần hoặc toàn bộ số dư nợ gốc của khoản vay;
+   b) Tổng thời hạn vay vốn không vượt quá 12 tháng kể từ ngày giải ngân ban đầu và không vượt quá một chu kỳ hoạt động kinh doanh;
+   c) Tại thời điểm xem xét cho vay, khách hàng được xếp hạng từ A1 đến A4 theo quy định về xếp hạng khách hàng của Agribank, không có nợ nhóm 2, nợ xấu, nợ ngoại bảng tại Agribank và các TCTD khác.
+2. Phương thức cho vay tuần hoàn có thể kết hợp với phương thức cho vay ngắn hạn từng lần, cho vay theo hạn mức.
+3. Agribank nơi cho vay kiểm soát việc sử dụng vốn vay đảm bảo chu kỳ hoạt động kinh doanh của khách hàng chưa kết thúc, tài sản hình thành từ vốn vay tương ứng với dư nợ của khách hàng.
+4. Các nội dung tại khoản 1 Điều này phải được nêu tại HĐTD.
+
+## <a id="Mục-5-MỘT-SỐ-ĐỐI-TƯỢNG-CHO-VAY-CỤ-THỂ"></a>Mục 5. MỘT SỐ ĐỐI TƯỢNG CHO VAY CỤ THỂ
+### <a id="Điều-34-Cho-vay-bù-đắp-tài-chính"></a>Điều 34. Cho vay bù đắp tài chính
+1. Cho vay bù đắp tài chính là việc Agribank cho khách hàng vay để bù đắp các chi phí đã thanh toán, chi trả bằng vốn của chính khách hàng, vốn vay từ cá nhân, tổ chức (không phải TCTD) nhằm thực hiện phương án, dự án hoạt động kinh doanh hoặc phương án, dự án phục vụ nhu cầu đời sống.
+2. Agribank xem xét, quyết định cho vay bù đắp tài chính đối với khoản vay đáp ứng:
+   a) Các điều kiện cho vay theo quy định hiện hành và khoản 4 Điều này;
+   b) Chi phí, tài sản đã hình thành trong quá trình đầu tư, còn trong quá trình sản xuất kinh doanh hoặc đã hoàn thành và đang trong quá trình sử dụng.
+3. Mức cho vay bù đắp tài chính tối đa không bao gồm vốn đối ứng tối thiểu khách hàng phải tham gia theo quy định của Agribank, giá trị khấu hao lũy kế thực tế tính đến thời điểm đề nghị vay bù đắp tài chính (nếu có).
+4. Thời gian đã sử dụng vốn để được cho vay bù đắp tài chính:
+   a) Đối tượng chi phí thuộc vốn lưu động: Agribank nơi cho vay được cho vay ngắn hạn nếu thời gian đã sử dụng vốn để được cho vay bù đắp tài chính không quá 06 tháng kể từ ngày phát sinh sử dụng vốn (ngày ghi trên chứng từ thanh toán) đến ngày khách hàng đề nghị vay vốn/ngày ghi trên Phương án sử dụng vốn/ngày nhận nợ;
+   b) Đối tượng chi phí thuộc đầu tư tài sản cố định chưa đi vào sử dụng: Agribank nơi cho vay được cho vay ngắn hạn, trung hạn, dài hạn nếu thời gian đã sử dụng vốn để được cho vay bù đắp tài chính không quá 24 tháng kể từ ngày phát sinh sử dụng vốn (ngày ghi trên chứng từ thanh toán) đến ngày khách hàng đề nghị vay vốn/ngày ghi trên Phương án sử dụng vốn/ngày nhận nợ;
+   c) Đối tượng chi phí thuộc đầu tư tài sản cố định đã đi vào sử dụng: Agribank nơi cho vay được cho vay ngắn hạn, trung hạn, dài hạn để bù đắp tài chính đối với những tài sản cố định đã đi vào sử dụng không quá 60 tháng kể từ ngày tài sản cố định đi vào sử dụng/ngày khách hàng được cấp giấy chứng quyền sở hữu, sử dụng đến ngày khách hàng đề nghị vay vốn/ngày ghi trên Phương án sử dụng vốn/ngày nhận nợ;
+   d) Thời hạn cho vay tại điểm a, b, c khoản này không vượt quá thời gian còn lại của kỳ luân chuyển vốn, thời gian khấu hao còn lại của tài sản cố định;
+   đ) Trường hợp thời gian đã sử dụng vốn vượt quá thời gian tại điểm a, b, c khoản này phải được Tổng Giám đốc chấp thuận bằng văn bản.
+5. Tài liệu về việc đã sử dụng vốn:
+   a) Có đầy đủ hóa đơn, chứng từ chứng minh về việc đã sử dụng vốn, thanh toán cho nhà cung cấp như: phiếu chi tiền, ủy nhiệm chi, sổ phụ tài khoản, bảng kê/danh sách chi tiền, giấy biên nhận (đối với cá nhân) và các tài liệu khác (nếu có);
+   b) Bản sao tài liệu, chứng từ sử dụng vốn nêu tại điểm a khoản này được đóng dấu sao y bản chính của khách hàng (đối với cá nhân ký xác nhận sao từ bản chính), Người quan hệ khách hàng/Người quản lý nợ đối chiếu với bản chính và lưu hồ sơ vay vốn.
+
+### <a id="Điều-35-Cho-vay-trả-nợ-trước-hạn-tổ-chức-tín-dụng-khác"></a>Điều 35. Cho vay trả nợ trước hạn tổ chức tín dụng khác
+Agribank nơi cho vay xem xét, quyết định cho vay để trả nợ trước hạn khoản vay tại TCTD khác theo các điều kiện và nội dung sau:
+1. Ngoài việc đáp ứng đầy đủ các điều kiện về cho vay theo quy định của Agribank, khoản vay phải đáp ứng thêm các điều kiện sau:
+   a) Thời hạn cho vay không vượt quá thời hạn cho vay còn lại của khoản vay cũ;
+   b) Khoản vay chưa thực hiện cơ cấu lại thời hạn trả nợ.
+2. Khách hàng phải cung cấp đầy đủ hồ sơ vay vốn theo quy định của Agribank, ngoài ra cần cung cấp thêm các tài liệu, hồ sơ chứng minh việc vay vốn, bao gồm bản sao y: HĐTD, giấy nhận nợ (nếu có), HĐBĐ, hồ sơ về TSBĐ tại TCTD đã cho vay; các văn bản, hợp đồng sửa đổi, bổ sung HĐTD, HĐBĐ (nếu có). Trước khi giải ngân Agribank nơi cho vay có trách nhiệm xác định nợ vay còn lại của khách hàng phải trả TCTD đã cho vay.
+3. Agribank nơi cho vay giải ngân vào tài khoản của khách hàng vay mở tại TCTD đã cho vay hoặc giải ngân cho người thụ hưởng là TCTD đã cho vay (trong đó ghi rõ nội dung “TRẢ NỢ VAY” và thông tin của khách hàng vay, số hiệu Hợp đồng tín dụng đã ký kết giữa khách hàng vay và TCTD đó).
+
+### <a id="Điều-36-Cho-vay-để-thanh-toán-tiền-nhằm-bảo-đảm-thực-hiện-nghĩa-vụ"></a>Điều 36. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ
+1. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ là việc Agribank nơi cho vay giải ngân và phong tỏa số tiền cho vay để đảm bảo thực hiện nghĩa vụ dân sự.
+2. Khách hàng phải có phương án trả nợ khả thi với nguồn trả nợ được xác định cụ thể.
+3. Khoản vay có TSBĐ theo quy định của Agribank.
+4. Agribank nơi cho vay thực hiện phong tỏa số tiền giải ngân vốn cho vay tại Agribank nơi cho vay cho đến khi chấm dứt nghĩa vụ bảo đảm theo thỏa thuận của các bên. Số tiền phong tỏa được xử lý như sau:
+   a) Trường hợp các bên thực hiện đúng nghĩa vụ dân sự theo thỏa thuận, Agribank thu nợ từ số tiền đã phong tỏa trừ trường hợp số tiền phong tỏa được khấu trừ vào nghĩa vụ trả tiền;
+   b) Trường hợp các bên có quy định nếu khách hàng không thực hiện đúng nghĩa vụ dân sự theo thỏa thuận thì số tiền phong tỏa thuộc về bên thụ hưởng, Agribank nơi cho vay chuyển số tiền đã phong tỏa cho bên thụ hưởng. Khách hàng phải trả nợ theo phương án đã thỏa thuận và/hoặc xử lý TSBĐ để thu hồi nợ;
+   c) Trường hợp bên thụ hưởng không thực hiện đúng nghĩa vụ dân sự theo thỏa thuận, Agribank thu nợ từ số tiền đã phong tỏa.
+5. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ thanh toán hợp đồng mua, nhận chuyển nhượng tài sản phải đăng ký sở hữu theo quy định của pháp luật thực hiện theo Điều 37 Quy định này.
+
+### <a id="Điều-37-Cho-vay-để-thanh-toán-tiền-nhằm-bảo-đảm-thực-hiện-nghĩa-vụ-thanh-toán-hợp-đồng-mua-nhận-chuyển-nhượng-tài-sản"></a>Điều 37. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ thanh toán hợp đồng mua, nhận chuyển nhượng tài sản
+1. Agribank nơi cho vay giải ngân và phong tỏa số tiền cho vay để đảm bảo thực hiện nghĩa vụ thanh toán tiền trong thời gian làm thủ tục mua, nhận chuyển nhượng tài sản phải đăng ký sở hữu theo quy định của pháp luật. Tài sản phải đủ điều kiện được nhận bảo đảm tiền vay theo quy định của Agribank.
+2. Agribank nơi cho vay chỉ giải tỏa số tiền đã phong tỏa để trả cho bên bán khi các bên đã hoàn thành thủ tục: mua, nhận chuyển nhượng tài sản, giao giấy chứng nhận quyền sử dụng, quyền sở hữu tài sản cho Agribank nơi cho vay và hoàn thiện bảo đảm tiền vay theo quy định.
+3. Cho vay để thanh toán tiền nhằm bảo đảm thực hiện nghĩa vụ thanh toán hợp đồng mua, nhận chuyển nhượng tài sản thực hiện theo hướng dẫn tại Phụ lục số 08/THNV-QĐ kèm theo Quy định này.
+
+# <a id="Chương-IV-QUY-TRÌNH-CHO-VAY"></a>Chương IV. QUY TRÌNH CHO VAY
+## <a id="Mục-1-XÉT-DUYỆT-CHO-VAY-TẠI-AGRIBANK-NƠI-CHO-VAY"></a>Mục 1. XÉT DUYỆT CHO VAY TẠI AGRIBANK NƠI CHO VAY
+### <a id="Điều-38-Tiếp-nhận-thu-thập-đánh-giá-hồ-sơ-thông-tin-về-nhu-cầu-vay-vốn-của-khách-hàng"></a>Điều 38. Tiếp nhận, thu thập, đánh giá hồ sơ, thông tin về nhu cầu vay vốn của khách hàng
+**Người thực hiện: Người quan hệ khách hàng**
+1. Tiếp nhận và khảo sát nhu cầu vay vốn, hướng dẫn khách hàng quy định về điều kiện vay vốn, hồ sơ, thủ tục, lãi suất cho vay, các loại sản phẩm và chính sách khách hàng của Agribank.
+2. Thu thập thông tin, hồ sơ, tài liệu về khách hàng vay vốn, phương án sử dụng vốn, TSBĐ (nếu áp dụng cho vay có bảo đảm bằng tài sản).
+3. Phối hợp với bộ phận quản lý thông tin khách hàng (CIF) thực hiện đăng ký thông tin và cấp mã khách hàng trên hệ thống IPCAS (nếu khách hàng chưa có mã CIF, khách hàng đã có thông tin CIF mà chưa xác thực thông tin), sửa đổi, bổ sung theo quy định hiện hành.
+4. Nhận diện và đánh giá người có liên quan tới khách hàng vay vốn (trừ trường hợp không phải nhận diện người có liên quan theo quy định), nhập thông tin người có liên quan của khách hàng trên hệ thống IPCAS theo quy định về việc cấp tín dụng đối với một khách hàng và người có liên quan.
+5. Thu thập thông tin về quan hệ tín dụng của khách hàng từ CIC (trừ trường hợp không phải áp dụng biện pháp kiểm tra thông tin tín dụng của khách hàng qua CIC theo quyết định của Giám đốc Chi nhánh loại I đối với các khoản vay cá nhân đến 500 triệu đồng theo chính sách tín dụng phục vụ phát triển nông nghiệp, nông thôn của Chính phủ), thông tin tín dụng tại Agribank của người có liên quan.
+6. Thu thập và cập nhật thông tin khách hàng trên HTXH hoặc đăng ký khách hàng không xếp hạng (trường hợp khách hàng thuộc đối tượng không phải xếp hạng).
+7. Rà soát, đánh giá:
+   a) Tính đầy đủ, hợp pháp, hợp lệ của bộ hồ sơ vay vốn;
+   b) Đánh giá năng lực pháp luật dân sự của khách hàng, năng lực hành vi dân sự (đối với khách hàng là cá nhân) tại thời điểm vay vốn;
+   c) Đánh giá tính hợp pháp của mục đích sử dụng vốn.
+8. Thẩm định TSBĐ (nếu áp dụng cho vay có bảo đảm bằng tài sản).
+9. Lập báo cáo đề xuất cho vay, ký tắt các trang có nội dung đánh giá của mình và đề xuất thẩm định, áp dụng hoặc không áp dụng biện pháp bảo đảm tiền vay.
+Người quan hệ khách hàng chuyển Báo cáo đề xuất cho vay cho Người thẩm định/bộ phận Thẩm định/Phòng Thẩm định.
+10. Tại Chi nhánh không có Phòng Thẩm định, một hoặc một số người thực hiện nhiệm vụ Người quan hệ khách hàng do Giám đốc Agribank nơi cho vay quyết định; tại Chi nhánh có Phòng Thẩm định, Người quan hệ khách hàng tối thiểu hai người trong đó có Lãnh đạo Phòng Khách hàng.
+
+### <a id="Điều-39-Thẩm-định-cho-vay"></a>Điều 39. Thẩm định cho vay
+**Người thực hiện: Người thẩm định**
+Thẩm định khoản vay trên cơ sở thông tin, hồ sơ vay vốn và Báo cáo đề xuất cho vay (phần báo cáo đánh giá hồ sơ và đề xuất của Người quan hệ khách hàng), trường hợp cần thiết thu thập thông tin bổ sung, cụ thể:
+1. Xác định cụ thể người có liên quan của khách hàng, tổng dư nợ cấp tín dụng của khách hàng và người có liên quan.
+2. Kết quả xếp hạng tín dụng nội bộ của khách hàng, bao gồm cả kết quả xếp hạng tín nhiệm tại các TCTD, Chi nhánh ngân hàng nước ngoài khác (nếu có).
+3. Thẩm định khả năng đáp ứng các điều kiện vay vốn của khách hàng và cơ sở để đánh giá các điều kiện vay vốn:
+   a) Đánh giá năng lực pháp luật dân sự của khách hàng, năng lực hành vi dân sự (đối với khách hàng là cá nhân) tại thời điểm vay vốn;
+   b) Đánh giá tính hợp pháp của mục đích sử dụng vốn;
+   c) Thẩm định tính khả thi của phương án sử dụng vốn;
+   d) Thẩm định khả năng tài chính để trả nợ;
+   đ) Đánh giá các yếu tố rủi ro liên quan đến khoản vay;
+   e) Đánh giá rủi ro về môi trường trong hoạt động cho vay (đối với các trường hợp phải đánh giá theo quy định).
+4. Đánh giá tình hình tài chính minh bạch, lành mạnh đối với khách hàng áp dụng mức lãi suất cho vay tối đa theo quy định của NHNN.
+5. Đánh giá tính đầy đủ về hồ sơ, tình trạng pháp lý và khả năng thu hồi của TSBĐ đối với trường hợp cho vay có bảo đảm bằng tài sản. Thẩm định khả năng thực hiện các nghĩa vụ cam kết của bên bảo lãnh (đối với các khoản cho vay có bảo lãnh của bên thứ ba).
+6. Ghi ý kiến về kết quả thẩm định, ký tắt các trang có nội dung thẩm định của mình và đề xuất việc cho vay hay không cho vay; loại cho vay, phương thức cho vay, mức cho vay, lãi suất cho vay, lãi suất quá hạn, lãi suất chậm trả, phí, thời hạn cho vay, kỳ hạn trả nợ, đồng tiền cho vay, TSBĐ (áp dụng cho vay có bảo đảm bằng tài sản). Trường hợp không đồng ý cho vay: nêu rõ lý do không đồng ý cho vay.
+Người thẩm định chuyển Báo cáo đề xuất cho vay/Báo cáo thẩm định cho Chủ tịch Hội đồng tín dụng/Người quyết định cho vay thực hiện các bước tiếp theo.
+7. Tại Chi nhánh có Phòng Thẩm định/bộ phận Thẩm định, Người thẩm định gồm tối thiểu 02 người trong đó phải có Lãnh đạo Phòng Thẩm định/bộ phận Thẩm định.
+
+### <a id="Điều-40-Thẩm-định-lại-thông-qua-Hội-đồng-tín-dụng-tại-Agribank-nơi-cho-vay"></a>Điều 40. Thẩm định lại, thông qua Hội đồng tín dụng tại Agribank nơi cho vay
+1. Thẩm định lại tại Agribank nơi cho vay
+**Người thực hiện: Người thẩm định lại**
+   a) Người có thẩm quyền tại Agribank nơi cho vay quyết định việc thẩm định lại hoặc không thẩm định lại, thẩm định lại một/một số hoặc toàn bộ kết quả thẩm định;
+   b) Báo cáo thẩm định lại là một trong các căn cứ để người có thẩm quyền xem xét quyết định cho vay. Báo cáo thẩm định lại được lập riêng hoặc tại Báo cáo đề xuất cho vay/Báo cáo thẩm định;
+   c) Người thẩm định lại không phải là Người thẩm định khoản vay.
+2. Thông qua Hội đồng tín dụng tại Agribank nơi cho vay
+Trường hợp khoản vay thuộc quy định phải thông qua Hội đồng tín dụng, quy trình và nội dung thực hiện theo quy định về tổ chức và hoạt động của Hội đồng tín dụng trong hệ thống Agribank.
+
+### <a id="Điều-41-Quyết-định-cho-vay"></a>Điều 41. Quyết định cho vay
+**Người thực hiện: Người quyết định cho vay**
+Căn cứ hồ sơ khoản vay, Báo cáo đề xuất cho vay, Báo cáo thẩm định (nếu có), Báo cáo thẩm định lại (nếu có), Biên bản họp/Bảng tổng hợp ý kiến Hội đồng tín dụng (nếu có), Người quyết định cho vay xem xét quyết định cho vay hay không cho vay theo thẩm quyền.
+1. Trường hợp đồng ý cho vay:
+   a) Đối với khoản vay thuộc thẩm quyền:
+   (i) Người quyết định cho vay ký phê duyệt trên Báo cáo đề xuất cho vay (trường hợp khoản vay không phải qua Phòng Thẩm định) hoặc Báo cáo thẩm định (trường hợp khoản vay phải qua Phòng Thẩm định);
+   (ii) Trường hợp khoản vay do Agribank nơi cho vay quyết định cho vay và phân công cho PGD thực hiện nghiệp vụ giải ngân, quản lý: ngoài nội dung đồng ý cho vay, phải có nội dung phân công cho PGD được ký kết và sử dụng con dấu của PGD để thực hiện thủ tục giải ngân với khách hàng, thực hiện quản lý hồ sơ và quản lý khoản vay, giao cho Phòng Khách hàng phê duyệt đơn xin vay trên hệ thống IPCAS do PGD khai báo.
+   b) Trường hợp khoản vay vượt thẩm quyền:
+   Người quyết định cho vay ghi ý kiến chấp thuận cho vay và giao Phòng Khách hàng hoặc Phòng Thẩm định (trường hợp khoản vay phải qua Phòng Thẩm định) lập hồ sơ trình cấp có thẩm quyền phê duyệt. Giám đốc Agribank nơi cho vay là người ký tờ trình phê duyệt.
+2. Trường hợp từ chối cho vay: ký thông báo từ chối cho vay (nếu khách hàng có yêu cầu).
+
+## <a id="Mục-2-XÉT-DUYỆT-CHO-VAY-VƯỢT-THẨM-QUYỀN-TẠI-CHI-NHÁNH-LOẠI-I"></a>Mục 2. XÉT DUYỆT CHO VAY VƯỢT THẨM QUYỀN TẠI CHI NHÁNH LOẠI I
+### <a id="Điều-42-Tiếp-nhận-hồ-sơ"></a>Điều 42. Tiếp nhận hồ sơ
+1. Đơn vị tiếp nhận hồ sơ trình phê duyệt vượt thẩm quyền: bộ phận Thẩm định/Phòng Thẩm định.
+2. Lãnh đạo phụ trách bộ phận Thẩm định/Trưởng phòng Thẩm định phân công Người thẩm định lại. Người thẩm định lại đối chiếu danh mục hồ sơ, trình vượt thẩm quyền của Agribank nơi cho vay.
+3. Trường hợp cần thiết Giám đốc Chi nhánh có thể thành lập tổ thẩm định để thẩm định lại khoản vay, nhiệm vụ của từng thành viên theo quyết định thành lập tổ thẩm định.
+
+### <a id="Điều-43-Thẩm-định-lại-hồ-sơ"></a>Điều 43. Thẩm định lại hồ sơ
+**Người thực hiện: Người thẩm định lại**
+1. Đối chiếu Danh mục hồ sơ trình vượt thẩm quyền của Chi nhánh loại II với Danh mục hồ sơ theo quy định. Trường hợp hồ sơ không đầy đủ, trong vòng 02 ngày làm việc kể từ khi tiếp nhận, Người thẩm định lại lập thông báo bằng văn bản trình Giám đốc Chi nhánh yêu cầu Chi nhánh loại II bổ sung, hoàn thiện hồ sơ. Chi nhánh loại II có trách nhiệm bổ sung, hoàn thiện hồ sơ trong thời gian tối đa 10 ngày làm việc kể từ ngày nhận được văn bản yêu cầu. Trường hợp Chi nhánh loại II không bổ sung thông tin, hồ sơ theo yêu cầu, Chi nhánh loại I từ chối phê duyệt và trả lại hồ sơ (nếu Chi nhánh loại II yêu cầu).
+2. Trong quá trình thẩm định lại nếu Người thẩm định lại thấy thiếu thông tin hoặc thông tin chưa rõ, chưa chính xác, yêu cầu Chi nhánh loại II bổ sung, hoàn thiện hồ sơ như quy định tại khoản 1 Điều này và số lần yêu cầu bổ sung hồ sơ, thông tin khoản vay tối đa 02 lần.
+3. Nội dung thẩm định lại:
+   a) Kiểm tra, rà soát tính đầy đủ, hợp lệ của hồ sơ trình phê duyệt, Tờ trình và Báo cáo đề xuất cho vay, Báo cáo thẩm định lại (nếu có) của Chi nhánh loại II với danh mục hồ sơ theo quy định;
+   b) Xem xét khả năng cân đối nguồn vốn cho vay qua Phòng Kế hoạch và Quản lý rủi ro (nếu thấy cần thiết); bộ phận Thẩm định/Phòng Thẩm định thực hiện rà soát kết quả xếp hạng tín dụng nội bộ của khách hàng;
+   c) Rà soát, đánh giá kết quả thẩm định của Chi nhánh về các điều kiện cấp tín dụng và tuân thủ các quy định liên quan đến hoạt động cấp tín dụng của NHNN và Agribank;
+   d) Đánh giá việc áp dụng biện pháp bảo đảm tiền vay theo quy định;
+   đ) Đánh giá các yếu tố rủi ro liên quan đến khoản vay;
+   e) Đánh giá rủi ro về môi trường trong hoạt động cho vay (đối với các trường hợp phải đánh giá theo quy định);
+   g) Các nội dung khác (nếu cần thiết).
+4. Lập Báo cáo thẩm định lại
+Người thẩm định lại lập, ký tắt các trang Báo cáo thẩm định lại, nêu ý kiến đề xuất phê duyệt/không phê duyệt vượt thẩm quyền (trường hợp không đồng ý phải nêu rõ lý do), ký và ghi rõ họ tên vào phần Người thẩm định lại trên Báo cáo thẩm định lại.
+5. Soạn thảo văn bản phê duyệt cho vay/từ chối phê duyệt cho vay trình người có thẩm quyền ký gửi Chi nhánh loại II.
+6. Quản lý hồ sơ khoản vay phê duyệt vượt thẩm quyền.
+
+### <a id="Điều-44-Kiểm-soát-hồ-sơ-thẩm-định-lại-khoản-vay-thông-qua-Hội-đồng-tín-dụng"></a>Điều 44. Kiểm soát hồ sơ thẩm định lại khoản vay, thông qua Hội đồng tín dụng
+**Người thực hiện: Người kiểm soát khoản vay.**
+1. Kiểm soát tính đầy đủ, hợp lệ của hồ sơ vay vốn của Chi nhánh loại II; tính chính xác, phù hợp của nội dung Báo cáo thẩm định lại. Trường hợp cần thiết, yêu cầu Người thẩm định lại bổ sung hoặc làm rõ thêm thông tin, nội dung của khoản vay.
+2. Nêu rõ ý kiến đồng ý/không đồng ý với nội dung Báo cáo thẩm định lại, đề xuất phê duyệt/không phê duyệt, ký tắt các trang của Báo cáo thẩm định lại, ký và ghi rõ họ tên vào phần kiểm soát trên Báo cáo thẩm định lại.
+   a) Nếu đề xuất phê duyệt cho vay:
+   (i) Trường hợp khoản vay không thuộc quy định phải qua Hội đồng tín dụng: trình Người phê duyệt cho vay xem xét ra quyết định phê duyệt vượt thẩm quyền;
+   (ii) Trường hợp khoản vay thuộc quy định phải qua Hội đồng tín dụng, các bước và nội dung thực hiện theo quy định về tổ chức và hoạt động của Hội đồng tín dụng trong hệ thống Agribank.
+   b) Nếu đề xuất không phê duyệt cho vay: phải nêu rõ lý do không đồng ý và báo cáo Người phê duyệt cho vay.
+3. Trong quá trình kiểm soát, Người kiểm soát khoản vay thấy thiếu thông tin hoặc thông tin chưa rõ, chưa chính xác, Người kiểm soát khoản vay yêu cầu Chi nhánh loại II bổ sung, hoàn thiện hồ sơ; số lần yêu cầu bổ sung hồ sơ, thông tin khoản vay tối đa 01 lần; thời gian Chi nhánh loại II hoàn thiện hồ sơ trong tối đa 05 ngày làm việc kể từ ngày nhận được văn bản yêu cầu. Trường hợp Chi nhánh loại II không bổ sung thông tin, hồ sơ theo yêu cầu, Chi nhánh loại I từ chối phê duyệt và trả lại hồ sơ (nếu Chi nhánh loại II yêu cầu).
+
+### <a id="Điều-45-Phê-duyệt-khoản-vay"></a>Điều 45. Phê duyệt khoản vay
+**Người thực hiện: Người phê duyệt cho vay**
+Người phê duyệt cho vay căn cứ Tờ trình của Chi nhánh loại II, Báo cáo thẩm định lại của Phòng Thẩm định/bộ phận Thẩm định, Biên bản họp/Bảng tổng hợp ý kiến Hội đồng tín dụng tại Chi nhánh loại I (nếu có) để xem xét quyết định:
+1. Nếu phê duyệt cho vay: ghi ý kiến và ký trên Báo cáo thẩm định lại. Phòng Thẩm định/bộ phận Thẩm định lập và trình Người phê duyệt cho vay ký Thông báo phê duyệt cho vay gửi Chi nhánh loại II.
+2. Nếu không phê duyệt cho vay: ghi lý do không đồng ý, ký trên Báo cáo thẩm định lại và thông báo từ chối phê duyệt cho vay;
+
+## <a id="Mục-3-XÉT-DUYỆT-CHO-VAY-VƯỢT-THẨM-QUYỀN-TẠI-TRỤ-SỞ-CHÍNH"></a>Mục 3. XÉT DUYỆT CHO VAY VƯỢT THẨM QUYỀN TẠI TRỤ SỞ CHÍNH
+### <a id="Điều-46-Nơi-trình-phê-duyệt"></a>Điều 46. Nơi trình phê duyệt
+1. Chi nhánh loại I thuộc phạm vi khu vực của Trung tâm phê duyệt trình Giám đốc Trung tâm phê duyệt các khoản vay vượt thẩm quyền của Giám đốc Chi nhánh và thuộc thẩm quyền của Giám đốc Trung tâm phê duyệt.
+2. Chi nhánh loại I (trừ các trường hợp tại khoản 1 Điều này) trình Ban Thẩm định các khoản vay vượt thẩm quyền của Giám đốc Chi nhánh và thuộc thẩm quyền của Trưởng ban Thẩm định.
+3. Chi nhánh loại I trình Tổng Giám đốc/Hội đồng thành viên (qua Ban Thẩm định) các khoản vay thuộc thẩm quyền của Tổng Giám đốc/Hội đồng thành viên.
+
+### <a id="Điều-47-Tiếp-nhận-hồ-sơ"></a>Điều 47. Tiếp nhận hồ sơ
+1. Người được giao công tác văn thư (đối với Ban Thẩm định); Phòng Pháp chế và Tổng hợp (đối với Trung tâm phê duyệt) tiếp nhận, mở sổ theo dõi hồ sơ trình phê duyệt vượt thẩm quyền của Chi nhánh và trình Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt.
+2. Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt phân công Người thẩm định lại, Người kiểm soát khoản vay, Người phê duyệt cho vay đối với các khoản vay thuộc thẩm quyền của Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt.
+3. Trưởng ban Thẩm định phân công Người thẩm định lại, Người kiểm soát khoản vay đối với các khoản vay thuộc thẩm quyền của Tổng Giám đốc/Hội đồng thành viên.
+4. Trường hợp cần thiết Tổng Giám đốc/Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt có thể thành lập tổ thẩm định để thẩm định lại khoản vay, nhiệm vụ của từng thành viên theo quyết định thành lập tổ thẩm định.
+
+### <a id="Điều-48-Thẩm-định-lại-hồ-sơ"></a>Điều 48. Thẩm định lại hồ sơ
+**Người thực hiện: Người thẩm định lại**
+1. Đối chiếu Danh mục hồ sơ trình vượt thẩm quyền của Chi nhánh trình với Danh mục hồ sơ theo quy định. Trường hợp hồ sơ không đầy đủ, trong vòng 02 ngày làm việc kể từ khi tiếp nhận, Người thẩm định lại lập văn bản trình Người kiểm soát khoản vay, yêu cầu Chi nhánh bổ sung, hoàn thiện hồ sơ trong thời hạn tối đa 10 ngày làm việc kể từ ngày nhận được văn bản.
+Trường hợp Chi nhánh không bổ sung, hoàn thiện hồ sơ theo yêu cầu thì coi như Chi nhánh không có nhu cầu trình vượt thẩm quyền, Ban Thẩm định/Trung tâm phê duyệt trả lại hồ sơ nếu Chi nhánh yêu cầu.
+2. Trong quá trình thẩm định lại nếu Người thẩm định lại thấy thiếu thông tin hoặc thông tin chưa rõ, chưa chính xác, yêu cầu Chi nhánh loại I bổ sung, hoàn thiện hồ sơ như quy định tại khoản 1 Điều này và số lần yêu cầu bổ sung hồ sơ, thông tin khoản vay tối đa 02 lần.
+3. Nội dung thẩm định lại
+   a) Kiểm tra, rà soát tính đầy đủ, hợp lệ của hồ sơ trình phê duyệt, tờ trình và Báo cáo đề xuất cho vay của Chi nhánh;
+   b) Xem xét khả năng cân đối nguồn vốn cho vay qua Ban Quản lý Tài sản Nợ - Tài sản Có (nếu thấy cần thiết);
+   c) Rà soát xếp hạng khách hàng do đơn vị có chức năng thực hiện (trên cơ sở đề nghị của Ban Thẩm định/Trung tâm phê duyệt);
+   d) Rà soát, đánh giá kết quả thẩm định của Chi nhánh về các điều kiện cấp tín dụng và tuân thủ các quy định liên quan đến hoạt động cấp tín dụng của NHNN và Agribank;
+   đ) Đánh giá việc áp dụng biện pháp bảo đảm cấp tín dụng theo quy định;
+   e) Đánh giá các yếu tố rủi ro liên quan đến khoản vay;
+   g) Đánh giá rủi ro về môi trường trong hoạt động cho vay (đối với các trường hợp phải đánh giá theo quy định);
+   h) Các nội dung khác (nếu cần thiết).
+4. Lập Báo cáo thẩm định lại
+Người thẩm định lại lập, ký tắt các trang Báo cáo thẩm định lại, nêu rõ ý kiến đề xuất phê duyệt/không phê duyệt vượt thẩm quyền (trường hợp không đồng ý phải nêu rõ lý do), ký và ghi rõ họ tên vào phần Người thẩm định lại trên Báo cáo thẩm định lại.
+5. Soạn thảo văn bản phê duyệt cho vay/từ chối phê duyệt cho vay trình người có thẩm quyền ký gửi Chi nhánh.
+6. Quản lý hồ sơ khoản vay
+Người thẩm định lại tập hợp, bàn giao toàn bộ hồ sơ cho vay được phê duyệt vượt thẩm quyền cho đơn vị quản lý và lưu giữ hồ sơ theo quy định.
+
+### <a id="Điều-49-Kiểm-soát-hồ-sơ-thẩm-định-lại-khoản-vay-thông-qua-Hội-đồng-tín-dụng"></a>Điều 49. Kiểm soát hồ sơ thẩm định lại khoản vay, thông qua Hội đồng tín dụng
+**Người thực hiện: Người kiểm soát khoản vay**
+1. Kiểm soát tính đầy đủ, hợp lệ của hồ sơ cho vay do Chi nhánh trình vượt thẩm quyền; tính chính xác, phù hợp của nội dung Báo cáo thẩm định lại. Trường hợp cần thiết, yêu cầu Người thẩm định lại bổ sung hoặc làm rõ thêm thông tin, nội dung của khoản vay.
+2. Nêu rõ ý kiến đồng ý/không đồng ý với nội dung Báo cáo thẩm định lại, đề xuất phê duyệt/không phê duyệt cho vay, ký tắt các trang của Báo cáo thẩm định lại, ký và ghi rõ họ tên vào phần kiểm soát trên Báo cáo thẩm định lại.
+   a) Nếu đề xuất phê duyệt cho vay:
+   (i) Trường hợp khoản vay không thuộc quy định phải qua Hội đồng tín dụng: trình Người phê duyệt cho vay xem xét ra quyết định phê duyệt vượt thẩm quyền;
+   (ii) Trường hợp khoản vay thuộc quy định phải qua Hội đồng tín dụng, các bước và nội dung thực hiện theo quy định về tổ chức và hoạt động của Hội đồng tín dụng trong hệ thống Agribank.
+   b) Nếu đề xuất không phê duyệt cho vay: nêu rõ lý do và báo cáo Người phê duyệt cho vay xem xét, quyết định.
+3. Trong quá trình kiểm soát, Người kiểm soát khoản vay thấy thiếu thông tin hoặc thông tin chưa rõ, chưa chính xác, Người kiểm soát khoản vay yêu cầu Chi nhánh loại I bổ sung, hoàn thiện hồ sơ; số lần yêu cầu bổ sung hồ sơ, thông tin khoản vay tối đa 01 lần; thời gian Chi nhánh loại I hoàn thiện hồ sơ trong tối đa 05 ngày làm việc kể từ ngày nhận được văn bản yêu cầu. Trường hợp Chi nhánh loại I không bổ sung thông tin, hồ sơ theo yêu cầu, Trụ sở chính từ chối phê duyệt và trả lại hồ sơ (nếu Chi nhánh loại I yêu cầu).
+
+### <a id="Điều-50-Phê-duyệt-khoản-vay"></a>Điều 50. Phê duyệt khoản vay
+**Người thực hiện: Người phê duyệt cho vay:**
+1. Khoản vay thuộc thẩm quyền của Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt.
+Căn cứ Tờ trình của Giám đốc Chi nhánh, đề xuất tại Báo cáo thẩm định lại, Người phê duyệt cho vay xem xét quyết định:
+   a) Nếu phê duyệt cho vay: ghi ý kiến, ký trên Báo cáo thẩm định lại và Thông báo cho vay;
+   b) Nếu không phê duyệt cho vay: ghi lý do không đồng ý, ký trên Báo cáo thẩm định lại và Thông báo từ chối cho vay.
+2. Khoản vay thuộc thẩm quyền của Tổng Giám đốc
+Căn cứ Tờ trình của Giám đốc Chi nhánh, Báo cáo thẩm định lại của Ban Thẩm định, Biên bản họp/Bảng tổng hợp ý kiến của Hội đồng tín dụng Trụ sở chính (nếu có) để xem xét quyết định:
+   a) Nếu phê duyệt cho vay: ghi ý kiến, ký trên Báo cáo thẩm định lại và Thông báo cho vay;
+   b) Nếu không phê duyệt cho vay: ghi lý do không đồng ý, ký trên Báo cáo thẩm định lại và thông báo từ chối phê duyệt cho vay;
+3. Khoản vay thuộc thẩm quyền của Hội đồng thành viên.
+   a) Trường hợp Tổng Giám đốc đồng ý và trình Hội đồng thành viên: Tổng Giám đốc ghi ý kiến, ký trên Báo cáo thẩm định lại, ký trình Hội đồng thành viên phê duyệt:
+   (i) Hồ sơ trình Hội đồng thành viên: Ban Thẩm định chuẩn bị hồ sơ trình Hội đồng thành viên (qua Ủy ban Quản lý rủi ro) gồm:
+   - Tờ trình của Chi nhánh;
+   - Báo cáo thẩm định lại của Ban Thẩm định;
+   - Biên bản họp/Bảng tổng hợp ý kiến của Hội đồng tín dụng Trụ sở chính;
+   - Tờ trình của Tổng Giám đốc;
+   - Hồ sơ khác (nếu có).
+   (ii) Căn cứ Nghị quyết của Hội đồng thành viên về việc phê duyệt/không phê duyệt cho vay, Ban Thẩm định trình Tổng Giám đốc ký thông báo, tổ chức thực hiện.
+   b) Trường hợp không phê duyệt cho vay, Tổng Giám đốc báo cáo Hội đồng thành viên và ký thông báo từ chối phê duyệt cho vay.
+
+## <a id="Mục-4-THAY-ĐỔI-NỘI-DUNG-QUYẾT-ĐỊNH-PHÊ-DUYỆT-CHO-VAY-CUNG-CẤP-HỒ-SƠ-CHO-ĐƠN-VỊ-KIỂM-TRA"></a>Mục 4. THAY ĐỔI NỘI DUNG QUYẾT ĐỊNH, PHÊ DUYỆT CHO VAY, CUNG CẤP HỒ SƠ CHO ĐƠN VỊ KIỂM TRA
+### <a id="Điều-51-Thay-đổi-nội-dung-phê-duyệt-quyết-định-cho-vay"></a>Điều 51. Thay đổi nội dung phê duyệt, quyết định cho vay
+Trường hợp cần phải thay đổi nội dung đã được Người quyết định cho vay/Người phê duyệt cho vay thông qua, phải thực hiện thẩm định, thẩm định lại đối với nội dung thay đổi và trình cấp có thẩm quyền quyết định. Trình tự thực hiện theo Mục 1, 2, 3 Quy định này.
+
+### <a id="Điều-52-Thông-báo-phê-duyệt-cấp-tín-dụng-gửi-cho-đơn-vị-kiểm-tra"></a>Điều 52. Thông báo phê duyệt cấp tín dụng gửi cho đơn vị kiểm tra
+1. Sau khi phê duyệt, Thông báo phê duyệt cấp tín dụng vượt thẩm quyền được gửi cho đơn vị kiểm tra trong vòng 05 ngày làm việc kể từ ngày ký:
+   a) Ban Thẩm định/Trung tâm phê duyệt gửi Thông báo phê duyệt cấp tín dụng cho Ban Kiểm tra, giám sát nội bộ, Văn phòng đại diện khu vực (nếu được phân công) các khoản phê duyệt vượt thẩm quyền của Giám đốc Chi nhánh loại I.
+   b) Phòng Thẩm định/bộ phận Thẩm định gửi Thông báo phê duyệt cấp tín dụng cho Phòng/bộ phận Kiểm tra, giám sát nội bộ đối với các khoản phê duyệt vượt thẩm quyền của Giám đốc Chi nhánh loại II.
+2. Trong quá trình kiểm tra, đơn vị kiểm tra có thể yêu cầu Ban thẩm định/Trung tâm phê duyệt/Phòng thẩm định/bộ phận Thẩm định cung cấp các thông tin, tài liệu nếu thấy cần thiết. Đơn vị kiểm tra sử dụng thông tin, tài liệu đúng mục đích, tuân thủ quy định về bảo mật thông tin của Agribank.
+
+## <a id="Mục-5-KÝ-KẾT-HỢP-ĐỒNG-TÍN-DỤNG-HỢP-ĐỒNG-BẢO-ĐẢM-GIẢI-NGÂN-VỐN-VAY-QUẢN-LÝ-KHOẢN-VAY"></a>Mục 5. KÝ KẾT HỢP ĐỒNG TÍN DỤNG, HỢP ĐỒNG BẢO ĐẢM, GIẢI NGÂN VỐN VAY, QUẢN LÝ KHOẢN VAY
+### <a id="Điều-53-Soạn-thảo-ký-kết-HĐTD-HĐBĐ"></a>Điều 53. Soạn thảo, ký kết HĐTD, HĐBĐ
+Trước khi xác lập HĐTD, Agribank nơi cho vay có trách nhiệm cung cấp cho khách hàng đầy đủ các thông tin: thẩm quyền cấp tín dụng; lãi suất cho vay; nguyên tắc và các yếu tố, thời điểm xác định lãi suất cho vay (đối với trường hợp áp dụng lãi suất cho vay có điều chỉnh); lãi suất áp dụng đối với dư nợ gốc bị quá hạn; lãi suất chậm trả; phương pháp tính lãi tiền vay; các loại phí và mức phí áp dụng đối với khoản vay; các tiêu chí xác định khách hàng vay vốn theo lãi suất cho vay tối đa theo quy định của NHNN.
+1. Soạn thảo HĐTD, HĐBĐ
+**Người thực hiện: Người quản lý nợ**
+   a) Căn cứ nội dung và điều kiện quyết định/phê duyệt cho vay của cấp có thẩm quyền, kết quả thương thảo với khách hàng nhưng không trái với quyết định/phê duyệt cho vay, Người quản lý nợ tiến hành soạn thảo HĐTD, HĐBĐ trình Người kiểm soát khoản vay.
+   Agribank nơi cho vay có thể thuê đơn vị tư vấn soạn thảo HĐTD, HĐBĐ, chi phí do Agribank nơi cho vay và khách hàng vay/Bên bảo đảm thỏa thuận.
+   b) Nội dung cơ bản của HĐTD thực hiện theo Điều 15 Quy định này; HĐBĐ thực hiện theo quy định về bảo đảm cấp tín dụng trong hệ thống Agribank.
+2. Kiểm soát HĐTD, HĐBĐ
+**Người thực hiện: Người kiểm soát khoản vay**
+   a) Người kiểm soát khoản vay thực hiện kiểm soát nội dung và các điều khoản của HĐTD, HĐBĐ, đối chiếu với nội dung, điều kiện đã được thông báo tại quyết định/phê duyệt và các thỏa thuận với khách hàng, phù hợp với quy định của pháp luật và của Agribank, ký kiểm soát (ký tắt) từng trang hợp đồng, trình người có thẩm quyền ký kết HĐTD, HĐBĐ;
+   b) Trường hợp cần thiết, Người có thẩm quyền có thể yêu cầu bộ phận pháp chế có ý kiến về pháp lý của HĐTD, HĐBĐ.
+3. Giao kết HĐTD, HĐBĐ
+**Người thực hiện: Người đại diện có thẩm quyền của Agribank nơi cho vay**
+   a) HĐTD, HĐBĐ phải được giao kết bởi người đại diện có thẩm quyền của Agribank nơi cho vay và khách hàng vay, bên bảo đảm tài sản;
+   b) Người có thẩm quyền có thể yêu cầu bộ phận pháp chế có ý kiến về pháp lý của HĐTD, HĐBĐ;
+   c) Người đại diện có thẩm quyền của Agribank nơi cho vay xem xét các nội dung trên HĐTD, HĐBĐ phù hợp các nội dung phê duyệt khoản vay, đáp ứng với quy định của pháp luật thực hiện ký kết với khách hàng vay, bên bảo đảm tài sản.
+4. Công chứng HĐBĐ, đăng ký giao dịch bảo đảm
+Việc công chứng, chứng thực và đăng ký giao dịch bảo đảm thực hiện theo quy định của pháp luật hiện hành và quy định về bảo đảm cấp tín dụng của Agribank.
+
+### <a id="Điều-54-Khai-báo-phê-duyệt-thông-tin-trên-hệ-thống-IPCAS"></a>Điều 54. Khai báo, phê duyệt thông tin trên hệ thống IPCAS
+1. Khai báo thông tin trên hệ thống IPCAS tại Agribank nơi cho vay
+**Người thực hiện: Người quản lý nợ**
+Căn cứ HĐTD, HĐBĐ và tài liệu có liên quan khác, thực hiện khai báo thông tin theo quy định trên hệ thống IPCAS. Việc khai báo, cập nhật các thông tin về khoản vay trên hệ thống IPCAS phải đảm bảo đầy đủ, kịp thời và khớp đúng với hồ sơ giấy. Thông tin khai báo gồm:
+   a) Thông tin khoản vay trên Báo cáo đề xuất cho vay, phương án sử dụng vốn, HĐTD;
+   b) Thông tin về TSBĐ (trường hợp cho vay có bảo đảm bằng tài sản).
+2. Phê duyệt thông tin đã khai báo tại Agribank nơi cho vay
+**Người thực hiện: Người kiểm soát khoản vay**
+Người kiểm soát khoản vay kiểm tra và phê duyệt các thông tin về giao dịch do Người quản lý nợ cho vay khai báo trên hệ thống IPCAS theo quy định.
+3. Đăng ký thông tin tín dụng đối với khoản vay vượt thẩm quyền tại Chi nhánh
+**Người thực hiện: Người giám sát khoản vay vượt thẩm quyền, Lãnh đạo Phòng Thẩm định/bộ phận Thẩm định.**
+   a) Agribank nơi cho vay báo cáo Agribank nơi duyệt vượt thẩm quyền về việc đáp ứng các nội dung cho vay theo văn bản thông báo phê duyệt cho vay và đề nghị đăng ký thông tin tín dụng vào hệ thống IPCAS kèm theo HĐTD, HĐBĐ (nếu có), các tài liệu chứng minh việc tuân thủ các nội dung phê duyệt;
+   b) Căn cứ báo cáo của Chi nhánh loại II, Người giám sát khoản vay vượt thẩm quyền thực hiện rà soát báo cáo tuân thủ và đăng ký thông tin tín dụng vào hệ thống IPCAS; Lãnh đạo Phòng Thẩm định/bộ phận Thẩm định thực hiện phê duyệt thông tin tín dụng trên hệ thống IPCAS.
+4. Đăng ký thông tin tín dụng đối với khoản vay vượt thẩm quyền tại Trụ sở chính
+**Người thực hiện: Người giám sát, Trưởng phòng/Phó trưởng phòng hoặc Trưởng nghiệp vụ/Phó trưởng nghiệp vụ, Trưởng ban Thẩm định.**
+   a) Agribank nơi cho vay báo cáo Agribank nơi phê duyệt vượt thẩm quyền về việc đáp ứng các nội dung cho vay theo văn bản thông báo phê duyệt cho vay và đề nghị đăng ký thông tin tín dụng vào hệ thống IPCAS kèm theo HĐTD, HĐBĐ (nếu có), các tài liệu chứng minh việc tuân thủ các nội dung phê duyệt;
+   b) Căn cứ báo cáo của Chi nhánh loại I, Người giám sát khoản vay thực hiện rà soát báo cáo tuân thủ và thực hiện đăng ký thông tin tín dụng vào hệ thống IPCAS; Trưởng phòng/Phó trưởng phòng/Trưởng nghiệp vụ/Phó trưởng nghiệp vụ (đối với khoản vay thuộc thẩm quyền của Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt), Trưởng ban Thẩm định (đối với khoản vay thuộc thẩm quyền của Tổng Giám đốc/Hội đồng thành viên) thực hiện phê duyệt thông tin tín dụng trên hệ thống IPCAS.
+
+### <a id="Điều-55-Kiểm-tra-hồ-sơ-giải-ngân-báo-cáo-đề-xuất-giải-ngân"></a>Điều 55. Kiểm tra hồ sơ giải ngân, báo cáo đề xuất giải ngân
+**Người thực hiện: Người quản lý nợ**
+1. Kiểm tra, đánh giá hồ sơ giải ngân
+Người quản lý nợ kiểm tra, đánh giá hồ sơ giải ngân gồm:
+   a) Tính đầy đủ, hợp pháp, hợp lệ của hồ sơ giải ngân;
+   b) Việc đáp ứng đầy đủ các nội dung tại thông báo phê duyệt (nếu có), các điều khoản thỏa thuận của HĐTD đã ký;
+   c) Đánh giá tình hình hoạt động kinh doanh, phương án sử dụng vốn, khả năng trả nợ của khách hàng;
+   d) Mục đích vay vốn;
+   đ) Hồ sơ bảo đảm tiền vay (nếu có);
+   e) Hạn mức tín dụng còn lại;
+   g) Tài liệu chứng minh mục đích sử dụng vốn phải đầy đủ, phù hợp với điều khoản thanh toán trong hợp đồng kinh tế;
+   h) Đánh giá việc giải ngân vốn đối ứng theo quy định tại Điều 56 Quy định này;
+   i) Trường hợp phát hiện khách hàng sử dụng vốn sai mục đích, vi phạm các thỏa thuận tại HĐTD, Người quản lý nợ có trách nhiệm đề xuất cấp có thẩm quyền ngừng giải ngân để xử lý theo HĐTD đã ký (bao gồm cả các khoản vay được phê duyệt vượt thẩm quyền).
+2. Lập báo cáo đề xuất giải ngân, giấy nhận nợ
+   a) Áp dụng cho vay đối khách hàng là pháp nhân và chủ DNTN:
+   (i) Từng lần giải ngân, Người quản lý nợ lập Báo cáo đề xuất giải ngân, ký và trình Người kiểm soát khoản vay ký kiểm soát, trình Người phê duyệt giải ngân ký duyệt. Nếu không đáp ứng đầy đủ hồ sơ giải ngân, Người quản lý nợ lập báo cáo đề xuất không giải ngân (nêu rõ lý do), báo cáo Người kiểm soát khoản vay và trình Người phê duyệt giải ngân;
+   (ii) Trường hợp trong ngày khách hàng có nhu cầu nhận nợ nhiều lần (cho vay thu mua nông sản, giải ngân theo dự án đầu tư và các trường hợp tương tự khác), Agribank nơi cho vay có thể lập báo cáo đề xuất giải ngân một lần cho tất cả các lần giải ngân trong ngày;
+   (iii) Trường hợp thanh toán L/C bằng nguồn vốn vay theo HĐTD: sau khi Người quản lý nợ nhận được thông báo chứng từ hàng nhập theo L/C từ Phòng Thanh toán quốc tế/bộ phận Thanh toán quốc tế chuyên trách, Người quản lý nợ thông báo cho khách hàng thực hiện các thủ tục để giải ngân thanh toán L/C theo quy định khi đến hạn thanh toán;
+   (iv) Trường hợp giải ngân (cho vay bắt buộc) để thực hiện nghĩa vụ bảo lãnh, thanh toán L/C do khách hàng vi phạm nghĩa vụ bảo lãnh, thanh toán L/C: thực hiện theo thỏa thuận tại hợp đồng liên quan, quy định của pháp luật, thông lệ quốc tế, quy định của NHNN và của Agribank về bảo lãnh, phát hành L/C. Phòng Thanh toán quốc tế/bộ phận Thanh toán quốc tế chuyên trách lập Tờ trình cho vay bắt buộc trình Người phê duyệt giải ngân;
+   (v) Báo cáo đề xuất giải ngân được phê duyệt, Người quản lý nợ lập giấy nhận nợ.
+   b) Đối với cho vay cá nhân (trừ chủ DNTN):
+   (i) Trường hợp cho vay từng lần (giải ngân vốn vay 01 lần): Người quản lý nợ tiếp nhận và kiểm tra, đánh giá hồ sơ giải ngân nêu tại khoản 1 Điều này. Nếu hồ sơ giải ngân đầy đủ, hợp pháp, hợp lệ, Người quản lý nợ trình Người Kiểm soát khoản vay, Người ký kết HĐTD, không phải lập Báo cáo đề xuất giải ngân kiêm giấy nhận nợ;
+   (ii) Trường hợp giải ngân vốn vay từ 02 lần trở lên: Người quản lý nợ tiếp nhận và kiểm tra, đánh giá hồ sơ giải ngân nêu tại khoản 1 Điều này. Nếu hồ sơ giải ngân đầy đủ, hợp pháp, hợp lệ, Người quản lý nợ lập Báo cáo đề xuất giải ngân kiêm giấy nhận nợ trình Người kiểm soát khoản vay, Người phê duyệt giải ngân.
+   c) Việc sử dụng các phương tiện thanh toán để giải ngân vốn cho vay thực hiện theo quy định của NHNN và hướng dẫn của Agribank.
+
+### <a id="Điều-56-Giải-ngân-vốn-đối-ứng-đối-với-trung-dài-hạn-thực-hiện-dự-án-đầu-tư-phục-vụ-hoạt-động-kinh-doanh"></a>Điều 56. Giải ngân vốn đối ứng đối với trung, dài hạn thực hiện dự án đầu tư phục vụ hoạt động kinh doanh
+1. Về nguyên tắc vốn đối ứng giải ngân trước khi giải ngân vốn vay. Trường hợp khách hàng đã giải ngân vốn đối ứng bằng tỷ lệ tối thiểu so với quy định, việc giải ngân vốn vay và phần còn lại vốn đối ứng do Giám đốc Agribank nơi cho vay quyết định. Trường hợp dự án đầu tư được chia làm nhiều giai đoạn độc lập với nhau, mỗi giai đoạn sau khi kết thúc đầu tư có thể đưa vào hoạt động và tạo nguồn thu trả nợ, khách hàng được tham gia vốn đối ứng theo từng giai đoạn.
+2. Trường hợp Tổng Giám đốc chấp thuận dùng TSBĐ khác không phải là tài sản hình thành từ vốn vay để đảm bảo cho phần vốn đối ứng còn thiếu so với quy định, Agribank nơi cho vay chỉ được giải ngân phần vốn đối ứng còn thiếu đó khi đã hoàn thành thủ tục bảo đảm tiền vay.
+3. Trường hợp dùng vốn đối ứng để thanh toán lãi trong thời gian ân hạn, phần vốn đối ứng để trả lãi thực hiện theo tiến độ kế hoạch trả nợ, phần vốn đối ứng còn lại giải ngân trước khi giải ngân vốn vay.
+4. Vốn đối ứng là giá trị ngày công tự làm, tài sản khác của khách hàng cá nhân tham gia: chi phí ngày công, tài sản khác thực hiện theo tiến độ kế hoạch, phần vốn đối ứng còn lại giải ngân trước khi giải ngân vốn vay.
+5. Giải ngân vốn đối ứng theo tỷ lệ khác, thực hiện theo văn bản chấp thuận của Tổng Giám đốc/Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt.
+
+### <a id="Điều-57-Kiểm-soát-phê-duyệt-báo-cáo-đề-xuất-giải-ngân"></a>Điều 57. Kiểm soát, phê duyệt báo cáo đề xuất giải ngân
+1. Căn cứ hồ sơ giải ngân và Báo cáo đề xuất giải ngân do Người quản lý nợ lập, Người kiểm soát khoản vay kiểm soát nội dung Báo cáo đề xuất giải ngân, nêu ý kiến đồng ý/không đồng ý giải ngân (nêu lý do không đồng ý), ký và trình Người phê duyệt giải ngân.
+2. Căn cứ đề xuất của Người quản lý nợ và Người kiểm soát khoản vay, Người phê duyệt giải ngân ghi ý kiến đồng ý/không đồng ý giải ngân (nêu lý do không đồng ý).
+
+### <a id="Điều-58-Bàn-giao-hồ-sơ-giải-ngân-hạch-toán-thế-chấpcầm-cố-tài-sản-bảo-đảm-giải-ngân-vốn-vay"></a>Điều 58. Bàn giao hồ sơ giải ngân; hạch toán thế chấp/cầm cố tài sản bảo đảm, giải ngân vốn vay
+**Người thực hiện: Người quản lý nợ; Người kiểm soát khoản vay; Người quyết định cho vay; GDV; Kiểm soát viên.**
+1. Bàn giao hồ sơ cho GDV: Người quản lý nợ bàn giao hồ sơ, tài liệu cho GDV theo quy định tại điểm b khoản 2 Điều 14 Quy định này.
+2. Hạch toán thế chấp/cầm cố TSBĐ:
+   a) Căn cứ Phiếu nhập kho, hồ sơ TSBĐ tiếp nhận từ Người quản lý nợ, GDV đối chiếu khớp đúng giữa thông tin khai báo trên IPCAS và hồ sơ TSBĐ, thực hiện:
+   (i) Hạch toán thế chấp, cầm cố TSBĐ trên hệ thống IPCAS;
+   (ii) Bàn giao giấy chứng nhận quyền sử dụng, sở hữu TSBĐ/TSBĐ cho cán bộ kho quỹ nhập kho theo quy định.
+   b) Kiểm soát viên thực hiện kiểm soát tính hợp lệ của hồ sơ TSBĐ, phiếu nhập kho, sự khớp đúng giữa thông tin trên IPCAS và hồ sơ TSBĐ, duyệt giao dịch hạch toán thế chấp/cầm cố TSBĐ, xác nhận giao dịch cuối ngày trên hệ thống IPCAS.
+3. Hạch toán giải ngân vốn vay:
+   a) Căn cứ vào hồ sơ giải ngân và thông tin được khai báo, GDV thực hiện:
+   (i) Rà soát tính đầy đủ, hợp lệ của hồ sơ:
+   - Số tiền giải ngân trong mức cho vay tối đa đã được duyệt;
+   - Điều kiện giải ngân theo thỏa thuận tại Hợp đồng tín dụng;
+   - Chứng từ chứng minh mục đích sử dụng tiền vay, phương thức thanh toán theo quy định.
+   (ii) Nhập thông tin giải ngân trên hệ thống IPCAS.
+   b) Kiểm soát viên thực hiện kiểm soát tính hợp lệ của hồ sơ giải ngân, sự khớp đúng giữa thông tin trên IPCAS và hồ sơ giải ngân; phê duyệt giao dịch hạch toán giải ngân, xác nhận giao dịch cuối ngày trên hệ thống IPCAS.
+4. Trường hợp Chi nhánh loại II/PGD được phân công thực hiện nghiệp vụ giải ngân và quản lý nợ cho vay: Người quyết định cho vay giao Phòng Khách hàng phê duyệt đơn xin vay trên hệ thống IPCAS do Phòng Khách hàng/PGD khai báo đối với từng khách hàng cụ thể.
+5. Trường hợp thoả thuận cho vay được lập dưới hình thức Sổ vay vốn: ngoài theo dõi trên Báo cáo đề xuất giải ngân kiêm giấy nhận nợ, việc có hay không theo dõi phát tiền vay, thu nợ, chuyển nợ quá hạn tại Sổ vay vốn do Agribank nơi cho vay thỏa thuận với khách hàng.
+6. Quản lý chứng từ chứng minh mục đích sử dụng vốn:
+   a) Sau khi thực hiện giải ngân, Người quản lý nợ đóng dấu “ĐÃ CHO VAY” (ghi rõ ngày, tháng, năm; số tiền cho vay), ký trên bản chính hóa đơn tài chính và sao lưu vào hồ sơ giải ngân (trừ trường hợp sử dụng hóa đơn điện tử);
+   b) Trường hợp chứng từ chứng minh mục đích sử dụng vốn là hóa đơn, tờ khai hải quan điện tử thì khách hàng phải cam kết số tiền giải ngân theo hóa đơn, tờ khai này chưa vay và sẽ không vay tại TCTD khác, Chi nhánh Agribank khác. Việc cam kết thực hiện bằng văn bản riêng hoặc tại giấy nhận nợ khi thực hiện thủ tục giải ngân vốn vay.
+
+### <a id="Điều-59-Phân-kỳ-hạn-trả-nợ"></a>Điều 59. Phân kỳ hạn trả nợ
+**Người thực hiện:** tùy từng trường hợp việc phân kỳ trả nợ được thực hiện bởi Người thẩm định (xác định nguyên tắc xác định kỳ hạn trả nợ và/hoặc xác định được kỳ hạn khi thẩm định cho vay), Người quản lý nợ, Người kiểm soát khoản vay, Người quyết định cho vay.
+1. Trường hợp xác định được kỳ hạn nợ cho từng lần nhận nợ: căn cứ vào thời hạn cho vay thỏa thuận trong HĐTD và ngày thực tế giải ngân, Người quản lý nợ xác định kỳ hạn trả nợ (gốc, lãi) trên Giấy nhận nợ/Hợp đồng sửa đổi, bổ sung HĐTD.
+2. Trường hợp chưa xác định được kỳ hạn nợ cho từng lần nhận nợ (đối với các HĐTD trung, dài hạn có thời gian ân hạn): sau khi kết thúc thời gian ân hạn/giải ngân, căn cứ vào thỏa thuận trên HĐTD, số tiền thực tế giải ngân, Người quản lý nợ xác định kỳ hạn nợ, chuyển Người kiểm soát khoản vay kiểm soát và Người quyết định cho vay cùng khách hàng ký Hợp đồng sửa đổi, bổ sung HĐTD về kỳ hạn nợ.
+3. Xác định kỳ hạn trả nợ gốc, lãi: tối đa 12 tháng/kỳ, trừ các trường hợp sau:
+   a) Phương án kinh doanh trong lĩnh vực nông nghiệp, nông thôn mà chu kỳ sản xuất kinh doanh trên 12 tháng mới có thu nhập và không có nguồn thu nào khác để trả nợ;
+   b) Dự án đầu tư trong thời gian ân hạn.
+4. Đăng ký kỳ hạn trả nợ trên hệ thống IPCAS: căn cứ vào kỳ hạn nợ đã được lập và phê duyệt (bao gồm cả cơ cấu lại thời hạn trả nợ), GDV đăng ký/đăng ký điều chỉnh kỳ hạn trả nợ vào hệ thống IPCAS.
+
+### <a id="Điều-60-Theo-dõi-đôn-đốc-thu-nợ-cho-vay"></a>Điều 60. Theo dõi, đôn đốc, thu nợ cho vay
+1. Theo dõi, đôn đốc trả nợ
+**Người thực hiện: Người quản lý nợ**
+   a) Căn cứ HĐTD và thông tin trên hệ thống IPCAS, Người quản lý nợ thường xuyên theo dõi nợ đến hạn; hàng tháng lập danh sách nợ đến hạn, chủ động đánh giá khả năng trả nợ thực tế của khách hàng và thông báo nợ (gốc, lãi và phí) đến hạn cho khách hàng;
+   b) Đôn đốc trả nợ: Người quản lý nợ có trách nhiệm theo dõi các nguồn thu của khách hàng thông qua tài khoản thanh toán, thông qua các hợp đồng kinh tế đầu ra, các nguồn thu khác để chủ động đôn đốc, thu nợ đến hạn, nợ phải thu hồi trước hạn, nợ quá hạn, nợ đã xử lý rủi ro.
+2. Thực hiện thu nợ
+**Người thực hiện: GDV; Kiểm soát viên**
+   a) Thứ tự thu nợ
+   Việc thu nợ thực hiện như sau (trừ các trường hợp khác theo quyết định của cấp có thẩm quyền):
+   (i) Thu nợ nội bảng trước, thu nợ ngoại bảng sau;
+   (ii) Khoản nợ đến hạn trước thu trước, khoản nợ đến hạn sau thu sau;
+   (iii) Đối với khoản nợ bị quá hạn trả nợ: thực hiện theo thứ tự nợ gốc thu trước, nợ lãi tiền vay, phí thu sau. Đối với khoản nợ vay có một hoặc một số kỳ hạn trả nợ bị quá hạn, Agribank thực hiện thu nợ theo thứ tự thu nợ gốc đã quá hạn, thu nợ lãi tiền vay trên nợ gốc quá hạn chưa trả, thu nợ gốc đến hạn, thu nợ lãi trên nợ gốc mà đến hạn chưa trả;
+   (iv) Trường hợp xử lý TSBĐ, khách hàng bị phá sản: thực hiện theo thỏa thuận và quy định của pháp luật;
+   (v) Trường hợp xác định được thu khoản nợ cụ thể thì thu theo HĐTD phù hợp thỏa thuận với khách hàng;
+   (vi) Trường hợp chưa xác định được khoản nợ cụ thể thì thực hiện theo đề xuất của Phòng Khách hàng và được Giám đốc Agribank nơi cho vay phê duyệt.
+   b) Thực hiện thu nợ:
+   (i) Thu nợ đến hạn: GDV thu nợ theo thứ tự nêu tại điểm a khoản này;
+   (ii) Thu nợ trước hạn:
+   - GDV thực hiện thu nợ khi khách hàng yêu cầu trả nợ;
+   - Trường hợp khách hàng vi phạm thỏa thuận HĐTD, GDV hạch toán thu nợ trước hạn theo văn bản về việc thu hồi nợ trước hạn của Người quyết định cho vay.
+   (iii) Thu phí trả nợ trước hạn: HĐTD có thỏa thuận quy định việc phí trả nợ trước hạn, GDV thực hiện thu phí trả nợ trước hạn cùng với thu nợ trước hạn;
+   (iv) Trường hợp thu nợ gốc trước, lãi và phí thu sau, Agribank nơi cho vay phải duy trì số tiền tối thiểu dư nợ gốc trên HĐTD.
+3. Xác nhận giao dịch cuối ngày: Kiểm soát viên thực hiện xác nhận các giao dịch do GDV thực hiện.
+
+### <a id="Điều-61-Cơ-cấu-lại-thời-hạn-trả-nợ"></a>Điều 61. Cơ cấu lại thời hạn trả nợ
+**Người thực hiện:** Người quản lý nợ, Người thẩm định lại, Người kiểm soát khoản vay, Người phê duyệt cơ cấu lại thời hạn trả nợ, Người quyết định cơ cấu lại thời hạn trả nợ.
+1. Tại Agribank nơi cho vay:
+   a) Đề xuất cơ cấu lại thời hạn trả nợ:
+   (i) Đến hạn trả nợ khách hàng không có khả năng trả nợ đúng kỳ hạn nợ gốc và/hoặc lãi tiền vay và có nhu cầu cơ cấu lại thời hạn trả nợ, khách hàng gửi Agribank nơi cho vay giấy đề nghị kèm phương án cơ cấu nợ;
+   (ii) Trên cơ sở Phương án cơ cấu lại thời hạn trả nợ của khách hàng, Người quản lý nợ đánh giá khả năng trả nợ của khách hàng, lập báo cáo đề xuất cơ cấu lại thời hạn trả nợ phù hợp với nguồn trả nợ của khách hàng trình Người kiểm soát khoản vay.
+   b) Kiểm soát phương án cơ cấu lại thời hạn trả nợ: Người kiểm soát khoản vay xem xét và ghi ý kiến đồng ý/không đồng ý cơ cấu lại thời hạn trả nợ trình Người có thẩm quyền quyết định cơ cấu lại thời hạn trả nợ;
+   c) Quyết định cơ cấu lại thời hạn trả nợ:
+   (i) Căn cứ báo cáo đề xuất cơ cấu lại thời hạn trả nợ, Người có thẩm quyền quyết định cơ cấu/không cơ cấu lại thời hạn trả nợ đối với khách hàng;
+   (ii) Trường hợp quyết định không cơ cấu lại thời hạn trả nợ, Người quản lý nợ lập thông báo chuyển Người kiểm soát khoản vay ký kiểm soát và trình Người quyết định cơ cấu lại thời hạn trả nợ ký thông báo cho khách hàng (nêu lý do không đồng ý).
+   d) Trường hợp vượt thẩm quyền cơ cấu lại thời hạn trả nợ:
+   (i) Người quyết định cơ cấu lại thời hạn trả nợ ghi ý kiến đồng ý gia hạn nợ và giao Phòng Khách hàng lập hồ sơ có liên quan; Người quyết định cơ cấu lại thời hạn trả nợ ký trình cấp có thẩm quyền phê duyệt;
+   (ii) Căn cứ vào thông báo của Agribank nơi phê duyệt vượt thẩm quyền, Người quản lý nợ lập thông báo chuyển Người kiểm soát khoản vay ký kiểm soát và trình Người quyết định cơ cấu lại thời hạn trả nợ ký thông báo cho khách hàng.
+2. Tại Agribank nơi phê duyệt vượt thẩm quyền:
+   a) Đơn vị tiếp nhận mở sổ theo dõi hồ sơ trình phê duyệt cơ cấu lại thời hạn trả nợ đối với các khoản vay đã được phê duyệt vượt thẩm quyền;
+   b) Lãnh đạo phụ trách Phòng Thẩm định/bộ phận Thẩm định/Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt phân công Người đề xuất cơ cấu lại thời hạn trả nợ tiếp nhận và đối chiếu Danh mục hồ sơ trình vượt thẩm quyền của Agribank nơi cho vay;
+   c) Trường hợp hồ sơ không đầy đủ, trong vòng 02 ngày làm việc kể từ khi tiếp nhận, Người đề xuất cơ cấu lại thời hạn trả nợ lập thông báo bằng văn bản trình Giám đốc Chi nhánh/Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt yêu cầu Agribank nơi trình phê duyệt bổ sung, hoàn thiện hồ sơ. Agribank nơi trình phê duyệt có trách nhiệm bổ sung, hoàn thiện hồ sơ trong thời gian tối đa 02 ngày làm việc kể từ ngày nhận được văn bản yêu cầu. Trường hợp không bổ sung thông tin, hồ sơ theo yêu cầu nêu trên coi như Agribank nơi trình phê duyệt không có nhu cầu trình vượt thẩm quyền. Agribank nơi phê duyệt vượt thẩm quyền trả lại hồ sơ nếu Agribank nơi trình phê duyệt yêu cầu;
+   d) Người đề xuất cơ cấu lại thời hạn trả nợ xem xét và ghi ý kiến đồng ý/không đồng ý cơ cấu lại thời hạn trả nợ trình Người kiểm soát khoản vay;
+   đ) Người kiểm soát khoản vay xem xét và ghi ý kiến đồng ý/không đồng ý cơ cấu lại thời hạn trả nợ, trình Người có thẩm quyền phê duyệt cơ cấu lại thời hạn trả nợ và thông báo cho Agribank nơi trình phê duyệt.
+3. Trường hợp việc cơ cấu lại thời hạn trả nợ phải thông qua Hội đồng tín dụng, trước khi trình Người có thẩm quyền phê duyệt/quyết định, thực hiện theo quy định về tổ chức và hoạt động của Hội đồng tín dụng trong hệ thống Agribank.
+4. Thực hiện cơ cấu lại thời hạn trả nợ:
+   a) Khách hàng gửi Giấy đề nghị cơ cấu nợ kèm phương án cơ cấu nợ tới Agribank nơi cho vay trước ngày đến hạn trả nợ ít nhất 10 ngày làm việc;
+   b) Việc cơ cấu lại thời hạn trả nợ được thực hiện trước hoặc trong thời hạn 10 ngày kể từ ngày đến hạn trả nợ đã thỏa thuận;
+   c) Các bên có thể thỏa thuận việc cơ cấu lại thời hạn trả nợ bằng cách lập Hợp đồng sửa đổi, bổ sung HĐTD hoặc văn bản thông báo chấp thuận cơ cấu lại thời hạn trả nợ. Hợp đồng sửa đổi, bổ sung HĐTD hoặc văn bản thông báo khi cơ cấu đó là một bộ phận của HĐTD.
+
+### <a id="Điều-62-Tạm-ngừng-cho-vay-chấm-dứt-cho-vay-thu-hồi-nợ-trước-hạn-chuyển-nợ-quá-hạn"></a>Điều 62. Tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn, chuyển nợ quá hạn
+**Người thực hiện:** Người quản lý nợ; Người kiểm soát khoản vay; Người quyết định cho vay
+1. Tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn: Agribank có quyền xem xét, quyết định việc tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn trong các trường hợp sau:
+   a) Khi phát hiện khách hàng cung cấp thông tin sai sự thật;
+   b) Khách hàng vi phạm thỏa thuận trong HĐTD và/hoặc HĐBĐ;
+   c) Các trường hợp khác có nguy cơ ảnh hưởng đến khả năng trả nợ của khách hàng;
+   d) Quyết định theo kết luận của cơ quan thanh tra, kiểm tra, kiểm toán.
+2. Chuyển nợ quá hạn:
+   a) Agribank nơi cho vay chuyển nợ quá hạn đối với số dư nợ gốc mà khách hàng không trả được nợ đúng hạn theo thỏa thuận trong HĐTD và không được Agribank nơi cho vay chấp thuận cơ cấu lại thời hạn trả nợ;
+   b) Agribank nơi cho vay chuyển nợ quá hạn đối với số dư nợ gốc mà khách hàng không trả được khi Agribank quyết định chấm dứt cho vay, thu hồi nợ trước hạn theo quy định tại khoản 1 Điều này;
+   c) Trường hợp Agribank nơi cho vay phải giải ngân theo điều kiện cho vay bắt buộc để thực hiện nghĩa vụ bảo lãnh, nghĩa vụ thanh toán L/C thì số dư nợ gốc giải ngân cho vay bắt buộc đó tự động chuyển sang quá hạn.
+3. Thông báo tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn, chuyển nợ quá hạn:
+   a) Khi thực hiện tạm ngừng cho vay, chấm dứt cho vay, thu hồi nợ trước hạn, Agribank thông báo cho khách hàng. Nội dung thông báo tối thiểu bao gồm: thời điểm tạm ngừng/chấm dứt cho vay, thu hồi nợ trước hạn; số dư nợ gốc bị thu hồi trước hạn; thời hạn hoàn trả số dư nợ gốc bị thu hồi trước hạn; thời điểm chuyển nợ quá hạn và lãi suất áp dụng đối với số dư nợ gốc bị thu hồi trước hạn; các biện pháp sẽ áp dụng để thu hồi nợ cho vay;
+   b) Khi chuyển nợ quá hạn, Agribank nơi cho vay thông báo cho khách hàng về việc chuyển nợ quá hạn. Nội dung thông báo tối thiểu gồm: số dư nợ gốc quá hạn, thời điểm chuyển quá hạn, lãi suất áp dụng đối với dư nợ gốc bị quá hạn, lãi chậm trả và yêu cầu khách hàng thực hiện các biện pháp trả nợ.
+
+## <a id="Mục-6-KIỂM-TRA-GIÁM-SÁT-NỢ-VAY"></a>Mục 6. KIỂM TRA, GIÁM SÁT NỢ VAY
+### <a id="Điều-63-Kiểm-tra-tại-Agribank-nơi-cho-vay"></a>Điều 63. Kiểm tra tại Agribank nơi cho vay
+**Người thực hiện:**
+Người quản lý nợ trực tiếp kiểm tra, giám sát;
+Người kiểm soát khoản vay đôn đốc, giám sát việc thực hiện của Người quản lý nợ, có thể trực tiếp kiểm tra khi cần thiết;
+Giám đốc Agribank nơi cho vay chỉ đạo, kiểm tra việc kiểm tra, giám sát nợ vay.
+1. Thời điểm kiểm tra:
+   a) Đối với khách hàng pháp nhân, DNTN:
+   (i) Kiểm tra sử dụng vốn vay phải thực hiện chậm nhất trong vòng 30 ngày kể từ ngày giải ngân;
+   (ii) Kiểm tra tình hình hoạt động kinh doanh, đánh giá khả năng trả nợ thực hiện trong vòng 06 tháng ít nhất 01 lần kể từ ngày kiểm tra gần nhất;
+   (iii) Kiểm tra, đánh giá khả năng trả nợ đối với khoản nợ có vấn đề theo quy định về quản lý nợ có vấn đề của Agribank;
+   (iv) Kiểm tra đột xuất khác (nếu thấy cần thiết).
+   b) Đối với khách hàng cá nhân (trừ DNTN):
+   (i) Kiểm tra sử dụng vốn vay phải thực hiện chậm nhất trong vòng 60 ngày kể từ ngày giải ngân vốn vay;
+   (ii) Kiểm tra tình hình hoạt động kinh doanh, đánh giá khả năng trả nợ thực hiện trong vòng 12 tháng ít nhất 01 lần kể từ ngày kiểm tra gần nhất;
+   (iii) Kiểm tra, đánh giá khả năng trả nợ đối với khoản nợ có vấn đề theo quy định về quản lý nợ có vấn đề của Agribank;
+   (iv) Kiểm tra đột xuất khác (nếu thấy cần thiết).
+   c) Kiểm tra TSBĐ theo quy định về bảo đảm tiền vay. Việc kiểm tra TSBĐ có thể cùng ký và lập biên bản cùng với kiểm tra sử dụng vốn vay/kiểm tra tình hình hoạt động kinh doanh.
+2. Nội dung kiểm tra:
+   a) Kiểm tra sử dụng vốn vay: việc sử dụng vốn vay theo mục đích đã ghi trong HĐTD và giấy nhận nợ như chứng từ chuyển tiền, tài liệu về cung cấp hàng hóa, dịch vụ, việc bảo đảm thực hiện nghĩa vụ (hợp đồng kinh tế, hóa đơn mua bán hàng hóa và cung ứng dịch vụ, sổ kho, phiếu nhập kho, hợp đồng bảo đảm thực hiện nghĩa vụ, tài liệu chứng minh về thực hiện hợp đồng và thanh lý hợp đồng,...), về kho hàng hóa;
+   b) Kiểm tra tình hình hoạt động kinh doanh một số nội dung sau:
+   (i) Dư nợ vay, số lãi phải trả đến ngày kiểm tra;
+   (ii) Tình hình tài chính; đánh giá tiến độ và khả năng trả nợ;
+   (iii) Biện pháp tổ chức triển khai và tiến độ thực hiện dự án, phương án; đánh giá phương án sử dụng vốn và khả năng trả nợ của khách hàng;
+   (iv) Thu thập thông tin xếp hạng khách hàng theo quy định của Agribank;
+   (v) Các nội dung khác (nếu có).
+3. Lập biên bản kiểm tra:
+   a) Người kiểm tra cùng khách hàng lập Biên bản kiểm tra sử dụng vốn vay, Biên bản kiểm tra tình hình hoạt động kinh doanh của khách hàng;
+   b) Việc kiểm tra khách hàng vay qua tổ vay vốn thực hiện theo quy định cho vay qua tổ vay vốn của Agribank.
+4. Xử lý qua kiểm tra:
+Trường hợp có vi phạm qua kiểm tra, Agribank nơi cho vay xử lý như sau:
+   a) Tùy theo mức độ vi phạm HĐTD, HĐBĐ, Người quản lý nợ căn cứ vào kết quả kiểm tra và quy định có liên quan lập báo cáo kiểm tra, đề xuất một số biện pháp như: bổ sung thêm điều kiện tín dụng; giám sát dòng tiền; giảm hạn mức tín dụng; bổ sung thêm TSBĐ; tạm ngừng giải ngân/chấm dứt cho vay; thu hồi nợ trước hạn; các biện pháp khác (nếu có);
+   b) Căn cứ vào đề xuất của Người quản lý nợ, Người kiểm soát khoản vay, Người quyết định cho vay quyết định hình thức xử lý theo nguyên tắc bảo vệ lợi ích của Agribank và phù hợp các quy định có liên quan.
+5. Đối chiếu nợ vay:
+   a) Hàng năm, Chi nhánh loại I chỉ đạo, tổ chức kiểm tra đối chiếu dư nợ 100% khách hàng pháp nhân và các khách hàng cá nhân có dư nợ từ 500 triệu đồng trở lên; tối thiểu 50% khách hàng cá nhân dư nợ từ 200 triệu đồng đến dưới 500 triệu đồng và tối thiểu 10% khoản vay còn lại;
+   b) Việc đối chiếu phải thực hiện theo nguyên tắc Người quản lý nợ không trực tiếp đối chiếu khoản vay đó; trường hợp theo tỷ lệ thực hiện đối chiếu xác suất hoặc có những khoản vay có dấu hiệu bất thường;
+   c) Tùy tình hình và yêu cầu thực tế việc đối chiếu xác nhận nợ vay với khách hàng có thể bằng những hình thức (đối chiếu trực tiếp, thư gửi qua bưu điện, thư điện tử,...).
+
+### <a id="Điều-64-Giám-sát-tại-Agribank-nơi-cho-vay"></a>Điều 64. Giám sát tại Agribank nơi cho vay
+**Người thực hiện:**
+Người quản lý nợ: giám sát và đề xuất xử lý qua giám sát;
+Người kiểm soát khoản vay: theo dõi, đôn đốc việc thực hiện giám sát, xem xét đề xuất xử lý qua giám sát;
+Người có thẩm quyền: chỉ đạo, kiểm tra việc giám sát, quyết định xử lý qua báo cáo giám sát.
+1. Nội dung giám sát:
+   a) Giám sát tình hình sử dụng vốn vay, tình hình trả nợ, việc thực hiện các điều kiện cho vay và thỏa thuận tại HĐTD;
+   b) Giám sát tình hình hoạt động kinh doanh (doanh thu, lợi nhuận), tình hình tài chính và khả năng trả nợ Ngân hàng;
+   c) Giám sát tiến độ góp vốn (trường hợp góp vốn nhiều lần), việc thực hiện nghĩa vụ dân sự theo hợp đồng bảo đảm thực hiện nghĩa vụ đã ký kết;
+   d) Theo dõi xếp hạng khách hàng trên HTXH và diễn biến trạng thái khoản vay theo nhóm nợ;
+   e) Các nội dung khác (nếu thấy cần thiết).
+2. Công cụ giám sát:
+   a) Thông qua hệ thống IPCAS;
+   b) Thông tin CIC;
+   c) Thông qua phân tích báo cáo tài chính doanh nghiệp và các loại báo cáo của khách hàng (Báo cáo hình thành tài sản hình thành trong tương lai, báo cáo sử dụng vốn, báo cáo tồn kho, báo cáo công nợ...);
+   d) Thông qua kết quả thanh tra, kiểm tra, kiểm toán trong kỳ (nếu có);
+   đ) Nguồn thông tin khác từ chính quyền, phương tiện thông tin đại chúng, các ngành hữu quan,... (nếu có).
+3. Xử lý qua giám sát: qua giám sát, khi Người quản lý nợ phát hiện các dấu hiệu rủi ro hoặc khoản vay chuyển sang nhóm nợ cao hơn thì chủ động tiến hành kiểm tra khách hàng để có biện pháp xử lý phù hợp với nội dung HĐTD.
+
+### <a id="Điều-65-Kiểm-tra-tại-Agribank-nơi-phê-duyệt-vượt-thẩm-quyền"></a>Điều 65. Kiểm tra tại Agribank nơi phê duyệt vượt thẩm quyền
+**Người, đơn vị thực hiện:** Ban Kiểm tra, giám sát nội bộ/Phòng Kiểm tra, giám sát nội bộ; người có thẩm quyền.
+1. Kế hoạch, biện pháp kiểm tra: Tổng Giám đốc/Trưởng ban Kiểm tra, giám sát nội bộ/Giám đốc Chi nhánh loại I nơi phê duyệt vượt thẩm quyền chỉ đạo xây dựng và phê duyệt kế hoạch kiểm tra, biện pháp kiểm tra việc chấp hành các quyết định phê duyệt cho vay của Agribank nơi cho vay và khách hàng vay.
+Trưởng ban Kiểm tra, giám sát nội bộ có thể đề xuất cấp có thẩm quyền giao nhiệm vụ cho Văn phòng đại diện khu vực kiểm tra một số khách hàng cụ thể.
+2. Thời điểm kiểm tra:
+   a) Đối với khách hàng vay vốn lưu động: kiểm tra một năm ít nhất 01 lần;
+   b) Đối với khách hàng vay vốn đầu tư dự án đang triển khai: kiểm tra tối thiểu sau 06 tháng kể từ ngày giải ngân đầu tiên và một năm ít nhất 01 lần đối với các lần kiểm tra tiếp theo;
+   c) Trường hợp khác do người có thẩm quyền quyết định.
+3. Nội dung kiểm tra:
+   a) Đánh giá tình hình chấp hành các nội dung cho vay theo văn bản thông báo phê duyệt cho vay của cấp có thẩm quyền;
+   b) Kiểm tra chọn mẫu việc giải ngân, sử dụng vốn vay theo mục đích vay vốn đã ghi trong HĐTD;
+   c) Đánh giá tình hình thực hiện phương án, dự án kinh doanh; tình hình tài chính; khả năng trả nợ của khách hàng;
+   d) Kết quả xếp hạng khách hàng trên HTXH;
+   đ) Các nội dung khác (nếu có).
+4. Biên bản kiểm tra: kết thúc kiểm tra, người kiểm tra phải lập Biên bản kiểm tra.
+5. Xử lý qua kiểm tra:
+   a) Qua kiểm tra nếu phát hiện thấy Agribank nơi cho vay không tuân thủ các nội dung phê duyệt, khoản vay chuyển sang nhóm nợ xấu, khách hàng vay vi phạm HĐTD, HĐBĐ hoặc các dấu hiệu rủi ro khác, người kiểm tra báo cáo người có thẩm quyền đề xuất xử lý:
+   (i) Yêu cầu Agribank nơi cho vay báo cáo, làm rõ các nội dung cần thiết;
+   (ii) Yêu cầu Agribank nơi cho vay tiến hành kiểm tra xử lý và báo cáo kết quả kiểm tra;
+   (iii) Tùy theo mức độ vi phạm, yêu cầu Agribank nơi cho vay tạm ngừng cho vay, thu hồi nợ trước hạn, bổ sung TSBĐ hoặc các biện pháp khác phù hợp với quy định.
+   b) Kết quả kiểm tra được báo cáo với Người phê duyệt vượt thẩm quyền và chuyển Biên bản kiểm tra cho Phòng thẩm định/bộ phận Thẩm định; Ban Thẩm định/Trung tâm phê duyệt.
+
+### <a id="Điều-66-Giám-sát-tại-Agribank-nơi-phê-duyệt-vượt-thẩm-quyền"></a>Điều 66. Giám sát tại Agribank nơi phê duyệt vượt thẩm quyền
+**Người thực hiện:**
+Người giám sát khoản vay vượt thẩm quyền: giám sát và đề xuất xử lý qua giám sát;
+Người kiểm soát khoản vay: theo dõi, đôn đốc việc thực hiện giám sát, xem xét đề xuất xử lý qua giám sát;
+Người có thẩm quyền: quyết định xử lý qua kết quả báo cáo giám sát.
+1. Nội dung giám sát:
+   a) Giám sát trước khi cho vay:
+   (i) Người giám sát khoản vay thực hiện giám sát việc tuân thủ các điều kiện được ghi trong thông báo phê duyệt vượt thẩm quyền trước khi đăng ký thông tin tín dụng vào hệ thống IPCAS;
+   (ii) Hồ sơ Chi nhánh gửi chứng minh việc đã đáp ứng các điều kiện theo thông báo phê duyệt, HĐTD, hồ sơ bảo đảm cấp tín dụng (nếu có), Giấy chứng nhận bảo hiểm/Hợp đồng bảo hiểm (nếu có),...
+   b) Giám sát trong khi cho vay: theo dõi diễn biến, tình trạng khoản vay; kết quả xếp hạng khách hàng trên HTXH;
+   c) Giám sát tình hình hoạt động kinh doanh, việc trả nợ của khách hàng;
+   d) Các nội dung khác liên quan đến sử dụng tiền vay, khả năng trả nợ của khách hàng.
+2. Công cụ giám sát:
+   a) Thông qua hệ thống IPCAS (diễn biến doanh số và số dư tài khoản tiền gửi, tiền vay, nhóm nợ, tình hình thực hiện lịch trả nợ của khách hàng...);
+   b) Thông tin CIC;
+   c) Báo cáo của Agribank nơi cho vay;
+   d) Báo cáo kết quả hoạt động kinh doanh của khách hàng;
+   đ) Thông tin trên thông báo kết quả kiểm tra, thanh tra, kiểm toán về khoản vay (nếu có);
+   e) Thông qua nguồn thông tin, căn cứ khác (nếu có).
+3. Xử lý qua giám sát:
+Qua giám sát nếu phát hiện thấy Agribank nơi cho vay không tuân thủ các nội dung phê duyệt, khoản vay chuyển sang nhóm nợ xấu hoặc các dấu hiệu rủi ro khác, người có thẩm quyền được quyền chỉ đạo xử lý:
+   a) Yêu cầu Agribank nơi cho vay báo cáo, làm rõ các nội dung cần thiết;
+   b) Yêu cầu Agribank nơi cho vay tiến hành kiểm tra xử lý và báo cáo kết quả kiểm tra;
+   c) Đề xuất tổ chức kiểm tra theo Điều 65 Quy định này.
+
+### <a id="Điều-67-Công-tác-báo-cáo"></a>Điều 67. Công tác báo cáo
+1. Báo cáo kết quả kiểm tra, giám sát khoản vay thuộc thẩm quyền của Giám đốc Agribank nơi cho vay:
+Giám đốc Agribank nơi cho vay quyết định thời điểm, nội dung, nơi nhận báo cáo, biện pháp xử lý qua kiểm tra, giám sát.
+2. Đối với khoản vay vượt thẩm quyền của Giám đốc Agribank nơi cho vay
+   a) Báo cáo cơ cấu nợ: Agribank nơi cho vay báo cáo nơi phê duyệt vượt thẩm quyền ngay sau khi điều chỉnh kỳ hạn trả nợ, gia hạn nợ giữ nguyên nhóm nợ;
+   b) Báo cáo kết quả rà soát, đánh giá hạn mức:
+   (i) Định kỳ hàng quý chậm nhất vào ngày 15 của tháng đầu quý tiếp theo: Agribank nơi cho vay báo cáo kết quả rà soát, đánh giá hạn mức gửi Agribank nơi phê duyệt vượt thẩm quyền và thông báo cho Phòng Thẩm định/bộ phận Thẩm định;
+   (ii) Định kỳ hàng quý chậm nhất vào ngày 25 của tháng đầu quý tiếp theo: trên cơ sở báo cáo rà soát, đánh giá hạn mức của Agribank nơi cho vay, Ban Thẩm định tổng hợp, báo cáo Tổng Giám đốc, Hội đồng thành viên kết quả rà soát, đánh giá hạn mức;
+   c) Báo cáo kết quả kiểm tra
+   (i) Biên bản kiểm tra khách hàng vượt thẩm quyền:
+   - Tại Chi nhánh: Phòng/Bộ phận Kiểm tra, giám sát nội bộ gửi Biên bản kiểm tra cho bộ phận Thẩm định/Phòng Thẩm định trong vòng 15 ngày sau khi có kết quả kiểm tra.
+   - Tại Trụ sở chính: Ban kiểm tra, giám sát nội bộ gửi cho Ban Thẩm định/Trung tâm phê duyệt trong vòng 15 ngày sau khi có kết quả kiểm tra.
+   (ii) Báo cáo kiểm tra khách hàng vượt thẩm quyền:
+   Định kỳ hàng quý chậm nhất vào ngày 15 của tháng đầu quý tiếp theo, đột xuất khi cần thiết hoặc theo yêu cầu của cấp phê duyệt vượt thẩm quyền, đơn vị kiểm tra gửi báo cáo kết quả kiểm tra như sau:
+   - Tại Chi nhánh loại I: Phòng/Bộ phận Kiểm tra, giám sát nội bộ báo cáo Giám đốc Chi nhánh và thông báo cho bộ phận Thẩm định/Phòng Thẩm định.
+   - Tại Trụ sở chính: Trưởng ban Kiểm tra, giám sát nội bộ báo cáo Hội đồng thành viên, Tổng Giám đốc kết quả kiểm tra các khoản vay vượt thẩm quyền do Trụ sở chính phê duyệt và thông báo cho Ban Thẩm định, Trung tâm phê duyệt.
+   d) Báo cáo kết quả giám sát:
+   (i) Tại Chi nhánh loại I: đối với các khoản cấp tín dụng Giám đốc Chi nhánh loại I phê duyệt vượt thẩm quyền của Giám đốc Chi nhánh loại II: do Giám đốc Chi nhánh loại I quy định;
+   (ii) Tại Trụ sở chính:
+   Định kỳ hàng quý chậm nhất vào ngày 15 của tháng đầu quý tiếp theo, đột xuất khi cần thiết hoặc theo yêu cầu của cấp phê duyệt vượt thẩm quyền, đơn vị kiểm tra gửi báo cáo kết quả giám sát như sau:
+   - Đối với khoản vay do Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt phê duyệt: Người giám sát khoản vay vượt thẩm quyền báo cáo Trưởng/Phó trưởng nghiệp vụ/Lãnh đạo phòng trình Trưởng ban Thẩm định/Giám đốc Trung tâm phê duyệt.
+   - Đối với khoản vay do Tổng Giám đốc/Hội đồng thành viên phê duyệt: Trưởng ban Thẩm định báo cáo Tổng Giám đốc/Hội đồng thành viên trên cơ sở báo cáo của Người giám sát khoản vay vượt thẩm quyền và Trưởng/Phó trưởng nghiệp vụ/Lãnh đạo phòng.
+
+### <a id="Điều-68-Các-phụ-lục-mẫu-biểu"></a>Điều 68. Các phụ lục, mẫu biểu
+Ban hành theo Quy định này danh mục các phụ lục, mẫu biểu:
+1. Danh mục số 01/DMPL-PN: các Phụ lục áp dụng đối với doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã.
+2. Danh mục số 02/DMMB-PN: các Mẫu biểu áp dụng đối với doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã.
+3. Danh mục số 03/DMPL-CN: các Phụ lục áp dụng đối với cá nhân.
+4. Danh mục số 04/DMMB-CN: các Mẫu biểu áp dụng đối với cá nhân.
+5. Danh mục số 05/DMPL-QĐ: các Phụ lục áp dụng chung đối với doanh nghiệp, Hợp tác xã, liên hiệp Hợp tác xã, cá nhân.
+
+# <a id="Chương-V-TỔ-CHỨC-THỰC-HIỆN"></a>Chương V. TỔ CHỨC THỰC HIỆN
+### <a id="Điều-69-Tổ-chức-thực-hiện"></a>Điều 69. Tổ chức thực hiện
+1. Ban Chính sách tín dụng: đầu mối phối hợp với các đơn vị liên quan tổ chức triển khai, tiếp nhận đề xuất, kiến nghị của Chi nhánh liên quan đến Quy định này; đề xuất Tổng Giám đốc bổ sung, sửa đổi cho phù hợp với yêu cầu thực tế.
+2. Ban Khách hàng doanh nghiệp, khách hàng cá nhân: tham mưu, đề xuất xây dựng, triển khai các sản phẩm cho vay đối với khách hàng.
+3. Trung tâm công nghệ thông tin là đầu mối kỹ thuật phối hợp với Ban, Trung tâm tại Trụ sở chính:
+   a) Xây dựng chương trình quản lý, giám sát của Trụ sở chính, Chi nhánh loại I đối với các khoản cho vay phê duyệt vượt thẩm quyền; các chương trình quản lý cấp tín dụng theo yêu cầu của NHNN;
+   b) Xây dựng các chương trình hỗ trợ trong quá trình thực hiện Quy định này nhằm nâng cao hiệu quả việc khai thác thông tin, thẩm định, quản lý nợ vay.
+4. Các đơn vị tại Trụ sở chính theo chức năng, nhiệm vụ của đơn vị tổ chức thực hiện, kiểm tra, giám sát việc triển khai Quy định này.
+5. Chi nhánh loại I, Chi nhánh loại II, PGD:
+   a) Tổ chức, triển khai thực hiện Quy định này đến các đơn vị trực thuộc và cá nhân có liên quan;
+   b) Tổ chức kiểm tra, giám sát việc chấp hành Quy định này và xử lý theo thẩm quyền.
+
+### <a id="Điều-70-Điều-khoản-thi-hành"></a>Điều 70. Điều khoản thi hành
+1. Quy định này có hiệu lực kể từ ngày 01/10/2023, thay thế Quy định số 868/QĐ-NHNo-TD ngày 18/4/2023 của Tổng Giám đốc về cho vay đối với khách hàng trong hệ thống Ngân hàng Nông nghiệp và Phát triển nông thôn Việt Nam.
+2. Những nội dung liên quan đến hoạt động cho vay không nêu tại Quy định này, thực hiện theo quy định nội bộ khác của Agribank và quy định của pháp luật có liên quan.
+3. Đối với các Thỏa thuận cho vay đã được ký kết trước ngày Quy định này có hiệu lực thi hành, Agribank nơi cho vay và khách hàng tiếp tục thực hiện các nội dung trong Thỏa thuận cho vay đã ký kết hoặc thỏa thuận sửa đổi, bổ sung Thỏa thuận cho vay phù hợp với Quy định này.
+4. Trường hợp sau ngày ban hành Quy định này có sự thay đổi của văn bản quy phạm pháp luật dẫn đến việc áp dụng Quy định này trái với quy định của pháp luật hiện hành thì Agribank thực hiện theo quy định của pháp luật.
+5. Mọi sửa đổi, bổ sung Quy định này do Tổng Giám đốc quyết định.
+6. Các đơn vị, cá nhân có liên quan thuộc Agribank chịu trách nhiệm thi hành Quy định này.
+```
