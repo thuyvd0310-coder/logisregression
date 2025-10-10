@@ -56,142 +56,57 @@ def gemini_generate_text(system_prompt: str,
         return None, f"Đã xảy ra lỗi khi gọi Gemini: {e}"
 # ===================================================================
 
-# ===================== PROMPT BUILDER TÍCH HỢP (NEW) =====================
-# 1) Hằng số: “vai trò hệ thống”
-SYS_PROMPT_STRUCTURED = dedent("""
-Bạn là Trợ lý Đánh giá rủi ro tín dụng KHCN của Agribank, am hiểu các quy định, quy trình nội bộ về cho vay của Agribank.
-Hãy giải thích kết quả dự báo theo phong cách được yêu cầu, gồm:
-1) Kết luận ngắn gọn: Không cho vay/Cho vay? Cho vay (kèm điều kiện nhận nợ)
-2) Giải trình lý do đưa ra kết quả trên, ưu tiên nêu rõ các chỉ số định lượng (nếu tính toán được)
-3) Khuyến nghị hành động tiếp theo cho cán bộ tín dụng (giấy tờ, xác minh, điều kiện nhận nợ, phương án trả nợ, các biện pháp giám sát khoản vay...).
-4) Giọng điệu thân thiện, hỗ trợ, đồng hành. Trả lời bằng tiếng Việt.
+# ===================== PROMPT BUILDER (BẢN NHẸ – LITE) =====================
+# Giữ nguyên tinh thần 4 mục nhưng RẤT NGẮN, hạn 160–220 từ, không chèn bảng, không nhúng quy định dài.
+# Chỉ dùng vài chỉ số sẵn có: y_hat, PD, độ chính xác test; KHÔNG yêu cầu mô hình tính toán thêm.
+SYS_PROMPT_LITE = dedent("""
+Bạn là Trợ lý Đánh giá rủi ro tín dụng KHCN của Agribank.
+Hãy trả lời theo 4 mục sau, văn phong thân thiện, tối đa ~200 từ:
+1) Kết luận ngắn gọn: Không cho vay / Cho vay / Cho vay (kèm điều kiện)
+2) Giải trình rất ngắn gọn, chỉ dùng các chỉ số đã cho (KHÔNG tự suy diễn hay tính thêm): 
+   - Nhãn dự báo (y_hat)
+   - PD[default] (xác suất vỡ nợ)
+   - Độ chính xác test (score_test)
+3) Khuyến nghị thao tác tiếp theo (3–5 gạch đầu dòng), tập trung vào: giấy tờ cần bổ sung, kiểm chứng thu nhập/mục đích, điều kiện nhận nợ/giải ngân, kế hoạch trả nợ & giám sát
+4) Giọng điệu hỗ trợ, tránh thuật ngữ khó, không chèn bảng.
+Không sử dụng nguồn dữ liệu hay quy định bên ngoài.
 """).strip()
 
-# 2) Khối hướng dẫn nghiệp vụ: ép nêu công thức -> áp số liệu -> kết luận
-FORMULA_BLOCK = dedent("""
-BẮT BUỘC CÁCH TRÌNH BÀY SỐ LIỆU (theo thứ tự):
-- Mỗi chỉ số: (a) VIẾT RÕ CÔNG THỨC, (b) THAY SỐ LIỆU ĐẦY ĐỦ, (c) KẾT QUẢ, (d) NGƯỠNG/DIỄN GIẢI.
-- Nếu thiếu dữ liệu: ghi rõ "THIẾU DỮ LIỆU: <tên biến>", kèm hướng dẫn thu thập.
-- Ưu tiên số liệu bình quân 3–12 tháng nếu có; nếu không, nêu rõ kỳ tham chiếu.
-
-CÁC CHỈ SỐ CỐT LÕI CẦN TÍNH (nếu đủ dữ liệu):
-1) Tỷ lệ gánh nợ (DSR) theo kỳ trả nợ:
-   DSR = Tổng trả nợ kỳ (gốc+lãi) / Thu nhập ròng kỳ
-2) Hệ số bảo đảm trả nợ (DSCR):
-   DSCR = Dòng tiền thuần hoạt động kỳ / Tổng nghĩa vụ nợ kỳ
-3) Hệ số khả năng chi trả lãi (ICR):
-   ICR = Thu nhập trước lãi & thuế (EBIT) / Chi phí lãi kỳ
-4) Tỷ lệ cho vay trên giá trị TSBĐ (LTV):
-   LTV = Dư nợ dự kiến / Giá trị định giá TSBĐ
-5) Khả dụng thu nhập ròng:
-   NDI = Thu nhập (ổn định) – Chi phí sinh hoạt – Thuế/phí – Nghĩa vụ nợ hiện có
-6) Chu kỳ chuyển đổi tiền mặt (đối với hộ SXKD):
-   CCC = DIO + DSO – DPO
-   (DIO = Hàng tồn kho bình quân / Giá vốn * 365; DSO = Phải thu / Doanh thu * 365; DPO = Phải trả / Giá vốn * 365)
-7) Vốn tự có tham gia phương án & tỷ lệ LTC/LTV đối với phương án SXKD có đầu tư:
-   LTC = Dư nợ đề nghị / (Tổng vốn đầu tư)
-
-LÃI SUẤT THAM CHIẾU (nếu bạn nhập): ví dụ 5%/năm → lãi kỳ (tháng) = 5%/12.
-Với khoản trả góp đều, gợi ý công thức annuity để minh họa: Kỳ trả = P * r / (1 - (1+r)^(-n))
-
-RỦI RO MÔI TRƯỜNG – XÃ HỘI (MTXH) CẦN KIỂM:
-- Tài liệu pháp lý MTXH: ĐTM/ĐG tác động MT sơ bộ, Giấy phép/Đăng ký môi trường, báo cáo định kỳ, biên bản thanh tra/kiểm tra.
-- Tuân thủ lao động – an toàn (BHXH, ATVSLĐ), phản ánh cộng đồng, vi phạm/biện pháp khắc phục.
-- Nếu thiếu/không hợp lệ: nêu rõ điều kiện tiên quyết giải ngân hoặc điều kiện duy trì hạn mức.
-
-RA QUYẾT ĐỊNH:
-- “Không cho vay” khi chỉ số không đạt ngưỡng an toàn (ví dụ: DSCR<1; DSR>50–60% theo khẩu vị; LTV vượt trần; hồ sơ MTXH thiếu/vi phạm).
-- “Cho vay (kèm điều kiện)” khi rủi ro có thể giảm thiểu bằng điều kiện nhận nợ/giải ngân từng phần/TSBĐ bổ sung/giấy tờ MTXH hợp lệ.
-""").strip()
-
-# 3) Ngưỡng tham chiếu (có thể hiệu chỉnh theo đơn vị)
-RISK_GUARDRAILS = dedent("""
-THAM CHIẾU NGƯỠNG (điều chỉnh theo chính sách đơn vị nếu có):
-- DSR: ≤ 40–50% với KHCN; có thể nới đến 60% khi thu nhập rất ổn định & có TSBĐ tốt.
-- DSCR: ≥ 1,0; an toàn ≥ 1,2 cho phương án SXKD.
-- LTV (TSBĐ nhà/đất ở): tuỳ quy định từng phân khúc; minh bạch phần định giá & hệ số haircut.
-- ICR: > 2 là khỏe; < 1 là cảnh báo.
-- Hồ sơ MTXH: bắt buộc đầy đủ & còn hiệu lực với ngành nghề thuộc diện quản lý môi trường.
-""").strip()
-
-def _chunk(text: str, max_chars: int = 8000) -> str:
-    """Cắt ngắn nội dung file dài để tránh tràn ngữ cảnh."""
-    text = text.strip()
-    return text[:max_chars] + (" ...[đã cắt]" if len(text) > max_chars else "")
-
-def build_gemini_prompt(
-    customer_profile: Dict[str, Union[str, float, int]],
-    financials: Dict[str, Union[float, int]],
-    loan_terms: Dict[str, Union[float, int, str]],
-    business_params: Optional[Dict[str, Union[float, int]]] = None,
-    attached_file_names: Optional[List[str]] = None,
-    embedded_reg_texts: Optional[List[str]] = None,
-    explain_style: str = "Rõ ràng – kỹ thuật",
-    model_meta: Optional[Dict[str, Union[str, float, int]]] = None,
+def build_gemini_prompt_lite(
+    input_row: Dict[str, Union[str, float, int]],
+    y_hat: int,
+    pd_vector: list,
+    score_test: float,
+    explain_style: str = "Dễ hiểu – dành cho cán bộ tín dụng",
+    note: str = ""
 ) -> str:
-    """Tạo prompt hoàn chỉnh cho Gemini theo khuôn đã thống nhất."""
-    regs_part = ""
-    if attached_file_names:
-        regs_part += "TÀI LIỆU QUY ĐỊNH/QUY TRÌNH (đã đính kèm qua API, vui lòng đọc trực tiếp tệp):\n"
-        for fn in attached_file_names:
-            regs_part += f"- {fn}\n"
-    if embedded_reg_texts:
-        regs_part += "\nTRÍCH YẾU QUY ĐỊNH/QUY TRÌNH (nhúng vào prompt, đã cắt ngắn):\n"
-        for i, txt in enumerate(embedded_reg_texts, 1):
-            regs_part += f"\n--- [Văn bản #{i}] ---\n{_chunk(txt)}\n"
+    """
+    Tạo prompt ngắn gọn để giảm thời gian xử lý:
+    - Không kèm khối công thức, không kèm danh mục quy định dài
+    - Chỉ truyền đúng dữ liệu cần thiết
+    """
+    # Lấy PD default (giả định lớp 1 là default)
+    pd_default = None
+    try:
+        if isinstance(pd_vector, (list, tuple)) and len(pd_vector) == 2:
+            pd_default = float(pd_vector[1])
+    except Exception:
+        pd_default = None
 
-    output_spec = dedent("""
-    YÊU CẦU ĐẦU RA (bắt buộc theo 4 phần, viết bằng tiếng Việt, giọng hỗ trợ):
-    1) Kết luận ngắn gọn: Không cho vay / Cho vay / Cho vay (kèm điều kiện nhận nợ). Nêu rõ cơ sở.
-    2) Giải trình định lượng: Lập bảng chỉ số. Với MỖI chỉ số, ghi (a) công thức, (b) phép thay số, (c) kết quả, (d) ngưỡng/diễn giải.
-    3) Khuyến nghị tác nghiệp: 
-       - Hồ sơ cần bổ sung/xác minh (CIC, chứng từ thu nhập, chứng từ mục đích, hồ sơ MTXH…)
-       - Điều kiện nhận nợ/giải ngân (CP/DP), phương án trả nợ (lịch trả, nguồn trả), kiểm soát sau vay (soát chứng từ, dòng tiền về tài khoản, rà soát TSBĐ).
-       - Biện pháp giảm thiểu rủi ro (giới hạn DSR, yêu cầu TSBĐ bổ sung, bảo hiểm, bảo lãnh…).
-    4) Tóm lược rủi ro nổi bật & cảnh báo sớm, gắn trách nhiệm giám sát và tần suất theo dõi.
+    # Rút gọn dữ liệu đầu vào (chỉ 5 khóa đầu tiên nếu quá dài)
+    compact_items = list(input_row.items())[:5]
+    compact_str = ", ".join([f"{k}={v}" for k, v in compact_items])
+
+    prompt = dedent(f"""
+    [PHONG CÁCH]: {explain_style}
+    [DỮ LIỆU TÓM TẮT]: {compact_str} {'...(rút gọn)' if len(input_row) > 5 else ''}
+    [DỰ BÁO NHÃN y_hat]: {y_hat}
+    [PD(default)]: {pd_default if pd_default is not None else 'N/A'}
+    [ĐỘ CHÍNH XÁC test]: {round(float(score_test), 4)}
+    [GHI CHÚ]: {note}
+
+    YÊU CẦU: Trả lời đúng 4 mục như SYS_PROMPT, không vượt quá ~200 từ, không lập bảng.
     """).strip()
-
-    policy_clause = dedent("""
-    CHỈ SỬ DỤNG CÁC QUY ĐỊNH/QUY TRÌNH ĐÍNH KÈM HOẶC NHÚNG TRONG PROMPT LÀM NGUỒN THAM CHIẾU.
-    KHÔNG ĐƯỢC SUY DIỄN TỪ NGUỒN BÊN NGOÀI.
-    Nếu phát hiện mâu thuẫn giữa các văn bản, hãy nêu rõ mâu thuẫn và ưu tiên văn bản mới hơn/đặc thù hơn nếu có.
-    """).strip()
-
-    data_block = f"[PHONG CÁCH]: {explain_style}\n"
-    # customer
-    data_block += "\nDỮ LIỆU ĐẦU VÀO KHÁCH HÀNG:\n"
-    for k, v in customer_profile.items():
-        data_block += f"- KH.{k}: {v}\n"
-    # financials
-    data_block += "\nSỐ LIỆU TÀI CHÍNH/DỰ BÁO:\n"
-    for k, v in financials.items():
-        data_block += f"- Tài chính.{k}: {v}\n"
-    # loan terms
-    if loan_terms:
-        data_block += "\nTHÔNG SỐ KHOẢN VAY (nếu có):\n"
-        for k, v in loan_terms.items():
-            data_block += f"- Khoản vay.{k}: {v}\n"
-    # sxkd
-    if business_params:
-        data_block += "\nCHỈ SỐ SXKD (nếu có):\n"
-        for k, v in business_params.items():
-            data_block += f"- SXKD.{k}: {v}\n"
-    # meta
-    if model_meta:
-        data_block += "\nTHÔNG TIN MÔ HÌNH / KẾT QUẢ DỰ BÁO:\n"
-        for k, v in model_meta.items():
-            data_block += f"- Mô hình.{k}: {v}\n"
-
-    prompt = "\n\n".join(
-        s for s in [
-            policy_clause,
-            RISK_GUARDRAILS,
-            FORMULA_BLOCK,
-            output_spec,
-            regs_part.strip(),
-            data_block.strip(),
-        ] if s
-    )
     return prompt
 # ===================================================================
 
@@ -351,7 +266,7 @@ elif choice == 'Bắt đầu dự báo':
             st.code("giá trị dự báo: " + str(y_pred_new))
             st.code("xác suất vỡ nợ của hộ là: " + str(pd_pred))
 
-            # ============ LƯU KẾT QUẢ VÀ PHÂN TÍCH BẰNG GEMINI (NEW) ============
+            # ============ LƯU KẾT QUẢ VÀ PHÂN TÍCH BẰNG GEMINI (LITE) ============
             # Lưu vào session_state để Gemini dùng làm ngữ cảnh
             st.session_state.last_prediction = {
                 "input_row": lines.to_dict(orient="records")[0],
@@ -363,54 +278,26 @@ elif choice == 'Bắt đầu dự báo':
             }
 
             st.markdown("---")
-            st.subheader("🤖 Phân tích kết quả dự báo bằng Gemini (AI)")
+            st.subheader("🤖 Phân tích kết quả dự báo bằng Gemini (AI – Nhanh)")
 
             explain_style = st.selectbox(
                 "Chọn phong cách giải thích",
-                ["Rõ ràng – kỹ thuật", "Dễ hiểu – dành cho cán bộ tín dụng", "Ngắn gọn – bullet"]
+                ["Dễ hiểu – dành cho cán bộ tín dụng", "Ngắn gọn – bullet", "Rõ ràng – kỹ thuật"]
             )
 
-            # (NEW) Danh sách file quy định/quy trình để mô hình ưu tiên tham chiếu
-            # Nếu bạn có cơ chế attach file trực tiếp cho Gemini API, hãy upload các file này
-            # và giữ đúng tên ở đây để mô hình "nhớ đọc" file đính kèm.
-            attached_files = [
-                "3439-QyD-NHNo-RRTD.pdf",
-                "PL 06 - Hướng dẫn nhận diện rủi ro.txt",
-                "2268-QyĐ-NHNo-TD...txt",
-                "4466-QyĐ-NHNo-KHCN.txt",
-            ]
-
-            # Chuẩn bị dữ liệu vào prompt có cấu trúc:
-            # - customer_profile: có thể để trống/ghi chú nguồn
-            customer_profile = {"nguon_du_lieu": "Upload/Input tại màn hình dự báo"}
-            # - financials: đẩy toàn bộ cặp key/value người dùng nhập (giữ nguyên tên cột)
-            financials = st.session_state.last_prediction.get("input_row", {})
-            # - loan_terms: chưa có, để trống {}
-            loan_terms = {}
-            # - model_meta: nhúng kết quả dự báo để GEMINI trình bày theo công thức trước → áp số liệu
-            model_meta = {
-                "y_hat": st.session_state.last_prediction.get("y_hat"),
-                "pd_vector_[P(no default),P(default)]": st.session_state.last_prediction.get("pd_vector"),
-                "score_train": st.session_state.last_prediction.get("score_train"),
-                "score_test": st.session_state.last_prediction.get("score_test"),
-                "note": st.session_state.last_prediction.get("note"),
-            }
-
-            # Xây prompt người dùng theo khuôn (ép nêu công thức → thay số → kết luận)
-            user_prompt_structured = build_gemini_prompt(
-                customer_profile=customer_profile,
-                financials=financials,
-                loan_terms=loan_terms,
-                business_params=None,
-                attached_file_names=attached_files,     # khuyến nghị attach thật qua API
-                embedded_reg_texts=None,               # có thể nhúng trích yếu nếu cần
+            # Tạo prompt NGẮN GỌN
+            user_prompt_lite = build_gemini_prompt_lite(
+                input_row=st.session_state.last_prediction.get("input_row", {}),
+                y_hat=st.session_state.last_prediction.get("y_hat"),
+                pd_vector=st.session_state.last_prediction.get("pd_vector"),
+                score_test=st.session_state.last_prediction.get("score_test"),
                 explain_style=explain_style,
-                model_meta=model_meta
+                note=st.session_state.last_prediction.get("note", "")
             )
 
-            # Gọi Gemini với SYSTEM = vai trò cố định + USER = prompt đã build
-            if st.button("🧠 Phân tích bằng Gemini", use_container_width=True):
-                text, err = gemini_generate_text(SYS_PROMPT_STRUCTURED, user_prompt_structured)
+            # Gọi Gemini bản LITE (ít token hơn)
+            if st.button("🧠 Phân tích nhanh (Lite)", use_container_width=True):
+                text, err = gemini_generate_text(SYS_PROMPT_LITE, user_prompt_lite)
                 if err:
                     st.error(err)
                 else:
