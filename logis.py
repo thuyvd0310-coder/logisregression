@@ -265,15 +265,11 @@ Khi người cán bộ tín dụng có trong tay công cụ tốt, họ sẽ t�
 vừa bảo vệ an toàn cho ngân hàng và chính mình, vừa mở ra thêm nhiều cơ hội phát triển cho khách hàng, thắp lên hi vọng cho cuộc đời ❤️
 
     """)
-    # ======== HIỂN THỊ VIDEO GIỚI THIỆU ========
-    video_path = "3E423C63-17F9-4822-A73C-CE6D42B1D005.mov"  # Tên file video đặt cùng thư mục với file .py
-    if os.path.exists(video_path):
-        st.video(video_path)
+    image_path = "FARMER.jpg"
+    if os.path.exists(image_path):
+        st.image(image_path)
     else:
-        st.warning("⚠️ Video FARMER.mp4 chưa được tải lên hoặc sai đường dẫn.")
-    # ===========================================
-
-
+        st.warning("⚠️ Ảnh FARMER.jpg chưa được tải lên hoặc sai đường dẫn.")
 
 
 elif choice == 'Phương pháp sử dụng':
