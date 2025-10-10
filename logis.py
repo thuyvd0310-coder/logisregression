@@ -291,7 +291,17 @@ elif choice == 'Bắt đầu dự báo':
             # Lưu ý: tránh đặt tên biến 'pd' vì sẽ đè lên pandas. Dùng 'pd_pred' an toàn hơn:
             pd_pred = model.predict_proba(X_1)   # shape (n, 2) với lớp 0/1
             st.code("giá trị dự báo: " + str(y_pred_new))
-            st.code("xác suất xảy ra rủi ro tín dụng của khách hàng là: " + str(pd_pred))
+            risky_prob = y_pred_proba[0][1] * 100  # Xác suất khách hàng có rủi ro (nhóm 1)
+safe_prob = y_pred_proba[0][0] * 100   # Xác suất khách hàng an toàn (nhóm 0)
+
+st.write(f"**Xác suất KHÁCH HÀNG AN TOÀN:** {safe_prob:.2f}%")
+st.write(f"**Xác suất CÓ RỦI RO TÍN DỤNG:** {risky_prob:.2f}%")
+
+if risky_prob > 50:
+    st.error("⚠️ Khách hàng có nguy cơ RỦI RO TÍN DỤNG CAO. Cần xem xét kỹ trước khi phê duyệt khoản vay.")
+else:
+    st.success("✅ Khách hàng có khả năng TỐT trong việc trả nợ. Có thể xem xét phê duyệt khoản vay.")
+
 
             # ============ LƯU KẾT QUẢ VÀ PHÂN TÍCH BẰNG GEMINI (LITE) ============
             # Lưu vào session_state để Gemini dùng làm ngữ cảnh
