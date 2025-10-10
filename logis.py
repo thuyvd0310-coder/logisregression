@@ -182,16 +182,24 @@ if choice == 'Mục tiêu của ứng dụng':
     ###### ❤️ ĐIỂM TỰA CỦA NGƯỜI CÁN BỘ TÍN DỤNG KHCN ❤️
 💭 Làm tín dụng đâu phải dễ.
 Mỗi hồ sơ là một câu chuyện, mỗi quyết định cho vay là một lần bạn phải cân não giữa rủi ro và cơ hội, giữa niềm tin và nỗi lo.
+
 📊 Có khi bạn mất cả buổi chỉ để rà lại vài con số, rồi vẫn trăn trở:
+
 “Nếu cho vay, liệu có an toàn?
 Nếu không cho vay, liệu có phải mình vừa khép lại một cánh cửa hi vọng của ai đó đang khao khát vươn lên?”
+
 😔 Đó là áp lực mà chỉ những người làm tín dụng mới thấu.
+
 Bạn không chỉ tính toán con số, mà còn cân nhắc giữa niềm tin và rủi ro, đưa ra những quyết định ảnh hưởng trực tiếp đến một cuộc đời.
+
 🤝 Chính vì thế, ứng dụng này ra đời — như một người bạn đồng hành, giúp bạn có thêm một góc nhìn dữ liệu, một “bản đồ rủi ro” rõ ràng hơn, 
 để mỗi quyết định của bạn vừa an toàn cho ngân hàng, vừa đong đầy sự chia sẻ, đồng hành với khách hàng.
+
 ❤️ Vì AGRIBANK tin rằng:
+
 Khi người cán bộ tín dụng có trong tay công cụ tốt, họ sẽ tự tin hơn trong mỗi quyết định —
 vừa bảo vệ an toàn cho ngân hàng và chính mình, vừa mở ra thêm nhiều cơ hội phát triển cho khách hàng, thắp lên hi vọng cho cuộc đời ❤️
+
     """)
     image_path = "FARMER.jpg"
     if os.path.exists(image_path):
