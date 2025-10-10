@@ -220,22 +220,23 @@ vừa bảo vệ an toàn cho ngân hàng và chính mình, vừa mở ra thêm 
         st.warning("⚠️ Ảnh FARMER.jpg chưa được tải lên hoặc sai đường dẫn.")
 
 elif choice == 'Phương pháp sử dụng':
-st.subheader("PHƯƠNG PHÁP SỬ DỤNG ĐỂ ĐÁNH GIÁ")
+    st.subheader("PHƯƠNG PHÁP SỬ DỤNG ĐỂ ĐÁNH GIÁ")
 
-st.write("""###### Mô hình sử dụng các thuật toán Random Forest và Logistic Regression
+    st.write("""###### Mô hình sử dụng các thuật toán Random Forest và Logistic Regression
 
 **Random Forest** là một thuật toán học máy dựa trên tập hợp nhiều cây quyết định (Decision Trees) để dự đoán kết quả.  
 Mỗi cây học từ một phần ngẫu nhiên của dữ liệu và bỏ phiếu để ra kết quả cuối cùng.  
 Trong đánh giá rủi ro tín dụng, Random Forest giúp mô hình nhận diện các mẫu hành vi tín dụng phức tạp và giảm nguy cơ sai lệch khi dự đoán khả năng vỡ nợ của khách hàng.  
 Nhờ tính ổn định và khả năng xử lý dữ liệu phi tuyến tốt, nó thường được dùng để xếp hạng rủi ro khách hàng.
 """)
-st.image("Random-Forest.jpg", caption="Mô hình Random Forest", use_column_width=True)
+    st.image("Random-Forest.jpg", caption="Mô hình Random Forest", use_column_width=True)
 
-st.write("""**Logistic Regression** là thuật toán thống kê dự đoán xác suất một sự kiện xảy ra, thường dùng cho bài toán phân loại nhị phân.  
+    st.write("""**Logistic Regression** là thuật toán thống kê dự đoán xác suất một sự kiện xảy ra, thường dùng cho bài toán phân loại nhị phân.  
 Trong đánh giá rủi ro tín dụng, nó giúp ước lượng xác suất khách hàng không trả được nợ (default probability).  
 Mô hình này dễ giải thích, cho phép cán bộ tín dụng hiểu rõ ảnh hưởng của từng yếu tố đến rủi ro tín dụng.
 """)
-st.image("LOGISTIC.jpg", caption="Mô hình Logistic Regression", use_column_width=True)
+    st.image("LOGISTIC.jpg", caption="Mô hình Logistic Regression", use_column_width=True)
+
 
 
 elif choice == 'Bắt đầu dự báo':
