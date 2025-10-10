@@ -148,7 +148,7 @@ with col_logo:
 with col_title:
     st.markdown(
         '<div class="agri-header"><div class="agri-title">ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN</div>'
-        '<div class="agri-subtitle">Dự báo xác suất vỡ nợ & Trợ lý AI cho phân tích</div></div>',
+        '<div class="agri-subtitle">Dự báo xác suất xảy ra rủi ro tín dụng của KHCN & Trợ lý AI cho phân tích</div></div>',
         unsafe_allow_html=True
     )
 # Banner
@@ -291,7 +291,7 @@ elif choice == 'Bắt đầu dự báo':
             # Lưu ý: tránh đặt tên biến 'pd' vì sẽ đè lên pandas. Dùng 'pd_pred' an toàn hơn:
             pd_pred = model.predict_proba(X_1)   # shape (n, 2) với lớp 0/1
             st.code("giá trị dự báo: " + str(y_pred_new))
-            st.code("xác suất vỡ nợ của hộ là: " + str(pd_pred))
+            st.code("xác suất xảy ra rủi ro tín dụng của khách hàng là: " + str(pd_pred))
 
             # ============ LƯU KẾT QUẢ VÀ PHÂN TÍCH BẰNG GEMINI (LITE) ============
             # Lưu vào session_state để Gemini dùng làm ngữ cảnh
