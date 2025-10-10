@@ -150,23 +150,66 @@ st.markdown("""
 LOGO_URL = "https://www.inlogo.vn/wp-content/uploads/2023/04/logo-agribank-300x295.png"
 BANNER_URL = "https://drive.google.com/uc?export=view&id=1Rq9kOp6caGUU1kttdOk0oaWlfO15_xb2"
 
-col_logo, col_title = st.columns([1, 6])
-with col_logo:
-    try:
-        st.image(LOGO_URL, width=80)
-    except Exception:
-        st.warning("⚠️ Không tải được logo.")
-with col_title:
-    st.markdown(
-        '<div class="agri-header"><div class="agri-title">ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN</div>'
-        '<div class="agri-subtitle">Dự báo xác suất xảy ra rủi ro tín dụng của KHCN & Trợ lý AI cho phân tích</div></div>',
-        unsafe_allow_html=True
-    )
+# ===================== HEADER CÂN ĐỐI =====================
+LOGO_URL = "https://www.inlogo.vn/wp-content/uploads/2023/04/logo-agribank-300x295.png"
+BANNER_URL = "https://drive.google.com/uc?export=view&id=1Rq9kOp6caGUU1kttdOk0oaWlfO15_xb2"
 
-try:
-    st.image(BANNER_URL, use_container_width=True)
-except Exception:
-    st.info("ℹ️ Không tải được banner (kiểm tra quyền truy cập).")
+st.markdown("""
+<style>
+.agri-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #7A0019 0%, #9a2740 100%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+}
+.agri-header-left {
+    display: flex;
+    align-items: center;
+}
+.agri-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.agri-title-block {
+    display: flex;
+    flex-direction: column;
+}
+.agri-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+.agri-subtitle {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.9;
+}
+.agri-banner {
+    height: 70px;
+    border-radius: 8px;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="agri-header">
+    <div class="agri-header-left">
+        <img src="{LOGO_URL}" class="agri-logo">
+        <div class="agri-title-block">
+            <div class="agri-title">ỨNG DỤNG ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN</div>
+            <div class="agri-subtitle">Dự báo xác suất xảy ra rủi ro tín dụng của KHCN & Trợ lý AI cho phân tích</div>
+        </div>
+    </div>
+    <img src="{BANNER_URL}" class="agri-banner">
+</div>
+""", unsafe_allow_html=True)
+# ===========================================================
+
 
 if "last_prediction" not in st.session_state:
     st.session_state.last_prediction = None
