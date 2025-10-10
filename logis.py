@@ -11,8 +11,8 @@ from sklearn import metrics
 
 df = pd.read_csv('credit access.csv', encoding='latin-1')
 
-st.title("Hồi quy logistic")
-st.write("## Dự báo xác suất vỡ nợ của nông hộ")
+st.title("ĐÁNH GIÁ RỦI RO TÍN DỤNG KHCN")
+st.write("##Tính toán xác suất xảy ra rủi ro tín dụng của khách hàng")
 
 uploaded_file = st.file_uploader("Choose a file", type=['csv'])
 if uploaded_file is not None:
@@ -40,48 +40,49 @@ confusion_matrix = pd.crosstab(y_test, yhat_test, rownames=['Actual'], colnames=
 
 
 
-menu = ["Mục tiêu của mô hình", "Xây dựng mô hình", "Sử dụng mô hình để dự báo"]
+menu = ["Mục tiêu của ứng dụng", "Phương pháp sử dụng", "Bắt đầu dự báo"]
 choice = st.sidebar.selectbox('Danh mục tính năng', menu)
 
-if choice == 'Mục tiêu của mô hình':    
-    st.subheader("Mục tiêu của mô hình")
+if choice == 'Mục tiêu của ứng dụng':
     st.write("""
-    ###### Mô hình được xây dựng để dự báo xác suất vỡ nợ của nông hộ dựa trên các biến đặc điểm chủ hộ, điều kiện của nông hộ.
-    """)  
-    st.write("""###### Mô hình sử dụng thuật toán LogisticRegression""")
-    st.image("hinh1.jpeg")
-    st.image("LogReg_1.png")
-    st.image("hinh.png")
+    ###### ❤️ ĐIỂM TỰA CỦA NGƯỜI CÁN BỘ TÍN DỤNG KHCN ❤️
+💭 Làm tín dụng đâu phải dễ.
+Mỗi hồ sơ là một câu chuyện, mỗi quyết định cho vay là một lần bạn phải cân não giữa rủi ro và cơ hội, giữa niềm tin và nỗi lo.
 
-elif choice == 'Xây dựng mô hình':
-    st.subheader("Xây dựng mô hình")
-    st.write("##### 1. Hiển thị dữ liệu")
-    st.dataframe(df.head(3))
-    st.dataframe(df.tail(3))  
+📊 Có khi bạn mất cả buổi chỉ để rà lại vài con số, rồi vẫn trăn trở:
+
+“Nếu cho vay, liệu có an toàn?
+Nếu không cho vay, liệu có phải mình vừa khép lại một cánh cửa hi vọng của ai đó đang khao khát vươn lên?”
+
+😔 Đó là áp lực mà chỉ những người làm tín dụng mới thấu.
+Bạn không chỉ tính toán con số, mà còn cân nhắc giữa niềm tin và rủi ro, đưa ra những quyết định ảnh hưởng trực tiếp đến một cuộc đời.
+
+🤝 Chính vì thế, ứng dụng này ra đời — như một người bạn đồng hành, giúp bạn có thêm một góc nhìn dữ liệu, một “bản đồ rủi ro” rõ ràng hơn, 
+để mỗi quyết định của bạn vừa an toàn cho ngân hàng, vừa đong đầy sự chia sẻ, đồng hành với khách hàng.
+
+❤️ Vì AGRIBANK tin rằng:
+
+Khi người cán bộ tín dụng có trong tay công cụ tốt, họ sẽ tự tin hơn trong mỗi quyết định —
+vừa bảo vệ an toàn cho ngân hàng và chính mình, vừa mở ra thêm nhiều cơ hội phát triển cho khách hàng, thắp lên hi vọng cho cuộc đời ❤️
+    """)
+    image_path = "FARMER.jpg"
+    if os.path.exists(image_path):
+        st.image(image_path)
+    else:
+        st.warning("⚠️ Ảnh FARMER.jpg chưa được tải lên hoặc sai đường dẫn.")
+
+elif choice == 'Phương pháp sử dụng':
+    st.subheader("Phương pháp sử dụng")
+    st.write("""###### Mô hình sử dụng các thuật toán Random Forest, LogisticRegression""")
+    st.image("Random-Forest.jpg")
+    st.image("LOGISTIC.jpg")
     
-    st.write("##### 2. Trực quan hóa dữ liệu")
-    u=st.text_input('Nhập biến muốn vẽ vào đây')
-    fig1 = sns.regplot(data=df, x=u, y='y')    
-    st.pyplot(fig1.figure)
-
-    st.write("##### 3. Build model...")
-    
-    st.write("##### 4. Evaluation")
-    st.code("Score train:"+ str(round(score_train,2)) + " vs Score test:" + str(round(score_test,2)))
-    fig2=sns.heatmap(confusion_matrix, annot=True)
-    st.pyplot(fig2.figure)
-    he_so_chan=model.intercept_
-    he_so=model.coef_
-    st.code("he so chan trong mo hinh: " + str(he_so_chan))
-
-    st.code("he so trong mo hinh: " + str(he_so))
-
-
+  
     
 
     
-elif choice == 'Sử dụng mô hình để dự báo':
-    st.subheader("Sử dụng mô hình để dự báo")
+elif choice == 'Bắt đầu dự báo':
+    st.subheader("Bắt đầu dự báo")
     flag = False
     lines = None
     type = st.radio("Upload data or Input data?", options=("Upload", "Input"))
