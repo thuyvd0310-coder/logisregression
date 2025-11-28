@@ -274,7 +274,7 @@ vừa bảo vệ an toàn cho ngân hàng và chính mình, vừa mở ra thêm 
 
 elif choice == 'Phương pháp sử dụng':
     st.subheader("PHƯƠNG PHÁP SỬ DỤNG ĐỂ ĐÁNH GIÁ")
-    st.write("""###### Mô hình sử dụng mô hình Hồi quy - Logistic Regression""")
+    st.write("""###### Mô hình sử dụng thuật toán LogisticRegression, được xây dựng để dự báo xác suất vỡ nợ của nông hộ dựa trên các biến đặc điểm chủ hộ, điều kiện của nông hộ. """)
     
     st.markdown("""
     **Logistic Regression** là một mô hình thống kê dùng để dự đoán xác suất xảy ra của một sự kiện có hai khả năng:
@@ -306,7 +306,7 @@ elif choice == 'Bắt đầu dự báo':
         GT = st.number_input('Giới tính của chủ hộ (Nữ=1, Nam=0)(GT)')
         DV = st.number_input('Địa vị của chủ hộ (Có=1, Không =0)(DV)')
         VPCT = st.number_input('Vay ở thị trường phi chính thức (Có=1, Không=0)(VPCT)')
-        LS = st.number_input('Lịch sử tín dụng (Có=1, Không=0)(LS)')
+        LS = st.number_input('Lịch sử tín dụng tốt (Có=1, Không=0)(LS)')
         lines = {'y': [git], 'DT': [DT], 'TN': [TN], 'SPT': [SPT], 'GTC': [GTC], 'GD': [GD],
                  'TCH': [TCH], 'GT': [GT], 'DV': [DV], 'VPCT': [VPCT], 'LS': [LS]}
         lines = pd.DataFrame(lines)
