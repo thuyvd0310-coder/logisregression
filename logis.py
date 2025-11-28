@@ -297,16 +297,16 @@ elif choice == 'Bắt đầu dự báo':
             flag = True
     if type == "Input":
         git = st.number_input('Insert y')
-        DT = st.number_input('Insert DT')
-        TN = st.number_input('Insert TN')
-        SPT = st.number_input('Insert SPT')
-        GTC = st.number_input('Insert GTC')
-        GD = st.number_input('Insert GD')
-        TCH = st.number_input('Insert TCH')
-        GT = st.number_input('Insert GT')
-        DV = st.number_input('Insert DV')
-        VPCT = st.number_input('Insert VPCT')
-        LS = st.number_input('Insert LS')
+        DT = st.number_input('Diện tích đất sở hữu (đơn vị:100m2) (DT)')
+        TN = st.number_input('Thu nhập một năm của chủ hộ (đơn vị: triệu đồng)(TN)')
+        SPT = st.number_input('Số người phụ thuộc (Đơn vị: Số người)(SPT)')
+        GTC = st.number_input('Giá trị tài sản thế chấp (Đơn vị: triệu đồng) (GTC)')
+        GD = st.number_input('Số năm đến trường của chủ hộ (Đơn vị: Số năm) (GD)')
+        TCH = st.number_input('Tuổi của chủ hộ (Số năm) (TCH)')
+        GT = st.number_input('Giới tính của chủ hộ (Nữ=1, Nam=0)(GT)')
+        DV = st.number_input('Địa vị của chủ hộ (Có=1, Không =0)(DV)')
+        VPCT = st.number_input('Vay ở thị trường phi chính thức (Có=1, Không=0)(VPCT)')
+        LS = st.number_input('Lịch sử tín dụng (Có=1, Không=0)(LS)')
         lines = {'y': [git], 'DT': [DT], 'TN': [TN], 'SPT': [SPT], 'GTC': [GTC], 'GD': [GD],
                  'TCH': [TCH], 'GT': [GT], 'DV': [DV], 'VPCT': [VPCT], 'LS': [LS]}
         lines = pd.DataFrame(lines)
