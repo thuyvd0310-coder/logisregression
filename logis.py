@@ -296,7 +296,6 @@ elif choice == 'Bắt đầu dự báo':
             st.dataframe(lines)
             flag = True
     if type == "Input":
-        git = st.number_input('Insert y')
         DT = st.number_input('Diện tích đất sở hữu (đơn vị:100m2) (DT)')
         TN = st.number_input('Thu nhập một năm của chủ hộ (đơn vị: triệu đồng)(TN)')
         SPT = st.number_input('Số người phụ thuộc (Đơn vị: Số người)(SPT)')
